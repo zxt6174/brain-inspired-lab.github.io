@@ -2,7 +2,7 @@
 title: Teaching
 title_key: education_title
 nav:
-  order: 4
+  order: 5
 redirect_from: 
   - recruitment
 ---
@@ -25,12 +25,11 @@ _<span data-i18n="edu_num_anal_term">Course overview</span>_
   text=text_num_anal
 %}
 
-| Item | Details |
+| <span data-i18n="edu_table_col_item">Item</span> | <span data-i18n="edu_table_col_details">Details</span> |
 | --- | --- |
-| Period | 2022-Present |
-| Course Type | Undergraduate Courses |
-| Class Hours | 48 class hours |
-| Number of Students | ~66 |
+| <span data-i18n="edu_table_row_period">Period</span> | <span data-i18n="edu_num_anal_period">2022-Present</span> |
+| <span data-i18n="edu_table_row_type">Course Type</span> | <span data-i18n="edu_num_anal_type">Undergraduate Courses</span> |
+| <span data-i18n="edu_table_row_hours">Class Hours</span> | <span data-i18n="edu_num_anal_hours">48 class hours</span> |
 
 {% include section.html %}
 
@@ -50,12 +49,11 @@ _<span data-i18n="edu_comp_neuro_term">Course overview</span>_
   text=text_comp_neuro
 %}
 
-| Item | Details |
+| <span data-i18n="edu_table_col_item">Item</span> | <span data-i18n="edu_table_col_details">Details</span> |
 | --- | --- |
-| Period | 2025-Present |
-| Course Type | Undergraduate Courses |
-| Class Hours | 36 class hours |
-| Number of Students | ~23 |
+| <span data-i18n="edu_table_row_period">Period</span> | <span data-i18n="edu_comp_neuro_period">2025-Present</span> |
+| <span data-i18n="edu_table_row_type">Course Type</span> | <span data-i18n="edu_comp_neuro_type">Undergraduate Courses</span> |
+| <span data-i18n="edu_table_row_hours">Class Hours</span> | <span data-i18n="edu_comp_neuro_hours">36 class hours</span> |
 
 {% include section.html %}
 
@@ -75,9 +73,32 @@ _<span data-i18n="edu_bcc_term">Course overview</span>_
   text=text_bcc
 %}
 
-| Item | Details |
+| <span data-i18n="edu_table_col_item">Item</span> | <span data-i18n="edu_table_col_details">Details</span> |
 | --- | --- |
-| Period | 2021-2024 |
-| Course Type | Graduate Courses |
-| Class Hours | 48 class hours |
-| Number of Students | ~27 |
+| <span data-i18n="edu_table_row_period">Period</span> | <span data-i18n="edu_bcc_period">2021-2024</span> |
+| <span data-i18n="edu_table_row_type">Course Type</span> | <span data-i18n="edu_bcc_type">Graduate Courses</span> |
+| <span data-i18n="edu_table_row_hours">Class Hours</span> | <span data-i18n="edu_bcc_hours">48 class hours</span> |
+
+{% include section.html %}
+
+## <span data-i18n="edu_ml_title">Principles of Machine Learning</span>
+
+_<span data-i18n="edu_ml_term">Course overview</span>_
+
+{% capture text_ml %}
+<span data-i18n="edu_ml_desc"></span>
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/ML.jpeg"
+  link="team"
+  style="bare"
+  text=text_ml
+%}
+
+| <span data-i18n="edu_table_col_item">Item</span> | <span data-i18n="edu_table_col_details">Details</span> |
+| --- | --- |
+| <span data-i18n="edu_table_row_period">Period</span> | <span data-i18n="edu_ml_period">2024-Present</span> |
+| <span data-i18n="edu_table_row_type">Course Type</span> | <span data-i18n="edu_ml_type">Graduate Courses</span> |
+| <span data-i18n="edu_table_row_hours">Class Hours</span> | <span data-i18n="edu_ml_hours">48 class hours (Responsible for 24 class hours)</span> |
