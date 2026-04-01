@@ -12,34 +12,36 @@ redirect_from:
 <div class="team-leaders-grid">
   <!-- Zhaofei Yu -->
   <div class="team-leader-card">
-    <h1><a style="text-decoration: none; color: inherit;" href="/members/zhaofei-yu.html"><span data-i18n="Supervisor">Supervisor</span></a></h1>
+    <h1>
+      <a class="team-leader-title-link" href="/members/zhaofei-yu.html">
+        <span data-i18n="Supervisor">Supervisor</span>
+      </a>
+    </h1>
     
     <div class="leader-content">
       <div class="leader-image">
-        <a style="text-decoration: none; color: inherit;" href="/members/zhaofei-yu.html">
+        <a class="team-leader-photo-link" href="/members/zhaofei-yu.html">
           <img src="/images/team/zhaofei-yu.jpeg"
-               style="max-width: 200px; width: 100%; height: auto;"
                class="portrait-image"
                alt="Zhaofei Yu" />
         </a>
         
-        <!-- 名称和职位移到图像下方 -->
-        <div class="text-center" style="margin-top: 15px; font-weight: var(--bold); font-size: 1.2rem"><span data-i18n="Zhaofei Yu name">Zhaofei Yu</span></div>
-        <div class="text-center" style="margin-top: 5px; margin-bottom: 20px"><span data-i18n="Supervisor">Supervisor</span></div>
+        <div class="team-leader-name"><span data-i18n="Zhaofei Yu name">Zhaofei Yu</span></div>
+        <div class="team-leader-role"><span data-i18n="Supervisor">Supervisor</span></div>
       </div>
       
       <div class="leader-info">
         {% assign member = site.members | where: "slug", "zhaofei-yu" | first %}
-        <ul style="margin-top: 0; margin-bottom: 15px; padding-left: 0; list-style-position: inside; text-align: left;">
+        <ul class="team-leader-affiliations">
           {% for affiliation in member.affiliations %}
-          <li style="margin: 0.1px; padding-left: 0;">{{ affiliation }}</li>
+          <li>{{ affiliation }}</li>
           {% endfor %}
         </ul>
         
-        <a style="text-decoration: none; color: inherit; font-size: 1.1rem; line-height: 1.6; text-align: left; display: block;" href="/members/zhaofei-yu.html">
+        <p class="team-leader-summary">
           <span data-i18n="Zhaofei Yu summary">Zhaofei Yu is the supervisor of the lab. His research interests include SNN and brain-inspired intelligence.</span>
-          <a href="/members/zhaofei-yu.html"><span data-i18n="more">(more)</span></a>
-        </a>
+        </p>
+        <a class="team-leader-more" href="/members/zhaofei-yu.html"><span data-i18n="more">(more)</span></a>
       </div>
     </div>
   </div>
