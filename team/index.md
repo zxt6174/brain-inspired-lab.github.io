@@ -10,43 +10,9 @@ redirect_from:
 ---
 
 <div class="team-leaders-grid">
-  <!-- Tiejun Huang -->
-  <div class="team-leader-card">
-    <h1><a style="text-decoration: none; color: inherit;" href="/members/tiejun-huang.html"> <span data-i18n="Director"></span> </a></h1>
-    
-    <div class="leader-content">
-      <div class="leader-image">
-        <a style="text-decoration: none; color: inherit;" href="/members/tiejun-huang.html">
-          <img src="/images/team/tiejun-huang.png"
-               style="max-width: 200px; width: 100%; height: auto;"
-               class="portrait-image"
-               alt="Tiejun Huang" />
-        </a>
-        
-        <!-- 名称和职位移到图像下方 -->
-        <div class="text-center" style="margin-top: 15px; font-weight: var(--bold); font-size: 1.2rem"> <span data-i18n="Tiejun Huang"></span> </div>
-        <div class="text-center" style="margin-top: 5px; margin-bottom: 20px"> <span data-i18n="Professor & Lab Director"></span> </div>
-      </div>
-      
-      <div class="leader-info">
-        {% assign member = site.members | where: "slug", "tiejun-huang" | first %}
-        <ul style="margin-top: 0; margin-bottom: 15px; padding-left: 0; list-style-position: inside; text-align: left;">
-          {% for affiliation in member.affiliations %}
-          <li style="margin: 0.1px; padding-left: 0;">{{ affiliation }}</li>
-          {% endfor %}
-        </ul>
-        
-        <a style="text-decoration: none; color: inherit; font-size: 1.1rem; line-height: 1.6; text-align: left; display: block;" href="/members/tiejun-huang.html">
-          <span data-i18n="Tiejun-Huang summary"></span>
-          <a href="/members/tiejun-huang.html"><span data-i18n="more">(more)</span> </a>
-        </a>
-      </div>
-    </div>
-  </div>
-
   <!-- Zhaofei Yu -->
   <div class="team-leader-card">
-    <h1><a style="text-decoration: none; color: inherit;" href="/members/zhaofei-yu.html"><span data-i18n="Assistant Professor">Assistant Professor</span></a></h1>
+    <h1><a style="text-decoration: none; color: inherit;" href="/members/zhaofei-yu.html"><span data-i18n="Supervisor">Supervisor</span></a></h1>
     
     <div class="leader-content">
       <div class="leader-image">
@@ -59,7 +25,7 @@ redirect_from:
         
         <!-- 名称和职位移到图像下方 -->
         <div class="text-center" style="margin-top: 15px; font-weight: var(--bold); font-size: 1.2rem"><span data-i18n="Zhaofei Yu name">Zhaofei Yu</span></div>
-        <div class="text-center" style="margin-top: 5px; margin-bottom: 20px"><span data-i18n="Assistant Professor">Assistant Professor</span></div>
+        <div class="text-center" style="margin-top: 5px; margin-bottom: 20px"><span data-i18n="Supervisor">Supervisor</span></div>
       </div>
       
       <div class="leader-info">
@@ -71,7 +37,7 @@ redirect_from:
         </ul>
         
         <a style="text-decoration: none; color: inherit; font-size: 1.1rem; line-height: 1.6; text-align: left; display: block;" href="/members/zhaofei-yu.html">
-          <span data-i18n="Zhaofei Yu summary">Zhaofei Yu is an assistant professor in the lab. His research interests include SNN and brain-inspired intelligence.</span>
+          <span data-i18n="Zhaofei Yu summary">Zhaofei Yu is the supervisor of the lab. His research interests include SNN and brain-inspired intelligence.</span>
           <a href="/members/zhaofei-yu.html"><span data-i18n="more">(more)</span></a>
         </a>
       </div>
