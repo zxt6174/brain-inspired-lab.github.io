@@ -2,6 +2,8 @@
 Module for generating citations from sources with file logging and improved error handling
 """
 
+from datetime import datetime
+
 from util import log, get_safe, cite_with_manubot, format_date, label
 from modules.logging_module import log_to_file
 
@@ -111,10 +113,14 @@ def generate_citations(sources):
         # Add new citation to list
         citations.append(citation)
     
-    # Filter citations to include only papers from the last 5 years (2019-2024)
+    # Keep only recent publications using a rolling 5-year window ending this year.
+    current_year = datetime.now().year
+    min_year = current_year - 5
     filtered_citations = [
         citation for citation in citations 
-        if citation.get('date', '').startswith(tuple(str(year) for year in range(2019, 2025)))
+        if citation.get('date', '').startswith(
+            tuple(str(year) for year in range(min_year, current_year + 1))
+        )
     ]
     
     # Sort citations by date in descending order (newest first)
