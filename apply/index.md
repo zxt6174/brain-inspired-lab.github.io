@@ -10,7 +10,7 @@ redirect_from:
 
 # {% include icon.html icon="fa-solid fa-user-plus" %} <span data-i18n="apply_subtitle">Join us</span>
 
-<span data-i18n="apply_1">We treasure every potential member to join us, leading the wave of innovation. To enhance the likelihood of a favorable reply, please follow the guidance below. We encourage you to reach out to our director Prof [Tiejun Huang](/members/tiejun-huang) for a preliminary but meaningful discussion.</span>
+<span data-i18n="apply_1">We treasure every potential member to join us, leading the wave of innovation. To enhance the likelihood of a favorable reply, please follow the guidance below. We encourage you to reach out to our supervisor [Zhaofei Yu](/members/zhaofei-yu) for a preliminary but meaningful discussion.</span>
 
 <span data-i18n="apply_2">Please also review the general admission information provided on the College of [website](https://www.ai.pku.edu.cn/zpxx.htm).</span>
 
@@ -87,7 +87,7 @@ We are currently recruiting for an open Research Associate position in Autonomou
 %} -->
 
 
-<span data-i18n="apply_28">We highly recommend you to contact our director [Prof Tiejun Huang](/members/tiejun-huang) and [Prof Zhaofei Yu](/members/zhaofei-yu) for more information.</span>
+<span data-i18n="apply_28">We highly recommend you to contact our supervisor [Zhaofei Yu](/members/zhaofei-yu) for more information.</span>
 
 
 
@@ -100,4 +100,3 @@ We are currently recruiting for an open Research Associate position in Autonomou
 <span data-i18n="apply_30">We welcome applications for summer internships from **Peking University** students currently studying towards an undergraduate mathematics, engineering, automation, or computer science degree. But welcome everyone to contact us for sharing your science congition.</span>
 
 <span data-i18n="apply_31">For further information, please refer to the homepage of our [School Summer Camp](https://admission.pku.edu.cn/xly/index.htm?CSRFT=X8TR-3YTT-QIHJ-EFK3-UF03-GDVI-LA4D-OLNJ), and contact professor by email.</span>
-
