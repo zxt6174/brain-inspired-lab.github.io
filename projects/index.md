@@ -2,7 +2,7 @@
 title: Projects
 title_key: projects_title
 nav:
-  order: 2
+  order: 4
 ---
 
 # <span data-i18n="projects_title">Projects and Datasets</span>
