@@ -40,21 +40,6 @@ redirect_from:
 
 {% include section.html %}
 
-#### <span data-i18n="home_4">Our news</span>
-
-{% include news-list.html style="simple" limit=5 prefix="home-" hide_hidden=true %}
-
-{%
-  include button.html
-  link="news"
-  text='<span data-i18n="home_button_1">"View all news"</span>'
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% include section.html %}
-
 #### <span data-i18n="home_5">Our priorities</span>
 
 {% include theme-carousel.html %}
