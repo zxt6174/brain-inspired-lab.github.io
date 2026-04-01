@@ -1,19 +1,30 @@
---- --- #lang-switcher .lang-flag {
-    font-size: 3rem;
-    /* 普通状态更大 */
-    cursor: pointer;
-    margin-right: 25px;
-    transition: font-size 0.2s, filter 0.2s;
-    filter: grayscale(40%);
+---
+---
+
+#lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 12px;
 }
 
-#lang-switcher .lang-flag.selected {
-    font-size: 5rem;
-    /* 选中状态更大 */
-    filter: none;
-    text-shadow: 0 0 8px #fff, 0 0 2px #000;
+#lang-switcher .lang-flag {
+  width: 34px;
+  height: 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  object-fit: cover;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+  transform-origin: center;
+  filter: saturate(0.92);
 }
 
-#lang-switcher .lang-flag:last-child {
-    margin-right: 0;
+@media (max-width: 700px) {
+  #lang-switcher {
+    width: 100%;
+    justify-content: flex-end;
+    margin-left: 0;
+    margin-top: 6px;
+  }
 }
