@@ -13,7 +13,13 @@ layout: default
 <nav aria-label="breadcrumb" class="breadcrumb">
   <ol class="breadcrumb px-0">
     <li class="breadcrumb-item"><a href="/team">Team</a></li>
-    <li class="breadcrumb-item active" aria-current="page">{{ page.name }}</li>
+    <li class="breadcrumb-item active" aria-current="page">
+      {% if page.name_key %}
+      <span data-i18n="{{ page.name_key }}">{{ page.name }}</span>
+      {% else %}
+      {{ page.name }}
+      {% endif %}
+    </li>
   </ol>
 </nav>
 
@@ -22,7 +28,13 @@ layout: default
   <img src="/{{ page.image }}" style=" max-width: 250px; " class="portrait-image" />
 
   <!-- Name & Role -->
-  <h1>{{ page.name }}</h1>
+  <h1>
+    {% if page.name_key %}
+    <span data-i18n="{{ page.name_key }}">{{ page.name }}</span>
+    {% else %}
+    {{ page.name }}
+    {% endif %}
+  </h1>
   <div class="text-center mt-5">{{ page.position }}</div> <br>
 
   <div>
