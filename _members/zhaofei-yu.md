@@ -1,5 +1,6 @@
 ---
-name: <span data-i18n="Zhaofei Yu name">Zhaofei Yu</span>
+name: Zhaofei Yu
+name_key: Zhaofei Yu name
 position: <span data-i18n="Zhaofei Yu position">Supervisor</span>
 image: images/team/zhaofei-yu.jpeg
 role: assistant-professor
@@ -7,10 +8,9 @@ education:
   - '<span data-i18n="Zhaofei Yu education 1">"Tsinghua University: Doctor of Engineering (2012-2017)"</span>'
   - '<span data-i18n="Zhaofei Yu education 2">"Chongqing University: Bachelor of Optoelectronic Engineering (2008-2012)"</span>'
 affiliations:
-  - '<span data-i18n="Zhaofei Yu affiliation 1">Present Position</span>'
-  - '<span data-i18n="Zhaofei Yu affiliation 2">Tenure-track Assistant Professor</span>'
-  - '<span data-i18n="Zhaofei Yu affiliation 3">Institute for Artificial Intelligence, Peking University</span>'
-  - '<span data-i18n="Zhaofei Yu affiliation 4">National Key Laboratory of General Artificial Intelligence</span>'
+  - '<span data-i18n="Zhaofei Yu affiliation 1">Associate Professor, Institute for Artificial Intelligence, Peking University</span>'
+  - '<span data-i18n="Zhaofei Yu affiliation 2">Director of Brain-inspired Perception and Computing Group</span>'
+  - '<span data-i18n="Zhaofei Yu affiliation 3">Deputy Director of Brain-like Spiking Large Model Beijing Key Laboratory</span>'
 # aliases:
 #   - Zhaofei Y
 brief-position: <span data-i18n="Zhaofei Yu brief-position">Supervisor</span>
