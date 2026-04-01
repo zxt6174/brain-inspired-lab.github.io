@@ -57,7 +57,7 @@ redirect_from:
 
 {% include section.html %}
 
-# <span data-i18n="alumni_title">Alumni</span>
+# <span data-i18n="alumni_title">Graduated Students</span>
 
 {% include list.html data="members" component="portrait" filters="role: alumni" %}
 
