@@ -50,7 +50,13 @@ redirect_from:
 
 #### <span data-i18n="home_6">Our publications</span>
 
-{% include list.html data="citations"  filters="group: featured" hideyear="true" component="citation"  %}
+{% assign home_featured_papers = site.data.citations | data_filter: "group: featured" | sort: "date" | reverse %}
+{% if home_featured_papers.size == 0 %}
+{% assign home_featured_papers = site.data.citations | sort: "date" | reverse %}
+{% endif %}
+{% for paper in home_featured_papers limit:2 %}
+{% include citation.html lookup=paper.id %}
+{% endfor %}
 
 {%
   include button.html
