@@ -28,16 +28,12 @@
     {% endif %}
     {% if site.logo-text != false %}
     <span class="title-text" data-tooltip="Home">
-      {% if site.logo-text != false %}
-      <span class="title-text" data-tooltip="Home">
-        {% if site.title and site.show-title != false %}
-        <span class="title" data-i18n="{{ site.title_key | default: site.title | downcase }}">{{ site.title }}</span>
-        {% endif %}
-        {% if site.subtitle and site.show-subtitle != false %}
-        <span class="subtitle" data-i18n="{{ site.subtitle_key | default: site.subtitle | downcase }}">{{ site.subtitle
-          }}</span>
-        {% endif %}
-      </span>
+      {% if site.title and site.show-title != false %}
+      <span class="title" data-i18n="{{ site.title_key | default: site.title | downcase }}">{{ site.title }}</span>
+      {% endif %}
+      {% if site.subtitle and site.show-subtitle != false %}
+      <span class="subtitle" data-i18n="{{ site.subtitle_key | default: site.subtitle | downcase }}">{{ site.subtitle
+        }}</span>
       {% endif %}
     </span>
     {% endif %}
@@ -64,13 +60,9 @@
     {% endif %}
     {% endfor %}
 
-    <div id="lang-switcher" style="position: fixed; top: 20px; right: 20px; z-index: 9999;">
-      <img id="flag-zh" class="lang-flag"
-        style="cursor:pointer; margin-right: 20px; width: 40px; height: 30px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.2); transition: all 0.2s ease;"
-        src="https://flagcdn.com/w80/cn.png" title="中文" alt="🇨🇳">
-      <img id="flag-en" class="lang-flag"
-        style="cursor:pointer; width: 40px; height: 30px; border-radius: 3px; box-shadow: 0 1px 3px rgba(0,0,0,0.2); transition: all 0.2s ease;"
-        src="https://flagcdn.com/w80/gb.png" title="English" alt="🇬🇧">
+    <div id="lang-switcher" class="lang-switcher" aria-label="Language switcher">
+      <img id="flag-zh" class="lang-flag" src="https://flagcdn.com/w80/cn.png" title="中文" alt="中文">
+      <img id="flag-en" class="lang-flag" src="https://flagcdn.com/w80/gb.png" title="English" alt="English">
     </div>
   </nav>
 </header>
