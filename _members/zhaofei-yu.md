@@ -26,7 +26,14 @@ links:
 
 ### <span data-i18n="Zhaofei Yu research program title">Research Program</span>
 
-<table>
+<div class="research-table-wrap">
+<table class="research-table">
+  <colgroup>
+    <col />
+    <col />
+    <col />
+    <col />
+  </colgroup>
   <thead>
     <tr>
       <th><span data-i18n="Zhaofei Yu research program col role">Role</span></th>
@@ -80,3 +87,4 @@ links:
     </tr>
   </tbody>
 </table>
+</div>
