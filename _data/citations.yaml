@@ -1,1504 +1,1970 @@
-# DO NOT EDIT, GENERATED AUTOMATICALLY
+- id: J-1
+  title: "Cooperative Perception of Multi-Agents under the Spatio-Temporal Drift Issue"
+  authors:
+  - Penglin Dai*
+  - Hao Zhou
+  - Quanmin Wei
+  - Xiao Wu
+  - Zhanbo Sun
+  - Zhaofei Yu
+  publisher: "IEEE Transactions on Intelligent Transportation Systems. 2026, 27(1): 1485-1498."
+  date: "2026-01-01"
+  link: ""
 
-- id: 10.48550/arxiv.2512.05472
-  title: "Unleashing Temporal Capacity of Spiking Neural Networks through Spatiotemporal Separation"
-  authors: []
-  publisher: "arXiv preprint arXiv:2512.05472, 2025"
+- id: J-2
+  title: "SpikeCV: Open a Continuous Computer Vision Era"
+  authors:
+  - Yajing Zheng
+  - Jiyuan Zhang
+  - Rui Zhao
+  - Jianhao Ding
+  - Shiyan Chen
+  - Weijian Wu
+  - Ruiqin Xiong
+  - Zhaofei Yu*
+  - Tiejun Huang*
+  publisher: "Science China Information Sciences. 2026, 69(3): 132106."
+  date: "2026-01-01"
+  link: ""
+
+- id: J-3
+  title: "SNNTracker: Online High-speed Multi-Object Tracking with Spike Camera"
+  authors:
+  - Yajing Zheng*
+  - Chengen Li
+  - Jiyuan Zhang
+  - Zhaofei Yu
+  - Tiejun Huang
+  publisher: "IEEE Transactions on Pattern Analysis and Machine Intelligence. 2026, 49(1): 624-638."
+  date: "2026-01-01"
+  link: ""
+
+- id: J-4
+  title: "脉冲神经网络对抗攻击与防御研究进展"
+  authors:
+  - 丁健豪
+  - 刘俣伽
+  - 卜通
+  - 郝泽成
+  - 余肇飞*
+  - 黄铁军
+  publisher: "计算机学报. 2026, 48(8): 211-242.（Jianhao Ding, Yujia Liu, Tong Bu, Zecheng Hao, Zhaofei Yu*, Tiejun Huang. Research Progress on Adversarial Attack and Defense of Spiking Neural Networks. Chinese Journal of Computers. 2026, 48(8): 211-242.）"
+  date: "2026-01-01"
+  link: ""
+
+- id: J-5
+  title: "Aberrant Neural Activity in the Peritumoral Cortex underlies the Progression of Tumor-associated Seizures"
+  authors:
+  - Bibi LJ Bouwen
+  - Anne Bolleboom
+  - Yuanhong Tang
+  - Zhaofei Yu
+  - Anna Van Der Stap
+  - Jort A Van Rij
+  - Vera Van Dis
+  - Clemens MF Dirven
+  - Chris I De Zeeuw
+  - Olaf Van Tellingen
+  - Jian K Liu
+  - Arnaud JPE Vincent*
+  - Zhenyu Gao*
+  publisher: "Nature Communications. 2025, 16(1): 10846."
   date: "2025-01-01"
-  link: "https://arxiv.org/abs/2512.05472"
-  plugin: sources.py
-  file: sources.yaml
-- id: 10.48550/arxiv.2505.24161
-  title: "Proxy Target: Bridging the Gap Between Discrete Spiking Neural Networks and Continuous Control"
-  authors: []
-  publisher: "arXiv preprint arXiv:2505.24161, 2025"
+  link: ""
+
+- id: J-6
+  title: "Neuromorphic Computing Paradigms Enhance Robustness through Spiking Neural Networks"
+  authors:
+  - Jianhao Ding
+  - Zhaofei Yu*
+  - Jian K. Liu
+  - Tiejun Huang
+  publisher: "Nature Communications. 2025, 16(1): 10175."
   date: "2025-01-01"
-  link: "https://arxiv.org/abs/2505.24161"
-  plugin: sources.py
-  file: sources.yaml
-- id: 10.48550/arxiv.2508.00387
-  title: "STF: Shallow-Level Temporal Feedback to Enhance Spiking Transformers"
-  authors: []
-  publisher: "arXiv preprint arXiv:2508.00387, 2025"
+  link: ""
+
+- id: J-7
+  title: "Inter-event Interval Microscopy for Event Cameras"
+  authors:
+  - Changqing Su†
+  - Yanqin Chen†
+  - Zihan Lin
+  - Zhen Cheng
+  - You Zhou
+  - Bo Xiong*
+  - Zhaofei Yu
+  - Tiejun Huang
+  publisher: "Photonics Research. 2025, 13(10): 2843-2853."
   date: "2025-01-01"
-  link: "https://arxiv.org/abs/2508.00387"
-  plugin: sources.py
-  file: sources.yaml
-- id: 10.1016/j.neunet.2025.107863
-  title: "Decoding natural visual scenes via learnable representations of neural spiking sequences"
-  authors: []
-  publisher: "Neural Networks, 2025"
+  link: ""
+
+- id: J-8
+  title: "Implementing Feature Binding through Dendritic Networks of a Single Neuron"
+  authors:
+  - Yuanhong Tang*
+  - Shanshan Jia
+  - Tiejun Huang
+  - Zhaofei Yu*
+  - Jian K Liu*
+  publisher: "Neural Networks. 2025, 189: 107555."
   date: "2025-01-01"
-  link: "https://doi.org/10.1016/j.neunet.2025.107863"
-  plugin: sources.py
-  file: sources.yaml
-- id: 10.48550/arxiv.2503.00301
-  title: "Differential coding for training-free ANN-to-SNN conversion"
-  authors: []
-  publisher: "arXiv preprint arXiv:2503.00301, 2025"
+  link: ""
+
+- id: J-9
+  title: "Decoding Natural Visual Scenes via Learnable Representations of Neural Spiking Sequences"
+  authors:
+  - Jing Peng†
+  - Shanshan Jia†
+  - Jiyuan Zhang
+  - Yongxing Wang
+  - Zhaofei Yu*
+  - Jian K Liu*
+  publisher: "Neural Networks. 2025, 192: 107863."
   date: "2025-01-01"
-  link: "https://arxiv.org/abs/2503.00301"
-  plugin: sources.py
-  file: sources.yaml
-- id: 10.24963/ijcai.2025/181
-  title: "SOTA: Spike-Navigated Optimal Transport Saliency Region Detection in Composite-bias Videos"
-  authors: []
-  publisher: "Proceedings of the International Joint Conference on Artificial Intelligence, 2025"
+  link: ""
+
+- id: J-10
+  title: "Converting High-Performance and Low-Latency SNNs through Explicit Modelling of Residual Error in ANNs"
+  authors:
+  - Zhipeng Huang†
+  - Jianhao Ding†
+  - Zhiyu Pan
+  - Haoran Li
+  - Ying Fang*
+  - Zhaofei Yu
+  - Jian K. Liu
+  publisher: "IEEE Transactions on Neural Networks and Learning Systems. 2025, 36(9): 16788-16802."
   date: "2025-01-01"
-  link: "https://doi.org/10.24963/ijcai.2025/181"
-  plugin: sources.py
-  file: sources.yaml
-- id: 10.48550/arxiv.2505.15840
-  title: "TDFormer: A Top-Down Attention-Controlled Spiking Transformer"
-  authors: []
-  publisher: "arXiv preprint arXiv:2505.15840, 2025"
+  link: ""
+
+- id: J-11
+  title: "Assisting Training of Deep Spiking Neural Networks with Parameter Initialization"
+  authors:
+  - Jianhao Ding†
+  - Jiyuan Zhang†
+  - Tiejun Huang
+  - Jian K Liu
+  - Zhaofei Yu*
+  publisher: "IEEE Transactions on Neural Networks and Learning Systems. 2025, 36(8): 15015-15028."
   date: "2025-01-01"
-  link: "https://arxiv.org/abs/2505.15840"
-  plugin: sources.py
-  file: sources.yaml
-- id: 10.1109/TNNLS.2025.3478241
-  title: "Converting High-Performance and Low-Latency SNNs Through Explicit Modeling of Residual Error in ANNs"
-  authors: []
-  publisher: "IEEE Transactions on Neural Networks and Learning Systems, 2025"
+  link: ""
+
+- id: J-12
+  title: "Enhancing NR-IQA Model Robustness through Simple Image Compression Techniques"
+  authors:
+  - Yujia Liu
+  - Chenxi Yang
+  - Zhaofei Yu
+  - Tiejun Huang*
+  publisher: "IEEE Transactions on Circuits and Systems for Video Technology. 2025, 35(10): 9979-9985."
   date: "2025-01-01"
-  link: "https://doi.org/10.1109/TNNLS.2025.3478241"
-  plugin: sources.py
-  file: sources.yaml
-- id: gs-id:shi.2024.spikingresformer-bridging-resnet-and-vision-transf
-  title: 'Spikingresformer: Bridging resnet and vision transformer in spiking neural
-    networks'
-  authors:
-  - X Shi
-  - Z Hao
-  - Z Yu
-  publisher: "Proceedings of the IEEE/CVF conference on computer vision and pattern\
-    \ \u2026, 2024"
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:eJXPG6dFmWUC
-  gs_id: qaUgD50AAAAJ:eJXPG6dFmWUC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-  group: featured
-- id: gs-id:shi.2024.towards-energy-efficient-spiking-neural-networks-a
-  title: 'Towards energy efficient spiking neural networks: An unstructured pruning
-    framework'
-  authors:
-  - X Shi
-  - J Ding
-  - Z Hao
-  - Z Yu
-  publisher: The Twelfth International Conference on Learning Representations, 2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:geHnlv5EZngC
-  gs_id: qaUgD50AAAAJ:geHnlv5EZngC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-  group: featured
-- id: gs-id:yang.2024.assessment-of-visual-function-in-blind-mice-and-mo
-  title: Assessment of visual function in blind mice and monkeys with subretinally
-    implanted nanowire arrays as artificial photoreceptors
-  authors:
-  - R Yang
-  - P Zhao
-  - L Wang
-  - C Feng
-  - C Peng
-  - Z Wang
-  - Y Zhang
-  - M Shen
-  - '...'
-  publisher: Nature biomedical engineering 8 (8), 1018-1039, 2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:738O_yMBCRsC
-  gs_id: qaUgD50AAAAJ:738O_yMBCRsC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-  group: featured
-- id: gs-id:wang.2024.braininspired-artificial-intelligence-research-a-r
-  title: 'Brain-inspired artificial intelligence research: A review'
-  authors:
-  - GY Wang
-  - HN Bao
-  - Q Liu
-  - TG Zhou
-  - S Wu
-  - TJ Huang
-  - ZF Yu
-  - CW Lu
-  - '...'
-  publisher: Science China Technological Sciences 67 (8), 2282-2296, 2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:eq2jaN3J8jMC
-  gs_id: qaUgD50AAAAJ:eq2jaN3J8jMC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:chen.2024.exploring-efficient-asymmetric-blindspots-for-self
-  title: Exploring efficient asymmetric blind-spots for self-supervised denoising
-    in real-world scenarios
-  authors:
-  - S Chen
-  - J Zhang
-  - Z Yu
-  - T Huang
-  publisher: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern\
-    \ \u2026, 2024"
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:eMMeJKvmdy0C
-  gs_id: qaUgD50AAAAJ:eMMeJKvmdy0C
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zhao.2024.boosting-spike-camera-image-reconstruction-from-a-
-  title: Boosting spike camera image reconstruction from a perspective of dealing
-    with spike fluctuations
-  authors:
-  - R Zhao
-  - R Xiong
-  - J Zhao
-  - J Zhang
-  - X Fan
-  - Z Yu
-  - T Huang
-  publisher: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern\
-    \ \u2026, 2024"
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:HE397vMXCloC
-  gs_id: qaUgD50AAAAJ:HE397vMXCloC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:huang.2024.towards-highperformance-spiking-transformers-from-
-  title: Towards High-performance Spiking Transformers from ANN to SNN Conversion
-  authors:
-  - Z Huang
-  - X Shi
-  - Z Hao
-  - T Bu
-  - J Ding
-  - Z Yu
-  - T Huang
-  publisher: ACM Multimedia 2024, 2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:9vf0nzSNQJEC
-  gs_id: qaUgD50AAAAJ:9vf0nzSNQJEC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:ding.2024.robust-stable-spiking-neural-networks
-  title: Robust stable spiking neural networks
-  authors:
-  - J Ding
-  - Z Pan
-  - Y Liu
-  - Z Yu
-  - T Huang
-  publisher: arXiv preprint arXiv:2405.20694, 2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:olpn-zPbct0C
-  gs_id: qaUgD50AAAAJ:olpn-zPbct0C
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:yu.2024.robust-decoding-of-rich-dynamical-visual-scenes-wi
-  title: Robust decoding of rich dynamical visual scenes with retinal spikes
-  authors:
-  - Z Yu
-  - T Bu
-  - Y Zhang
-  - S Jia
-  - T Huang
-  - JK Liu
-  publisher: IEEE transactions on neural networks and learning systems, 2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:tOudhMTPpwUC
-  gs_id: qaUgD50AAAAJ:tOudhMTPpwUC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:hao.2024.a-progressive-training-framework-for-spiking-neura
-  title: A progressive training framework for spiking neural networks with learnable
-    multi-hierarchical model
-  authors:
-  - Z Hao
-  - X Shi
-  - Z Huang
-  - T Bu
-  - Z Yu
-  - T Huang
-  publisher: The Twelfth International Conference on Learning Representations, 2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:sSrBHYA8nusC
-  gs_id: qaUgD50AAAAJ:sSrBHYA8nusC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:ding.2024.enhancing-the-robustness-of-spiking-neural-network
-  title: Enhancing the robustness of spiking neural networks with stochastic gating
-    mechanisms
-  authors:
-  - J Ding
-  - Z Yu
-  - T Huang
-  - JK Liu
-  publisher: Proceedings of the AAAI Conference on Artificial Intelligence 38 (1),
-    492-502, 2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:q3oQSFYPqjQC
-  gs_id: qaUgD50AAAAJ:q3oQSFYPqjQC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zhu.2024.online-stabilization-of-spiking-neural-networks
-  title: Online stabilization of spiking neural networks
-  authors:
-  - Y Zhu
-  - J Ding
-  - T Huang
-  - X Xie
-  - Z Yu
-  publisher: The Twelfth International Conference on Learning Representations, 2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:5Ul4iDaHHb8C
-  gs_id: qaUgD50AAAAJ:5Ul4iDaHHb8C
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zhao.2024.optical-flow-for-spike-camera-with-hierarchical-sp
-  title: Optical flow for spike camera with hierarchical spatial-temporal spike fusion
-  authors:
-  - R Zhao
-  - R Xiong
-  - J Zhang
-  - X Zhang
-  - Z Yu
-  - T Huang
-  publisher: Proceedings of the AAAI Conference on Artificial Intelligence 38 (7),
-    7496-7504, 2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:eflP2zaiRacC
-  gs_id: qaUgD50AAAAJ:eflP2zaiRacC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:hao.2024.threaten-spiking-neural-networks-through-combining
-  title: Threaten spiking neural networks through combining rate and temporal information
-  authors:
-  - Z Hao
-  - T Bu
-  - X Shi
-  - Z Huang
-  - Z Yu
-  - T Huang
-  publisher: The Twelfth International Conference on Learning Representations, 2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:LPZeul_q3PIC
-  gs_id: qaUgD50AAAAJ:LPZeul_q3PIC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zhang.2024.revealing-the-mechanisms-of-semantic-satiation-wit
-  title: Revealing the mechanisms of semantic satiation with deep learning models
-  authors:
-  - X Zhang
-  - J Lian
-  - Z Yu
-  - H Tang
-  - D Liang
-  - J Liu
-  - JK Liu
-  publisher: Communications Biology 7 (1), 487, 2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:uLbwQdceFCQC
-  gs_id: qaUgD50AAAAJ:uLbwQdceFCQC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:hao.2024.lmht-snn-enhancing-the-performance-of-snn-to-ann-c
-  title: 'Lm-ht snn: Enhancing the performance of snn to ann counterpart through learnable
-    multi-hierarchical threshold model'
-  authors:
-  - Z Hao
-  - X Shi
-  - Y Liu
-  - Z Yu
-  - T Huang
-  publisher: Advances in Neural Information Processing Systems 37, 101905-101927,
-    2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:08ZZubdj9fEC
-  gs_id: qaUgD50AAAAJ:08ZZubdj9fEC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:jiang.2024.one-forward-is-enough-for-neural-network-training-
-  title: One forward is enough for neural network training via likelihood ratio method
-  authors:
-  - J Jiang
-  - Z Zhang
-  - C Xu
-  - Z Yu
-  - Y Peng
-  publisher: The Twelfth International Conference on Learning Representations, 2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:SP6oXDckpogC
-  gs_id: qaUgD50AAAAJ:SP6oXDckpogC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:you.2024.converting-artificial-neural-networks-to-ultralowl
-  title: Converting artificial neural networks to ultralow-latency spiking neural
-    networks for action recognition
-  authors:
-  - H You
-  - X Zhong
-  - W Liu
-  - Q Wei
-  - W Huang
-  - Z Yu
-  - T Huang
-  publisher: IEEE Transactions on Cognitive and Developmental Systems 16 (4), 1533-1545,
-    2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:fQNAKQ3IYiAC
-  gs_id: qaUgD50AAAAJ:fQNAKQ3IYiAC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:dong.2024.superresolution-reconstruction-from-bayerpattern-s
-  title: Super-resolution reconstruction from Bayer-pattern spike streams
-  authors:
-  - Y Dong
-  - R Xiong
-  - J Zhang
-  - Z Yu
-  - X Fan
-  - S Zhu
-  - T Huang
-  publisher: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern\
-    \ \u2026, 2024"
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:WA5NYHcadZ8C
-  gs_id: qaUgD50AAAAJ:WA5NYHcadZ8C
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:liu.2024.enhancing-adversarial-robustness-in-snns-with-spar
-  title: Enhancing adversarial robustness in SNNs with sparse gradients
-  authors:
-  - Y Liu
-  - T Bu
-  - J Ding
-  - Z Hao
-  - T Huang
-  - Z Yu
-  publisher: arXiv preprint arXiv:2405.20355, 2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:bnK-pcrLprsC
-  gs_id: qaUgD50AAAAJ:bnK-pcrLprsC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:chen.2024.spikereveal-unlocking-temporal-sequences-from-real
-  title: 'Spikereveal: Unlocking temporal sequences from real blurry inputs with spike
-    streams'
-  authors:
-  - K Chen
-  - S Chen
-  - J Zhang
-  - B Zhang
-  - Y Zheng
-  - T Huang
-  - Z Yu
-  publisher: Advances in Neural Information Processing Systems 37, 62673-62696, 2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:8AbLer7MMksC
-  gs_id: qaUgD50AAAAJ:8AbLer7MMksC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:wang.2024.autaptic-synaptic-circuit-enhances-spatiotemporal-
-  title: Autaptic synaptic circuit enhances spatio-temporal predictive learning of
-    spiking neural networks
-  authors:
-  - L Wang
-  - Z Yu
-  publisher: arXiv preprint arXiv:2406.00405, 2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:5ugPr518TE4C
-  gs_id: qaUgD50AAAAJ:5ugPr518TE4C
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zhou.2024.spiking-transformer-with-experts-mixture
-  title: Spiking transformer with experts mixture
-  authors:
-  - Z Zhou
-  - Y Lu
-  - Y Jia
-  - K Che
-  - J Niu
-  - L Huang
-  - X Shi
-  - Y Zhu
-  - G Li
-  - Z Yu
-  - '...'
-  publisher: Advances in Neural Information Processing Systems 37, 10036-10059, 2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:N5tVd3kTz84C
-  gs_id: qaUgD50AAAAJ:N5tVd3kTz84C
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zhang.2024.spikegs-3d-gaussian-splatting-from-spike-streams-w
-  title: 'Spikegs: 3d gaussian splatting from spike streams with high-speed camera
-    motion'
-  authors:
-  - J Zhang
-  - K Chen
-  - S Chen
-  - Y Zheng
-  - T Huang
-  - Z Yu
-  publisher: Proceedings of the 32nd ACM International Conference on Multimedia, 9194-9203,
-    2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:JoZmwDi-zQgC
-  gs_id: qaUgD50AAAAJ:JoZmwDi-zQgC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:chen.2024.decoding-dynamic-visual-scenes-across-the-brain-hi
-  title: Decoding dynamic visual scenes across the brain hierarchy
-  authors:
-  - Y Chen
-  - P Beech
-  - Z Yin
-  - S Jia
-  - J Zhang
-  - Z Yu
-  - JK Liu
-  publisher: PLOS Computational Biology 20 (8), e1012297, 2024
-  date: '2024-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:tkaPQYYpVKoC
-  gs_id: qaUgD50AAAAJ:tkaPQYYpVKoC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:fang.2023.spikingjelly-an-opensource-machine-learning-infras
-  title: 'Spikingjelly: An open-source machine learning infrastructure platform for
-    spike-based intelligence'
-  authors:
-  - W Fang
-  - Y Chen
-  - J Ding
-  - Z Yu
-  - T Masquelier
-  - D Chen
-  - L Huang
-  - H Zhou
-  - '...'
-  publisher: Science Advances 9 (40), eadi1480, 2023
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:dshw04ExmUIC
-  gs_id: qaUgD50AAAAJ:dshw04ExmUIC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:bu.2023.optimal-annsnn-conversion-for-highaccuracy-and-ult
-  title: Optimal ANN-SNN conversion for high-accuracy and ultra-low-latency spiking
-    neural networks
-  authors:
-  - T Bu
-  - W Fang
-  - J Ding
-  - PL Dai
-  - Z Yu
-  - T Huang
-  publisher: arXiv preprint arXiv:2303.04347, 2023
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:YFjsv_pBGBYC
-  gs_id: qaUgD50AAAAJ:YFjsv_pBGBYC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:huang.2023.1000-faster-camera-and-machine-vision-with-ordinar
-  title: "1000\xD7 faster camera and machine vision with ordinary devices"
-  authors:
-  - T Huang
-  - Y Zheng
-  - Z Yu
-  - R Chen
-  - Y Li
-  - R Xiong
-  - L Ma
-  - J Zhao
-  - S Dong
-  - '...'
-  publisher: Engineering 25, 110-119, 2023
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:BqipwSGYUEgC
-  gs_id: qaUgD50AAAAJ:BqipwSGYUEgC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:hao.2023.reducing-annsnn-conversion-error-through-residual-
-  title: Reducing ANN-SNN Conversion Error through Residual Membrane Potential
-  authors:
-  - Z Hao
-  - T Bu
-  - J Ding
-  - T Huang
-  - Z Yu
-  publisher: The Thirty-Seventh AAAI Conference on Artificial Intelligence 37 (1),
-    11-21, 2023
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:zA6iFVUQeVQC
-  gs_id: qaUgD50AAAAJ:zA6iFVUQeVQC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:fang.2023.parallel-spiking-neurons-with-high-efficiency-and-
-  title: Parallel spiking neurons with high efficiency and ability to learn long-term
-    dependencies
-  authors:
-  - W Fang
-  - Z Yu
-  - Z Zhou
-  - D Chen
-  - Y Chen
-  - Z Ma
-  - T Masquelier
-  - Y Tian
-  publisher: Advances in Neural Information Processing Systems 36, 2023
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:Tiz5es2fbqcC
-  gs_id: qaUgD50AAAAJ:Tiz5es2fbqcC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:hao.2023.bridging-the-gap-between-anns-and-snns-by-calibrat
-  title: Bridging the Gap between ANNs and SNNs by Calibrating Offset Spikes
-  authors:
-  - Z Hao
-  - J Ding
-  - T Bu
-  - T Huang
-  - Z Yu
-  publisher: The Eleventh International Conference on Learning Representations, 2023
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:u_35RYKgDlwC
-  gs_id: qaUgD50AAAAJ:u_35RYKgDlwC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:dai.2023.meta-reinforcement-learning-for-multitask-offloadi
-  title: Meta reinforcement learning for multi-task offloading in vehicular edge computing
-  authors:
-  - P Dai
-  - Y Huang
-  - K Hu
-  - X Wu
-  - H Xing
-  - Z Yu
-  publisher: IEEE Transactions on Mobile Computing 23 (3), 2123-2138, 2023
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:CHSYGLWDkRkC
-  gs_id: qaUgD50AAAAJ:CHSYGLWDkRkC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:bu.2023.rate-gradient-approximation-attack-threats-deep-sp
-  title: Rate gradient approximation attack threats deep spiking neural networks
-  authors:
-  - T Bu
-  - J Ding
-  - Z Hao
-  - Z Yu
-  publisher: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern\
-    \ \u2026, 2023"
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:bFI3QPDXJZMC
-  gs_id: qaUgD50AAAAJ:bFI3QPDXJZMC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zhang.2023.learning-temporalordered-representation-for-spike-
-  title: Learning temporal-ordered representation for spike streams based on discrete
-    wavelet transforms
-  authors:
-  - J Zhang
-  - S Jia
-  - Z Yu
-  - T Huang
-  publisher: Proceedings of the AAAI Conference on Artificial Intelligence 37 (1),
-    137-147, 2023
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:EUQCXRtRnyEC
-  gs_id: qaUgD50AAAAJ:EUQCXRtRnyEC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zheng.2023.capture-the-moment-highspeed-imaging-with-spiking-
-  title: 'Capture the moment: High-speed imaging with spiking cameras through short-term
-    plasticity'
-  authors:
-  - Y Zheng
-  - L Zheng
-  - Z Yu
-  - T Huang
-  - S Wang
-  publisher: IEEE Transactions on Pattern Analysis and Machine Intelligence 45 (7),
-    8127-8142, 2023
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:3s1wT3WcHBgC
-  gs_id: qaUgD50AAAAJ:3s1wT3WcHBgC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zhu.2023.exploring-loss-functions-for-timebased-training-st
-  title: Exploring loss functions for time-based training strategy in spiking neural
-    networks
-  authors:
-  - Y Zhu
-  - W Fang
-  - X Xie
-  - T Huang
-  - Z Yu
-  publisher: Advances in Neural Information Processing Systems 36, 2023
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:OU6Ihb5iCvQC
-  gs_id: qaUgD50AAAAJ:OU6Ihb5iCvQC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zhao.2023.spike-camera-image-reconstruction-using-deep-spiki
-  title: Spike camera image reconstruction using deep spiking neural networks
-  authors:
-  - R Zhao
-  - R Xiong
-  - J Zhang
-  - Z Yu
-  - S Zhu
-  - L Ma
-  - T Huang
-  publisher: IEEE Transactions on Circuits and Systems for Video Technology 34 (6),
-    5207-5212, 2023
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:UxriW0iASnsC
-  gs_id: qaUgD50AAAAJ:UxriW0iASnsC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:chen.2023.a-unified-framework-for-soft-threshold-pruning
-  title: A unified framework for soft threshold pruning
-  authors:
-  - Y Chen
-  - Z Ma
-  - W Fang
-  - X Zheng
-  - Z Yu
-  - Y Tian
-  publisher: The Eleventh International Conference on Learning Representations, 2023
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:fPk4N6BV_jEC
-  gs_id: qaUgD50AAAAJ:fPk4N6BV_jEC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:chen.2023.selfsupervised-joint-dynamic-scene-reconstruction-
-  title: Self-supervised joint dynamic scene reconstruction and optical flow estimation
-    for spiking camera
-  authors:
-  - S Chen
-  - Z Yu
-  - T Huang
-  publisher: Proceedings of the AAAI Conference on Artificial Intelligence 37 (1),
-    350-358, 2023
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:abG-DnoFyZgC
-  gs_id: qaUgD50AAAAJ:abG-DnoFyZgC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:chen.2023.enhancing-motion-deblurring-in-highspeed-scenes-wi
-  title: Enhancing motion deblurring in high-speed scenes with spike streams
-  authors:
-  - S Chen
-  - J Zhang
-  - Y Zheng
-  - T Huang
-  - Z Yu
-  publisher: Advances in Neural Information Processing Systems 36, 2023
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:p2g8aNsByqUC
-  gs_id: qaUgD50AAAAJ:p2g8aNsByqUC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:xia.2023.unsupervised-optical-flow-estimation-with-dynamic-
-  title: Unsupervised optical flow estimation with dynamic timing representation for
-    spike camera
-  authors:
-  - L Xia
-  - Z Ding
-  - R Zhao
-  - J Zhang
-  - L Ma
-  - Z Yu
-  - T Huang
-  - R Xiong
-  publisher: Advances in Neural Information Processing Systems 36, 2023
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:xtRiw3GOFMkC
-  gs_id: qaUgD50AAAAJ:xtRiw3GOFMkC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zhao.2023.spireco-fast-and-efficient-recognition-of-highspee
-  title: 'SpiReco: Fast and efficient recognition of high-speed moving objects with
-    spike camera'
-  authors:
-  - J Zhao
-  - S Zhang
-  - Z Yu
-  - T Huang
-  publisher: IEEE Transactions on Circuits and Systems for Video Technology 34 (7),
-    5856-5867, 2023
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:pyW8ca7W8N0C
-  gs_id: qaUgD50AAAAJ:pyW8ca7W8N0C
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zheng.2023.spikecv-open-a-continuous-computer-vision-era
-  title: 'SpikeCV: open a continuous computer vision era'
-  authors:
-  - Y Zheng
-  - J Zhang
-  - R Zhao
-  - J Ding
-  - S Chen
-  - R Xiong
-  - Z Yu
-  - T Huang
-  publisher: arXiv preprint arXiv:2303.11684, 2023
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:4OULZ7Gr8RgC
-  gs_id: qaUgD50AAAAJ:4OULZ7Gr8RgC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:yang.2023.complementary-intrinsics-from-neural-radiance-fiel
-  title: Complementary intrinsics from neural radiance fields and cnns for outdoor
-    scene relighting
-  authors:
-  - S Yang
-  - X Cui
-  - Y Zhu
-  - J Tang
-  - S Li
-  - Z Yu
-  - B Shi
-  publisher: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern\
-    \ \u2026, 2023"
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:f2IySw72cVMC
-  gs_id: qaUgD50AAAAJ:f2IySw72cVMC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:duan.2022.temporal-effective-batch-normalization-in-spiking-
-  title: Temporal Effective Batch Normalization in Spiking Neural Networks
-  authors:
-  - C Duan
-  - J Ding
-  - S Chen
-  - Z Yu
-  - T Huang
-  publisher: Advances in Neural Information Processing Systems, 2022
-  date: '2022-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:2P1L_qKh6hAC
-  gs_id: qaUgD50AAAAJ:2P1L_qKh6hAC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:bu.2022.optimized-potential-initialization-for-lowlatency-
-  title: Optimized potential initialization for low-latency spiking neural networks
-  authors:
-  - T Bu
-  - J Ding
-  - Z Yu
-  - T Huang
-  publisher: Proceedings of the AAAI conference on artificial intelligence 36 (1),
-    11-20, 2022
-  date: '2022-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:NMxIlDl6LWMC
-  gs_id: qaUgD50AAAAJ:NMxIlDl6LWMC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:ding.2022.spatiotemporal-recurrent-networks-for-eventbased-o
-  title: Spatio-temporal recurrent networks for event-based optical flow estimation
-  authors:
-  - Z Ding
-  - R Zhao
-  - J Zhang
-  - T Gao
-  - R Xiong
-  - Z Yu
-  - T Huang
-  publisher: Proceedings of the AAAI conference on artificial intelligence 36 (1),
-    525-533, 2022
-  date: '2022-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:r0BpntZqJG4C
-  gs_id: qaUgD50AAAAJ:r0BpntZqJG4C
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zhang.2022.spike-transformer-monocular-depth-estimation-for-s
-  title: 'Spike transformer: Monocular depth estimation for spiking camera'
-  authors:
-  - J Zhang
-  - L Tang
-  - Z Yu
-  - J Lu
-  - T Huang
-  publisher: European Conference on Computer Vision, 34-52, 2022
-  date: '2022-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:70eg2SAEIzsC
-  gs_id: qaUgD50AAAAJ:70eg2SAEIzsC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:chen.2022.state-transition-of-dendritic-spines-improves-lear
-  title: State transition of dendritic spines improves learning of sparse spiking
-    neural networks
-  authors:
-  - Y Chen
-  - Z Yu
-  - W Fang
-  - Z Ma
-  - T Huang
-  - Y Tian
-  publisher: International Conference on Machine Learning, 3701-3715, 2022
-  date: '2022-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:J_g5lzvAfSwC
-  gs_id: qaUgD50AAAAJ:J_g5lzvAfSwC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:ding.2022.snnrat-robustnessenhanced-spiking-neural-network-t
-  title: 'SNN-RAT: Robustness-enhanced Spiking Neural Network through Regularized
-    Adversarial Training'
-  authors:
-  - J Ding
-  - T Bu
-  - Z Yu
-  - T Huang
-  - JK Liu
-  publisher: Advances in Neural Information Processing Systems, 2022
-  date: '2022-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:HoB7MX3m0LUC
-  gs_id: qaUgD50AAAAJ:HoB7MX3m0LUC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zheng.2022.spikebased-motion-estimation-for-object-tracking-t
-  title: Spike-based motion estimation for object tracking through bio-inspired unsupervised
-    learning
-  authors:
-  - Y Zheng
-  - Z Yu
-  - S Wang
-  - T Huang
-  publisher: IEEE Transactions on Image Processing 32, 335-349, 2022
-  date: '2022-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:ZHo1McVdvXMC
-  gs_id: qaUgD50AAAAJ:ZHo1McVdvXMC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zhu.2022.training-spiking-neural-networks-with-eventdriven-
-  title: Training spiking neural networks with event-driven backpropagation
-  authors:
-  - Y Zhu
-  - Z Yu
-  - W Fang
-  - X Xie
-  - T Huang
-  - T Masquelier
-  publisher: Advances in Neural Information Processing Systems 35, 30528-30541, 2022
-  date: '2022-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:SeFeTyx0c_EC
-  gs_id: qaUgD50AAAAJ:SeFeTyx0c_EC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zhao.2022.learning-optical-flow-from-continuous-spike-stream
-  title: Learning Optical Flow from Continuous Spike Streams
-  authors:
-  - R Zhao
-  - R Xiong
-  - J Zhao
-  - Z Yu
-  - X Fan
-  - T Huang
-  publisher: Advances in Neural Information Processing Systems, 2022
-  date: '2022-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:pqnbT2bcN3wC
-  gs_id: qaUgD50AAAAJ:pqnbT2bcN3wC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:chen.2022.selfsupervised-mutual-learning-for-dynamic-scene-r
-  title: Self-Supervised Mutual Learning for Dynamic Scene Reconstruction of Spiking
-    Camera
-  authors:
-  - S Chen
-  - C Duan
-  - Z Yu
-  - R Xiong
-  - T Huang
-  publisher: ''
-  date: '2022-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:lSLTfruPkqcC
-  gs_id: qaUgD50AAAAJ:lSLTfruPkqcC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zhang.2022.neural-decoding-of-visual-information-across-diffe
-  title: Neural decoding of visual information across different neural recording modalities
-    and approaches
-  authors:
-  - YJ Zhang
-  - ZF Yu
-  - JK Liu
-  - TJ Huang
-  publisher: Machine Intelligence Research 19 (5), 350-365, 2022
-  date: '2022-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:RYcK_YlVTxYC
-  gs_id: qaUgD50AAAAJ:RYcK_YlVTxYC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:ma.2022.deep-spike-learning-with-local-classifiers
-  title: Deep spike learning with local classifiers
-  authors:
-  - C Ma
-  - R Yan
-  - Z Yu
-  - Q Yu
-  publisher: IEEE Transactions on Cybernetics 53 (5), 3363-3375, 2022
-  date: '2022-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:rO6llkc54NcC
-  gs_id: qaUgD50AAAAJ:rO6llkc54NcC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zhang.2022.decoding-pixellevel-image-features-from-twophoton-
-  title: Decoding pixel-level image features from two-photon calcium signals of macaque
-    visual cortex
-  authors:
-  - Y Zhang
-  - T Bu
-  - J Zhang
-  - S Tang
-  - Z Yu
-  - JK Liu
-  - T Huang
-  publisher: Neural Computation 34 (6), 1369-1397, 2022
-  date: '2022-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:ns9cj8rnVeAC
-  gs_id: qaUgD50AAAAJ:ns9cj8rnVeAC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:huang.2022.structure-inference-of-networked-system-with-the-s
-  title: Structure inference of networked system with the synergy of deep residual
-    network and fully connected layer network
-  authors:
-  - K Huang
-  - S Li
-  - W Deng
-  - Z Yu
-  - L Ma
-  publisher: Neural networks 145, 288-299, 2022
-  date: '2022-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:isC4tDSrTZIC
-  gs_id: qaUgD50AAAAJ:isC4tDSrTZIC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zhao.2022.spikingsim-a-bioinspired-spiking-simulator
-  title: 'Spikingsim: A bio-inspired spiking simulator'
-  authors:
-  - J Zhao
-  - S Zhang
-  - L Ma
-  - Z Yu
-  - T Huang
-  publisher: 2022 IEEE International Symposium on Circuits and Systems (ISCAS), 3003-3007,
-    2022
-  date: '2022-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:ldfaerwXgEUC
-  gs_id: qaUgD50AAAAJ:ldfaerwXgEUC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:jia.2022.representing-the-dynamics-of-highdimensional-data-
-  title: Representing the dynamics of high-dimensional data with non-redundant wavelets
-  authors:
-  - S Jia
-  - X Li
-  - T Huang
-  - JK Liu
-  - Z Yu
-  publisher: Patterns 3 (3), 2022
-  date: '2022-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:blknAaTinKkC
-  gs_id: qaUgD50AAAAJ:blknAaTinKkC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:fang.2021.incorporating-learnable-membrane-time-constant-to-
-  title: Incorporating learnable membrane time constant to enhance learning of spiking
-    neural networks
-  authors:
-  - W Fang
-  - Z Yu
-  - Y Chen
-  - T Masquelier
-  - T Huang
-  - Y Tian
-  publisher: "Proceedings of the IEEE/CVF international conference on computer vision\
-    \ \u2026, 2021"
-  date: '2021-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:qUcmZB5y_30C
-  gs_id: qaUgD50AAAAJ:qUcmZB5y_30C
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:fang.2021.deep-residual-learning-in-spiking-neural-networks
-  title: Deep residual learning in spiking neural networks
-  authors:
-  - W Fang
-  - Z Yu
-  - Y Chen
-  - T Huang
-  - T Masquelier
-  - Y Tian
-  publisher: Advances in Neural Information Processing Systems 34, 21056-21069, 2021
-  date: '2021-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:TQgYirikUcIC
-  gs_id: qaUgD50AAAAJ:TQgYirikUcIC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:ding.2021.optimal-annsnn-conversion-for-fast-and-accurate-in
-  title: Optimal ANN-SNN conversion for fast and accurate inference in deep spiking
-    neural networks
-  authors:
-  - J Ding
-  - Z Yu
-  - Y Tian
-  - T Huang
-  publisher: arXiv preprint arXiv:2105.11654, 2021
-  date: '2021-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:HDshCWvjkbEC
-  gs_id: qaUgD50AAAAJ:HDshCWvjkbEC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:dai.2021.asynchronous-deep-reinforcement-learning-for-datad
-  title: Asynchronous deep reinforcement learning for data-driven task offloading
-    in MEC-empowered vehicular networks
-  authors:
-  - P Dai
-  - K Hu
-  - X Wu
-  - H Xing
-  - Z Yu
-  publisher: IEEE INFOCOM 2021-IEEE Conference on Computer Communications, 1-10, 2021
-  date: '2021-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:RHpTSmoSYBkC
-  gs_id: qaUgD50AAAAJ:RHpTSmoSYBkC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:chen.2021.pruning-of-deep-spiking-neural-networks-through-gr
-  title: Pruning of deep spiking neural networks through gradient rewiring
-  authors:
-  - Y Chen
-  - Z Yu
-  - W Fang
-  - T Huang
-  - Y Tian
-  publisher: arXiv preprint arXiv:2105.04916, 2021
-  date: '2021-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:mB3voiENLucC
-  gs_id: qaUgD50AAAAJ:mB3voiENLucC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:liu.2021.a-distributed-algorithm-for-task-offloading-in-veh
-  title: A distributed algorithm for task offloading in vehicular networks with hybrid
-    fog/cloud computing
-  authors:
-  - Z Liu
-  - P Dai
-  - H Xing
-  - Z Yu
-  - W Zhang
-  publisher: 'IEEE Transactions on Systems, Man, and Cybernetics: Systems 52 (7),
-    4388-4401, 2021'
-  date: '2021-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:4JMBOYKVnBMC
-  gs_id: qaUgD50AAAAJ:4JMBOYKVnBMC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zheng.2021.highspeed-image-reconstruction-through-shortterm-p
-  title: High-speed image reconstruction through short-term plasticity for spiking
-    cameras
-  authors:
-  - Y Zheng
-  - L Zheng
-  - Z Yu
-  - B Shi
-  - Y Tian
-  - T Huang
-  publisher: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern\
-    \ \u2026, 2021"
-  date: '2021-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:e5wmG9Sq2KIC
-  gs_id: qaUgD50AAAAJ:e5wmG9Sq2KIC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zhao.2021.reconstructing-clear-image-for-highspeed-motion-sc
-  title: Reconstructing clear image for high-speed motion scene with a retina-inspired
-    spike camera
-  authors:
-  - J Zhao
-  - R Xiong
-  - J Xie
-  - B Shi
-  - Z Yu
-  - W Gao
-  - T Huang
-  publisher: IEEE Transactions on Computational Imaging 8, 12-27, 2021
-  date: '2021-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:maZDTaKrznsC
-  gs_id: qaUgD50AAAAJ:maZDTaKrznsC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zheng.2021.unraveling-neural-coding-of-dynamic-natural-visual
-  title: Unraveling neural coding of dynamic natural visual scenes via convolutional
-    recurrent neural networks
-  authors:
-  - Y Zheng
-  - S Jia
-  - Z Yu
-  - JK Liu
-  - T Huang
-  publisher: Patterns 2 (10), 2021
-  date: '2021-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:R3hNpaxXUhUC
-  gs_id: qaUgD50AAAAJ:R3hNpaxXUhUC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zhao.2021.super-resolve-dynamic-scene-from-continuous-spike-
-  title: Super resolve dynamic scene from continuous spike streams
-  authors:
-  - J Zhao
-  - J Xie
-  - R Xiong
-  - J Zhang
-  - Z Yu
-  - T Huang
-  publisher: "Proceedings of the IEEE/CVF International Conference on Computer Vision\
-    \ \u2026, 2021"
-  date: '2021-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:iH-uZ7U-co4C
-  gs_id: qaUgD50AAAAJ:iH-uZ7U-co4C
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:li.2021.asynchronous-spatiotemporal-spike-metric-for-event
-  title: Asynchronous spatiotemporal spike metric for event cameras
-  authors:
-  - J Li
-  - Y Fu
-  - S Dong
-  - Z Yu
-  - T Huang
-  - Y Tian
-  publisher: IEEE Transactions on Neural Networks and Learning Systems 34 (4), 1742-1753,
-    2021
-  date: '2021-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:-f6ydRqryjwC
-  gs_id: qaUgD50AAAAJ:-f6ydRqryjwC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:jia.2021.neural-system-identification-with-spiketriggered-n
-  title: Neural system identification with spike-triggered non-negative matrix factorization
-  authors:
-  - S Jia
-  - Z Yu
-  - A Onken
-  - Y Tian
-  - T Huang
-  - JK Liu
-  publisher: IEEE Transactions on Cybernetics 52 (6), 4772-4783, 2021
-  date: '2021-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:hqOjcs7Dif8C
-  gs_id: qaUgD50AAAAJ:hqOjcs7Dif8C
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:fang.2020.spikingjelly
-  title: Spikingjelly
-  authors:
-  - W Fang
-  - Y Chen
-  - J Ding
-  - D Chen
-  - Z Yu
-  - H Zhou
-  - Y Tian
-  publisher: Multimedia Learn. Group, Inst. Digit. Media (NELVT), 2020
-  date: '2020-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:b0M2c_1WBrUC
-  gs_id: qaUgD50AAAAJ:b0M2c_1WBrUC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:dai.2020.a-probabilistic-approach-for-cooperative-computati
-  title: A probabilistic approach for cooperative computation offloading in MEC-assisted
-    vehicular networks
-  authors:
-  - P Dai
-  - K Hu
-  - X Wu
-  - H Xing
-  - F Teng
-  - Z Yu
-  publisher: IEEE Transactions on Intelligent Transportation Systems 23 (2), 899-911,
-    2020
-  date: '2020-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:ZeXyd9-uunAC
-  gs_id: qaUgD50AAAAJ:ZeXyd9-uunAC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:dai.2020.multiarmed-bandit-learning-for-computationintensiv
-  title: Multi-armed bandit learning for computation-intensive services in MEC-empowered
-    vehicular networks
-  authors:
-  - P Dai
-  - Z Hang
-  - K Liu
-  - X Wu
-  - H Xing
-  - Z Yu
-  - VCS Lee
-  publisher: IEEE Transactions on Vehicular Technology 69 (7), 7821-7834, 2020
-  date: '2020-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:7PzlFSSx8tAC
-  gs_id: qaUgD50AAAAJ:7PzlFSSx8tAC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zhang.2020.reconstruction-of-natural-visual-scenes-from-neura
-  title: Reconstruction of natural visual scenes from neural spikes with deep neural
-    networks
-  authors:
-  - Y Zhang
-  - S Jia
-  - Y Zheng
-  - Z Yu
-  - Y Tian
-  - S Ma
-  - T Huang
-  - JK Liu
-  publisher: Neural Networks 125, 19-30, 2020
-  date: '2020-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:kNdYIx-mwKoC
-  gs_id: qaUgD50AAAAJ:kNdYIx-mwKoC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:yu.2020.toward-the-next-generation-of-retinal-neuroprosthe
-  title: 'Toward the next generation of retinal neuroprosthesis: visual computation
-    with spikes'
-  authors:
-  - Z Yu
-  - JK Liu
-  - S Jia
-  - Y Zhang
-  - Y Zheng
-  - Y Tian
-  - T Huang
-  publisher: Engineering 6 (4), 449-461, 2020
-  date: '2020-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:aqlVkmm33-oC
-  gs_id: qaUgD50AAAAJ:aqlVkmm33-oC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:yan.2020.revealing-fine-structures-of-the-retinal-receptive
-  title: Revealing fine structures of the retinal receptive field by deep-learning
-    networks
-  authors:
-  - Q Yan
-  - Y Zheng
-  - S Jia
-  - Y Zhang
-  - Z Yu
-  - F Chen
-  - Y Tian
-  - T Huang
-  - JK Liu
-  publisher: IEEE transactions on cybernetics 52 (1), 39-50, 2020
-  date: '2020-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:8k81kl-MbHgC
-  gs_id: qaUgD50AAAAJ:8k81kl-MbHgC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:huang.2020.sdare-a-stacked-denoising-autoencoder-method-for-g
-  title: 'SDARE: A stacked denoising autoencoder method for game dynamics network
-    structure reconstruction'
-  authors:
-  - K Huang
-  - S Li
-  - P Dai
-  - Z Wang
-  - Z Yu
-  publisher: Neural Networks 126, 143-152, 2020
-  date: '2020-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:Wp0gIr-vW9MC
-  gs_id: qaUgD50AAAAJ:Wp0gIr-vW9MC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:zheng.2020.probabilistic-inference-of-binary-markov-random-fi
-  title: Probabilistic inference of binary Markov random fields in spiking neural
-    networks through mean-field approximation
-  authors:
-  - Y Zheng
-  - S Jia
-  - Z Yu
-  - T Huang
-  - JK Liu
-  - Y Tian
-  publisher: Neural networks 126, 42-51, 2020
-  date: '2020-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:3fE2CSJIrl8C
-  gs_id: qaUgD50AAAAJ:3fE2CSJIrl8C
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:an.2020.intrinsic-and-synaptic-properties-shaping-diverse-
-  title: Intrinsic and synaptic properties shaping diverse behaviors of neural dynamics
-  authors:
-  - L An
-  - Y Tang
-  - D Wang
-  - S Jia
-  - Q Pei
-  - Q Wang
-  - Z Yu
-  - JK Liu
-  publisher: Frontiers in Computational Neuroscience 14, 26, 2020
-  date: '2020-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:QIV2ME_5wuYC
-  gs_id: qaUgD50AAAAJ:QIV2ME_5wuYC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:hang.2020.network-structure-reconstruction-with-symmetry-con
-  title: Network structure reconstruction with symmetry constraint
-  authors:
-  - Z Hang
-  - P Dai
-  - S Jia
-  - Z Yu
-  publisher: Chaos, Solitons & Fractals 139, 110287, 2020
-  date: '2020-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:IWHjjKOFINEC
-  gs_id: qaUgD50AAAAJ:IWHjjKOFINEC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:li.2019.eventbased-vision-enhanced-a-joint-detection-frame
-  title: 'Event-based vision enhanced: A joint detection framework in autonomous driving'
-  authors:
-  - J Li
-  - S Dong
-  - Z Yu
-  - Y Tian
-  - T Huang
-  publisher: 2019 ieee international conference on multimedia and expo (icme), 1396-1401,
-    2019
-  date: '2019-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:4TOpqqG69KYC
-  gs_id: qaUgD50AAAAJ:4TOpqqG69KYC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:dai.2019.a-learning-algorithm-for-realtime-service-in-vehic
-  title: A learning algorithm for real-time service in vehicular networks with mobile-edge
-    computing
-  authors:
-  - P Dai
-  - K Liu
-  - X Wu
-  - H Xing
-  - Z Yu
-  - VCS Lee
-  publisher: ICC 2019-2019 IEEE International Conference On Communications (ICC),
-    1-6, 2019
-  date: '2019-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:YOwf2qJgpHMC
-  gs_id: qaUgD50AAAAJ:YOwf2qJgpHMC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:fang.2019.a-unified-neural-circuit-of-causal-inference-and-m
-  title: A unified neural circuit of causal inference and multisensory integration
-  authors:
-  - Y Fang
-  - Z Yu
-  - JK Liu
-  - F Chen
-  publisher: Neurocomputing 358, 355-368, 2019
-  date: '2019-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:KlAtU1dfN6UC
-  gs_id: qaUgD50AAAAJ:KlAtU1dfN6UC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
-- id: gs-id:yu.2019.samplingtree-model-efficient-implementation-of-dis
-  title: 'Sampling-tree model: efficient implementation of distributed Bayesian inference
-    in neural networks'
-  authors:
-  - Z Yu
-  - F Chen
-  - JK Liu
-  publisher: IEEE Transactions on Cognitive and Developmental Systems 12 (3), 497-510,
-    2019
-  date: '2019-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qaUgD50AAAAJ&pagesize=100&citation_for_view=qaUgD50AAAAJ:_kc_bZDykSQC
-  gs_id: qaUgD50AAAAJ:_kc_bZDykSQC
-  gsid: qaUgD50AAAAJ
-  plugin: google-scholar.py
-  file: google-scholar.yaml
+  link: ""
+
+- id: J-13
+  title: "Ultrafast Probabilistic Neuron in an Artificial Spin Ice for Robust Deep Neural Networks"
+  authors:
+  - Zhongyu Liang†
+  - Tong Bu†
+  - Zijian Lyu†
+  - Zhentao Liu
+  - Aleš Hrabec
+  - Leran Wang
+  - Yankun Dou
+  - Jianhao Ding
+  - Peipei Ge
+  - Wenyun Yang
+  - Tiejun Huang
+  - Jinbo Yang
+  - Laura J Heyderman*
+  - Yunquan Liu*
+  - Zhaofei Yu*
+  - Zhaochu Luo*
+  publisher: "Advanced Functional Materials. 2025, 35(11): 2417334."
+  date: "2025-01-01"
+  link: ""
+
+- id: J-14
+  title: "Spiking Variational Policy Gradient for Brain Inspired Reinforcement Learning"
+  authors:
+  - Zhile Yang
+  - Shangqi Guo*
+  - Ying Fang
+  - Zhaofei Yu
+  - Jian K Liu
+  publisher: "IEEE Transactions on Pattern Analysis and Machine Intelligence. 2025, 47(3): 1975-1990."
+  date: "2025-01-01"
+  link: ""
+
+- id: J-15
+  title: "脉冲深度学习梯度替代算法研究综述"
+  authors:
+  - 方维
+  - 朱耀宇
+  - 黄梓涵
+  - 姚满
+  - 余肇飞
+  - 田永鸿
+  publisher: "计算机学报. 2025, 48(8): 1885-1922.（Weifang, Yaoyu Zhu, Zihan Huang, Man Yao, Zhaofei Yu, Yonghong Tian. Review of Surrogate Gradient Methods in Spiking Deep Learning. Chinese Journal of Computers. 2025, 48(8): 1885-1922.）"
+  date: "2025-01-01"
+  link: ""
+
+- id: J-16
+  title: "类脑赋能视觉增强：原理、方法与前沿进展"
+  authors:
+  - 余磊
+  - 施柏鑫
+  - 王威
+  - 余肇飞
+  - 郭宇飞
+  - 乔宁
+  - 夏桂松*
+  publisher: "中国图象图形学报. 2025, 30(6): 1593-1615.（Lei Yu, Boxin Shi, Wei Wang, Zhaofei Yu, Yufei Guo, Ning Qiao, Guisong Xia*. Neuromorphic-enabled Visual Enhancement： Principles， Methods and Recent Advances. Journal of Image and Graphics. 30(6):1593-1615.）"
+  date: "2025-01-01"
+  link: ""
+
+- id: J-17
+  title: "视觉基础模型研究现状与发展趋势"
+  authors:
+  - 张燚钧
+  - 张润清
+  - 周华健
+  - 齐骥*
+  - 余肇飞
+  - 黄铁军
+  publisher: "中国图象图形学报. 2025, 30(1): 1-24.（Yijun Zhang, Runqing Zhang, Huajian Zhou, Ji Qi*, Zhaofei Yu, Tiejun Huang. Research Status and Development Trends of Vision Foundation Models. Journal of Image and Graphics. 2025, 30(1): 1-24.）"
+  date: "2025-01-01"
+  link: ""
+
+- id: J-18
+  title: "INeAT: an Artifact-Suppressed and Resolution-Enhanced Computed Tomography through Iterative Neural Adaptive Tomography"
+  authors:
+  - Bo Xiong
+  - Changqing Su*
+  - Zihan Lin
+  - You Zhou
+  - Zhaofei Yu*
+  publisher: "Optic Express. 2024, 32(18): 32336-32353."
+  date: "2024-01-01"
+  link: ""
+
+- id: J-19
+  title: "Decoding Dynamic Visual Scenes across the Brain Hierarchy"
+  authors:
+  - Ye Chen
+  - Peter Beech
+  - Ziwei Yin
+  - Shanshan Jia
+  - Jiayi Zhang
+  - Zhaofei Yu*
+  - Jian K Liu*
+  publisher: "PLOS Computational Biology. 2024, 20(8): e1012297."
+  date: "2024-01-01"
+  link: ""
+
+- id: J-20
+  title: "Brain-inspired Artificial Intelligence Research: A Review"
+  authors:
+  - Guoyin Wang*
+  - Huanan Bao
+  - Qun Liu
+  - Tiangang Zhou
+  - Si Wu
+  - Tiejun Huang
+  - Zhaofei Yu
+  - Cewu Lu
+  - Yihong Gong
+  - Zhaoxiang Zhang
+  - Sheng He
+  publisher: "Science China Technological Sciences. 2024, 67: 2282-2296."
+  date: "2024-01-01"
+  link: ""
+
+- id: J-21
+  title: "Assessment of Visual Function in Blind Mice and Monkeys with Subretinally Implanted Nanowire Arrays as Artificial Photoreceptors"
+  authors:
+  - Ruyi Yang
+  - Peng Zhao
+  - Liyang Wang
+  - Chenli Feng
+  - Chen Peng
+  - Zhexuan Wang
+  - Yingying Zhang
+  - Minqian Shen
+  - Kaiwen Shi
+  - Shijun Weng
+  - Chunqiong Dong
+  - Fu Zeng
+  - Tianyun Zhang
+  - Xingdong Chen
+  - Shuiyuan Wang
+  - Yiheng Wang
+  - Yuanyuan Luo
+  - Qingyuan Chen
+  - Yuqing Chen
+  - Chengyong Jiang
+  - Shanshan Jia
+  - Zhaofei Yu
+  - Jian Liu
+  - Fei Wang
+  - Su Jiang
+  - Wendong Xu
+  - Liang Li
+  - Gang Wang
+  - Xiaofen Mo
+  - Gengfeng Zheng
+  - Aihua Chen
+  - Xingtao Zhou
+  - Chunhui Jiang*
+  - Yuanzhi Yuan*
+  - Biao Yan*
+  - Jiayi Zhang*
+  publisher: "Nature Biomedical Engineering. 2024, 8(8): 1018-1039."
+  date: "2024-01-01"
+  link: ""
+
+- id: J-22
+  title: "Regulating Temporal Neural Coding via Fast and Slow Synaptic Dynamics"
+  authors:
+  - Yuanhong Tang
+  - Lingling An
+  - Xingyu Zhang
+  - Huiling Huang
+  - Zhaofei Yu*
+  publisher: "IEEE Transactions on Cognitive and Developmental Systems. 2025, 17(1): 102-114."
+  date: "2025-01-01"
+  link: ""
+
+- id: J-23
+  title: "Robust Decoding of Rich Dynamical Visual Scenes with Retinal Spikes"
+  authors:
+  - Zhaofei Yu
+  - Tong Bu*
+  - Yijun Zhang
+  - Shanshan Jia
+  - Tiejun Huang
+  - Jian K Liu
+  publisher: "IEEE Transactions on Neural Networks and Learning Systems. 2025, 36(2): 3396-3409."
+  date: "2025-01-01"
+  link: ""
+
+- id: J-24
+  title: "Revealing the Mechanisms of Semantic Satiation with Deep Learning Models"
+  authors:
+  - Xinyu Zhang
+  - Jing Lian
+  - Zhaofei Yu
+  - Huajin Tang
+  - Dong Liang
+  - Jizhao Liu*
+  - Jian K Liu*
+  publisher: "Communications Biology. 2024, 7(1): 487."
+  date: "2024-01-01"
+  link: ""
+
+- id: J-25
+  title: "Spike-Based Vision for Autonomous Driving Scenarios"
+  authors:
+  - Jiyuan Zhang
+  - Yajing Zheng
+  - Zhaofei Yu
+  - Tiejun Huang*
+  publisher: "Strategic Study of Chinese Academy of Engineering. 2024, 26(1): 160-177."
+  date: "2024-01-01"
+  link: ""
+
+- id: J-26
+  title: "Converting Artificial Neural Networks to Ultra-Low-Latency Spiking Neural Networks for Action Recognition"
+  authors:
+  - Hong You
+  - Xian Zhong*
+  - Wenxuan Liu
+  - Qi Wei
+  - Wenxin Huang
+  - Zhaofei Yu*
+  - Tiejun Huang
+  publisher: "IEEE Transactions on Cognitive and Developmental Systems. 2024, 16(4): 1533-1545."
+  date: "2024-01-01"
+  link: ""
+
+- id: J-27
+  title: "SpiReco: Fast and Efficient Recognition of High-Speed Moving Objects with Spike Camera"
+  authors:
+  - Junwei Zhao
+  - Shiliang Zhang*
+  - Zhaofei Yu*
+  - Tiejun Huang
+  publisher: "IEEE Transactions on Circuits and Systems for Video Technology. 2024, 34(7): 5856-5867."
+  date: "2024-01-01"
+  link: ""
+
+- id: J-28
+  title: "面向自动驾驶场景的脉冲视觉研究"
+  authors:
+  - 张济远
+  - 郑雅菁
+  - 余肇飞
+  - 黄铁军*
+  publisher: "中国工程科学. 2024, 26(1): 160-177.（Jiyuan Zhang, Yajing Zheng, Zhaofei Yu, Tiejun Huang. Spike-Based Vision for Autonomous Driving Scenarios. Strategic Study of CAE, 2024, 26(1): 160-177.）"
+  date: "2024-01-01"
+  link: ""
+
+- id: J-29
+  title: "Protocol for Dissecting Cascade Computational Components in Neural Networks of a Visual System"
+  authors:
+  - Shanshan Jia
+  - Jian K Liu
+  - Zhaofei Yu*
+  publisher: "STAR Protocols. 2023, 4(4): 102722."
+  date: "2023-01-01"
+  link: ""
+
+- id: J-30
+  title: "Spike Camera Image Reconstruction using Deep Spiking Neural Networks"
+  authors:
+  - Rui Zhao
+  - Ruiqin Xiong*
+  - Jian Zhang
+  - Zhaofei Yu
+  - Shuyuan Zhu
+  - Lei Ma
+  - Tiejun Huang
+  publisher: "IEEE Transactions on Circuits and Systems for Video Technology. 2023, 34(6): 5207-5212."
+  date: "2023-01-01"
+  link: ""
+
+- id: J-31
+  title: "SpikingJelly: An Open-Source Machine Learning Infrastructure Platform for Spike-based Intelligence"
+  authors:
+  - Wei Fang
+  - Yanqi Chen
+  - Jianhao Ding
+  - Zhaofei Yu
+  - Timothée Masquelier
+  - Ding Chen
+  - Liwei Huang
+  - Huihui Zhou
+  - Guoqi Li*
+  - Yonghong Tian*
+  publisher: "Science Advance, 2023, 9(40):eadi1480."
+  date: "2023-01-01"
+  link: ""
+
+- id: J-32
+  title: "Research on neural encoding models for biological vision: Progress and challenges"
+  authors:
+  - ""
+  publisher: ""
+  date: ""
+  link: ""
+
+- id: J-33
+  title: "1000× Faster Camera and Machine Vision with Ordinary Devices"
+  authors:
+  - Tiejun Huang
+  - Yajing Zheng
+  - Zhaofei Yu*
+  - Rui Chen
+  - Yuan Li
+  - Ruiqin Xiong
+  - Lei Ma
+  - Junwei Zhao
+  - Siwei Dong
+  - Lin Zhu
+  - Jianing Li
+  - Shanshan Jia
+  - Yihua Fu
+  - Boxin Shi
+  - Si Wu
+  - Yonghong Tian
+  publisher: "Engineering. 2023, 25:110-119."
+  date: "2023-01-01"
+  link: ""
+
+- id: J-34
+  title: "Diverse Role of NMDA Receptors For Dendritic Integration of Neural Dynamics"
+  authors:
+  - Yuanhong Tang
+  - Xingyu Zhang
+  - Lingling An*
+  - Zhaofei Yu*
+  - Jian K Liu
+  publisher: "PLOS Computational Biology. 2023, 20(8): e1012297."
+  date: "2023-01-01"
+  link: ""
+
+- id: J-35
+  title: "Meta Reinforcement Learning for Multi-Task Offloading in Vehicular Edge Computing"
+  authors:
+  - Penglin Dai*
+  - Yaorong Huang
+  - Kaiwen Hu
+  - Xiao Wu
+  - Huanlai Xing
+  - Zhaofei Yu
+  publisher: "IEEE Transactions on Mobile Computing. 2023, 23(3): 2123-2138."
+  date: "2023-01-01"
+  link: ""
+
+- id: J-36
+  title: "Capture the Moment: High-Speed Imaging with Spiking Cameras through Short-Term Plasticity"
+  authors:
+  - Yajing Zheng
+  - Lingxiao Zheng
+  - Zhaofei Yu*
+  - Tiejun Huang
+  - Song Wang
+  publisher: "IEEE Transactions on Pattern Analysis and Machine Intelligence. 2023, 45(7): 8127-8142."
+  date: "2023-01-01"
+  link: ""
+
+- id: J-37
+  title: "Asynchronous Spatiotemporal Spike Metric for Event Cameras"
+  authors:
+  - Jianing Li
+  - Yihua Fu
+  - Siwei Dong
+  - Zhaofei Yu
+  - Tiejun Huang
+  - Yonghong Tian*
+  publisher: "IEEE Transactions on Neural Networks and Learning Systems. 2023, 34(4): 1742-1753."
+  date: "2023-01-01"
+  link: ""
+
+- id: J-38
+  title: "面向生物视觉的神经编码模型研究：进展与挑战"
+  authors:
+  - 贾杉杉
+  - 余肇飞*
+  - 刘健
+  - 黄铁军
+  publisher: "电子与信息学报. 2023, 45 (8): 2689-2698.（Shanshan Jia, Zhaofei Yu*, Jian K. Liu, Tiejun Huang. Research on Neural Encoding Models for Biological Vision: Progress and Challenges. Journal of Electronics & Information Technology, 2023, 45 (8): 2689-2698.）"
+  date: "2023-01-01"
+  link: ""
+
+- id: J-39
+  title: "生物视觉系统的神经网络编码模型综述"
+  authors:
+  - 郑雅菁
+  - 余肇飞
+  - 黄铁军*
+  publisher: "中国图象图形学报. 2023, 28(2): 335-357.（Yajing Zheng, Zhaofei Yu, Tiejun Huang*. A Literature Review for Neural Networks-Based Encoding Models of Biological Visual System. Journal of Image and Graphics. 2023, 28(2): 335-357.）"
+  date: "2023-01-01"
+  link: ""
+
+- id: J-40
+  title: "Spike-based Motion Estimation for Object Tracking through Bio-Inspired Unsupervised Learning"
+  authors:
+  - Yajing Zheng
+  - Zhaofei Yu*
+  - Song Wang
+  - Tiejun Huang
+  publisher: "IEEE Transactions on Image Processing. 2022, 32:335-349."
+  date: "2022-01-01"
+  link: ""
+
+- id: J-41
+  title: "Neural Decoding of Visual Information across Different Neural Recording Modalities and Approaches"
+  authors:
+  - Yijun Zhang
+  - Zhaofei Yu*
+  - Jian K Liu
+  - Tiejun Huang
+  publisher: "Machine Intelligence Research. 2022, 19(5): 350-365."
+  date: "2022-01-01"
+  link: ""
+
+- id: J-42
+  title: "Deep Spike Learning with Local Classifiers"
+  authors:
+  - Chenxiang Ma
+  - Rui Yan
+  - Zhaofei Yu
+  - Qiang Yu*
+  publisher: "IEEE Transactions on Cybernetics. 2022, 53(5): 3363-3375."
+  date: "2022-01-01"
+  link: ""
+
+- id: J-43
+  title: "Zooming in on the Brain via Data Science"
+  authors:
+  - Shanshan Jia
+  - Zhaofei Yu*
+  publisher: "Patterns. 2022, 3(3): 100463."
+  date: "2022-01-01"
+  link: ""
+
+- id: J-44
+  title: "Representing the Dynamics of High-Dimensional Data with Non-Redundant Wavelets"
+  authors:
+  - Shanshan Jia
+  - Xingyi Li
+  - Tiejun Huang
+  - Jian K. Liu*
+  - Zhaofei Yu*
+  publisher: "Patterns (Cell Press). 2022."
+  date: "2022-01-01"
+  link: ""
+
+- id: J-45
+  title: "Decoding Pixel-Level Image Features from Two-Photon Calcium Signals of Macaque Visual Cortex"
+  authors:
+  - Yijun Zhang
+  - Tong Bu
+  - Jiyuan Zhang
+  - Shiming Tang
+  - Zhaofei Yu
+  - Jian K. Liu
+  - Tiejun Huang
+  publisher: "Neural Computation. 2022."
+  date: "2022-01-01"
+  link: ""
+
+- id: J-46
+  title: "Reconstructing Clear Image for High-speed Motion Scene with a Retina-inspired Spike Camera"
+  authors:
+  - Jing Zhao
+  - Ruiqin Xiong*
+  - Jiyu Xie
+  - Boxin Shi
+  - Zhaofei Yu
+  - Wen Gao
+  - Tiejun Huang
+  publisher: "IEEE Transactions on Computational Imaging. 2022, 8:12-27."
+  date: "2022-01-01"
+  link: ""
+
+- id: J-47
+  title: "Neural System Identification with Spike-Triggered Non-Negative Matrix Factorization"
+  authors:
+  - Shanshan Jia
+  - Zhaofei Yu*
+  - Arno Onken
+  - Yonghong Tian
+  - Tiejun Huang
+  - Jian K Liu*
+  publisher: "IEEE Transactions on Cybernetics. 2022, 52(6): 4772-4783."
+  date: "2022-01-01"
+  link: ""
+
+- id: J-48
+  title: "Revealing Fine Structures of the Retinal Receptive Field by Deep Learning Networks"
+  authors:
+  - Qi Yan†
+  - Yajing Zheng†
+  - Shanshan Jia
+  - Zhaofei Yu*
+  - Feng Chen
+  - Yonghong Tian
+  - Tiejun Huang
+  - Jian K. Liu*
+  publisher: "IEEE Transactions on Cybernetics. 2022, 52(1): 39-50."
+  date: "2022-01-01"
+  link: ""
+
+- id: J-49
+  title: "A Distributed Algorithm for Task Offloading in Vehicular Networks with Hybrid Fog/Cloud Computing"
+  authors:
+  - Zongkai Liu
+  - Penglin Dai*
+  - Huanlai Xing
+  - Zhaofei Yu
+  - Wei Zhang
+  publisher: "IEEE Transactions on Systems, Man, and Cybernetics: Systems. 2022, 52(7): 4388-4401."
+  date: "2022-01-01"
+  link: ""
+
+- id: J-50
+  title: "A Probabilistic Approach fFor Cooperative Computation Offloading in MEC-Assisted Vehicular Networks"
+  authors:
+  - Penglin Dai
+  - Kaiwen Hu
+  - Xiao Wu
+  - Huanlai Xing
+  - Fei Teng
+  - Zhaofei Yu
+  publisher: "IEEE Transactions on Intelligent Transportation Systems. 2022, 23(2): 899-911."
+  date: "2022-01-01"
+  link: ""
+
+- id: J-51
+  title: "脉冲视觉研究进展"
+  authors:
+  - 黄铁军*
+  - 余肇飞
+  - 李源
+  - 施柏鑫
+  - 熊瑞勤
+  - 马雷
+  - 王威
+  publisher: "中国图象图形学报. 2022, 27(6): 1823-1839.（Tiejun Huang, Zhaofei Yu, Yuan Li, Boxin Shi, Ruiqin Xiong, Lei Ma, Wei Wang. Advances in spike vision. Journal of Image and Graphics. 2022, 27(6): 1823-1839）"
+  date: "2022-01-01"
+  link: ""
+
+- id: J-52
+  title: "Dissecting Cascade Computational Components in Spiking Neural Networks"
+  authors:
+  - Shanshan Jia
+  - Dajun Xing
+  - Zhaofei Yu*
+  - Jian K. Liu*
+  publisher: "PLoS Computational Biology. 2021, 17(11): e1009640."
+  date: "2021-01-01"
+  link: ""
+
+- id: J-53
+  title: "Unraveling Neural Coding of Dynamic Natural Visual Scenes via Convolutional Recurrent Neural Networks"
+  authors:
+  - Yajing Zheng
+  - Shanshan Jia
+  - Zhaofei Yu*
+  - Jian K. Liu*
+  - Tiejun Huang
+  publisher: "Patterns (Cell Press). 2021, 2(10): 100350."
+  date: "2021-01-01"
+  link: ""
+
+- id: J-54
+  title: "Probabilistic Inference of Binary Markov Random Fields in Spiking Neural Networks through Mean-field Approximation"
+  authors:
+  - Yajing Zheng
+  - Shanshan Jia
+  - Zhaofei Yu*
+  - Tiejun Huang
+  - Jian K. Liu
+  - Yonghong Tian*
+  publisher: "Neural Networks. 2020, 126: 42-51."
+  date: "2020-01-01"
+  link: ""
+
+- id: J-55
+  title: "Reconstruction of Natural Visual Scenes from Neural Spikes with Deep Neural Networks"
+  authors:
+  - Yicheng Zhang
+  - Shanshan Jia
+  - Yajing Zheng
+  - Zhaofei Yu*
+  - Yonghong Tian
+  - Siwei Ma
+  - Tiejun Huang
+  - Jian K. Liu*
+  publisher: "Neural Networks. 2020, 125: 19-30."
+  date: "2020-01-01"
+  link: ""
+
+- id: J-56
+  title: "Noise helps optimization escape from saddle points in the synaptic plasticity"
+  authors:
+  - Ying Fang
+  - Zhaofei Yu
+  - Feng Chen*
+  publisher: "Frontiers in Neuroscience. 2020, 14:343."
+  date: "2020-01-01"
+  link: ""
+
+- id: J-57
+  title: "SDARE: A Stacked Denoising Autoencoder Method for Game Dynamics Network Structure Reconstruction"
+  authors:
+  - Keke Huang
+  - Shuo Li
+  - Penglin Dai
+  - Zhen Wang
+  - Zhaofei Yu*
+  publisher: "Neural Networks. 2020, 126: 143-152."
+  date: "2020-01-01"
+  link: ""
+
+- id: J-58
+  title: "Multi-armed Bandit Learning for Computation-Intensive Services in MEC-Empowered Vehicular Networks"
+  authors:
+  - Penglin Dai
+  - Zihua Hang
+  - Kai Liu*
+  - Xiao Wu
+  - Huanlai Xing
+  - Zhaofei Yu
+  - Victor Chung Sing Lee
+  publisher: "IEEE Transactions on Vehicular Technology. 2020, 69(7): 7821-7834."
+  date: "2020-01-01"
+  link: ""
+
+- id: J-59
+  title: "Intrinsic and Synaptic Properties Shaping Diverse Behaviors of Neural Dynamics"
+  authors:
+  - Lingling An*
+  - Yuanhong Tang
+  - Doudou Wang
+  - Shanshan Jia
+  - Qingqi Pei
+  - Quan Wang
+  - Zhaofei Yu*
+  - Jian K Liu
+  publisher: "Frontiers in Computational Neuroscience. 2020, 14(26):"
+  date: "2020-01-01"
+  link: ""
+
+- id: J-60
+  title: "Towards the Next Generation of Neuroprosthesis: Computation with Spikes"
+  authors:
+  - Zhaofei Yu
+  - Jian K. Liu*
+  - Shanshan Jia
+  - Yicheng Zhang
+  - Yajing Zheng
+  - Yonghong Tian
+  - Tiejun Huang
+  publisher: "Engineering. 2020, 6(4): 449-461."
+  date: "2020-01-01"
+  link: ""
+
+- id: J-61
+  title: "Sampling-tree Model：Efficient Implement of Distributed Bayesian Inference in Neural Networks"
+  authors:
+  - Zhaofei Yu
+  - Feng Chen*
+  - Jian K. Liu*
+  publisher: "IEEE Transactions on Cognitive and Developmental Systems. 2020, 12(3): 497-510."
+  date: "2020-01-01"
+  link: ""
+
+- id: J-62
+  title: "Emergent Inference of Hidden Markov Models in Spiking Neural Networks through Winner-Take-All"
+  authors:
+  - Zhaofei Yu†
+  - Shangqi Guo†
+  - Fei Deng
+  - Qi Yan
+  - Keke Huang
+  - Jian K. Liu*
+  - Feng Chen*
+  publisher: "IEEE Transactions on Cybernetics. 2020, 50(3):1347-1354."
+  date: "2020-01-01"
+  link: ""
+
+- id: J-63
+  title: "Hierarchical Bayesian Inference and Learning in Spiking Neural Networks"
+  authors:
+  - Shangqi Guo†
+  - Zhaofei Yu†
+  - Fei Deng
+  - Xiaolin Hu*
+  - Feng Chen*
+  publisher: "IEEE Transactions on Cybernetics, 2019, 49(1): 133-145."
+  date: "2019-01-01"
+  link: ""
+
+- id: J-64
+  title: "Cooperative Temporal Data Dissemination in SDN-based Heterogeneous Vehicular Networks"
+  authors:
+  - Penglin Dai
+  - Kai Liu*
+  - Xiao Wu
+  - Zhaofei Yu*
+  - Huanlai Xing
+  - Victor Chung Sing Lee
+  publisher: "IEEE Internet of Things Journal. 2019, 6(1): 72-83."
+  date: "2019-01-01"
+  link: ""
+
+- id: J-65
+  title: "Skeleton-based 3D Object Retrieval using Retina-like Feature Descriptor"
+  authors:
+  - Xueqing Zhao
+  - Xin Shi
+  - Bo Yang
+  - Quanli Gao
+  - Zhaofei Yu*
+  - Jian K. Liu
+  - Yonghong Tian*
+  - Tiejun Huang
+  publisher: "IEEE Access, 2019, 7: 157341-157352."
+  date: "2019-01-01"
+  link: ""
+
+- id: J-66
+  title: "A Unified Neural Circuit of Causal Inference and Multisensory Integration"
+  authors:
+  - Ying Fang
+  - Zhaofei Yu
+  - Jian K Liu
+  - Feng Chen*
+  publisher: "Neurocomputing. 2019, 358: 355-368."
+  date: "2019-01-01"
+  link: ""
+
+- id: J-67
+  title: "类脑机的思想与体系结构综述"
+  authors:
+  - 黄铁军*
+  - 余肇飞
+  - 刘怡俊
+  publisher: "计算机研究与发展. 2019, 56(6): 1135-1148.（Tiejun Huang, Zhaofei Yu, Yijun Liu. Brain-like Machine: Thought and Architecture. Journal of Computer Research and Development. 2019, 56(6): 1135-1148.）"
+  date: "2019-01-01"
+  link: ""
+
+- id: J-68
+  title: "Unification of MAP Estimation and Marginal Inference in Recurrent Neural Networks"
+  authors:
+  - Zhaofei Yu
+  - Feng Chen*
+  - Fei Deng
+  publisher: "IEEE Transactions on Neural Networks and Learning Systems, 2018, 29(11):5761-5766."
+  date: "2018-01-01"
+  link: ""
+
+- id: J-69
+  title: "Design and Implementation of A Noncontact Sleep Monitoring System using Infrared Cameras and Motion Sensor"
+  authors:
+  - Fei Deng
+  - Jianwu Dong
+  - Xiangyu Wang
+  - Ying Fang
+  - Yu Liu
+  - Zhaofei Yu
+  - Jing Liu
+  - Feng Chen*
+  publisher: "IEEE Transactions on Instrumentation and Measurement. 2018, 67(7): 1555-1563."
+  date: "2018-01-01"
+  link: ""
+
+- id: J-70
+  title: "Promote of Cooperation in Networked Multiagent System Based on Fitness Control"
+  authors:
+  - Wenfeng Deng
+  - Keke Huang*
+  - Chunhua Yang
+  - Zhaofei Yu*
+  publisher: "Applied Mathematics and Computation, 2018, 339: 805-811."
+  date: "2018-01-01"
+  link: ""
+
+- id: J-71
+  title: "Reaction-Diffusion Equation Based Image Restoration"
+  authors:
+  - Xueqing Zhao
+  - Keke Huang*
+  - Xiaoming Wang
+  - Meihong Shi
+  - Xinjuan Zhu
+  - Quanli Gao
+  - Zhaofei Yu*
+  publisher: "Applied Mathematics and Computation, 2018, 338: 588-606."
+  date: "2018-01-01"
+  link: ""
+
+- id: J-72
+  title: "Heterogeneous Cooperative Belief for Social Dilemma in Multi-Agent System"
+  authors:
+  - Keke Huang*
+  - Xiaofang Chen*
+  - Zhaofei Yu
+  - Chunhua Yang
+  - Weihua Gui
+  publisher: "Applied Mathematics and Computation. 2018, 320: 572-579."
+  date: "2018-01-01"
+  link: ""
+
+- id: J-73
+  title: "Neural Network Implementation of Inference on Binary Markov Random Fields with Probability Coding"
+  authors:
+  - Zhaofei Yu
+  - Feng Chen*
+  - Jianwu Dong
+  publisher: "Applied Mathematics and Computation, 2017, 301: 193-200."
+  date: "2017-01-01"
+  link: ""
+
+- id: J-74
+  title: "Phase Unwrapping with Graph Cuts Optimization and Dual Decomposition Acceleration for 3D High-Resolution MRI Data"
+  authors:
+  - Jianwu Dong
+  - Feng Chen*
+  - Dong Zhou
+  - Tian Liu
+  - Zhaofei Yu
+  - Yi Wang
+  publisher: "Magnetic Resonance in Medicine. 2017, 77(3): 1353-1358."
+  date: "2017-01-01"
+  link: ""
+
+- id: J-75
+  title: "Sampling-based Causal Inference in Cue Combination and its Neural Implementation"
+  authors:
+  - Zhaofei Yu
+  - Feng Chen*
+  - Jianwu Dong
+  - Qionghai Dai
+  publisher: "Neurocomputing, 2016, 175: 155-165."
+  date: "2016-01-01"
+  link: ""
+
+- id: J-76
+  title: "Efficient Approximate Linear Programming for Factored MDPs"
+  authors:
+  - Feng Chen
+  - Qiang Cheng*
+  - Jianwu Dong
+  - Zhaofei Yu
+  - Guojun Wang
+  - Wenli Xu
+  publisher: "International Journal of Approximate Reasoning, 2015, 63:101-121."
+  date: "2015-01-01"
+  link: ""
+
+- id: C-1
+  title: "Training Deep Normalization-Free Spiking Neural Networks with Lateral Inhibition"
+  authors:
+  - Peiyu Liu
+  - Jianhao Ding
+  - Zhaofei Yu*
+  publisher: "The Fourteenth International Conference on Learning Representations (ICLR), 2026."
+  date: "2026-01-01"
+  link: ""
+
+- id: C-2
+  title: "CaRe-BN: Precise Moving Statistics for Stabilizing Spiking Neural Networks in Reinforcement Learning"
+  authors:
+  - Zijie Xu
+  - Xinyu Shi
+  - Yiting Dong
+  - Zihan Huang
+  - Zhaofei Yu*
+  publisher: "The Fourteenth International Conference on Learning Representations (ICLR), 2026."
+  date: "2026-01-01"
+  link: ""
+
+- id: C-3
+  title: "PredNext: Explicit Cross-View Temporal Prediction for Unsupervised Learning in Spiking Neural Networks"
+  authors:
+  - Yiting Dong
+  - Jianhao Ding
+  - Zijie Xu
+  - Tong Bu
+  - Zhaofei Yu*
+  - Tiejun Huang
+  publisher: "The Fourteenth International Conference on Learning Representations (ICLR), 2026."
+  date: "2026-01-01"
+  link: ""
+
+- id: C-4
+  title: "Generalized Threshold Optimization with Harmony Multi-Threshold Neurons for Accurate ANN-to-SNN Conversion"
+  authors:
+  - Wenhan Zhang
+  - Zihan Huang
+  - Tong Bu
+  - Tiejun Huang
+  - Zhaofei Yu*
+  publisher: "The Fortieth AAAI Conference on Artificial Intelligence (AAAI), 2026. (Oral)"
+  date: "2026-01-01"
+  link: ""
+
+- id: C-5
+  title: "Spike Imaging Velocimetry: Dense Motion Estimation of Fluids using Spike Streams"
+  authors:
+  - Yunzhong Zhang†
+  - You Zhou†
+  - Changqing Su
+  - Zhen Cheng
+  - Zhaofei Yu
+  - Bo Xiong*
+  - Tiejun Huang
+  - Xun Cao
+  publisher: "The Fortieth AAAI Conference on Artificial Intelligence (AAAI), 2026."
+  date: "2026-01-01"
+  link: ""
+
+- id: C-6
+  title: "Activity Pruning for Efficient Spiking Neural Networks"
+  authors:
+  - Tong Bu
+  - Xinyu Shi
+  - Zhaofei Yu*
+  publisher: "The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS), 2025."
+  date: "2025-01-01"
+  link: ""
+
+- id: C-7
+  title: "Proxy Target: Bridging the Gap between Discrete Spiking Neural Networks and Continuous Control"
+  authors:
+  - Zijie Xu
+  - Tong Bu
+  - Zecheng Hao
+  - Jianhao Ding
+  - Zhaofei Yu*
+  publisher: "The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS), 2025."
+  date: "2025-01-01"
+  link: ""
+
+- id: C-8
+  title: "SpiLiFormer: Enhancing Spiking Transformers with Lateral Inhibition"
+  authors:
+  - Zeqi Zheng†
+  - Yanchen Huang†
+  - Yingchao Yu
+  - Zizheng Zhu
+  - Junfeng Tang
+  - Zhaofei Yu
+  - Yaochu Jin*
+  publisher: "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2025"
+  date: "2025-01-01"
+  link: ""
+
+- id: C-9
+  title: "TTFSFormer: A TTFS-based Lossless Conversion of Spiking Transformer"
+  authors:
+  - Lusen Zhao
+  - Zihan Huang
+  - Jianhao Ding
+  - Zhaofei Yu*
+  publisher: "Forty-second International Conference on Machine Learning (ICML), 2025."
+  date: "2025-01-01"
+  link: ""
+
+- id: C-10
+  title: "Faster and Stronger: When ANN-SNN Conversion Meets Parallel Spiking Calculation"
+  authors:
+  - Zecheng Hao
+  - Qichao Ma
+  - Kang Chen
+  - Yi Zhang
+  - Zhaofei Yu*
+  - Tiejun Huang
+  publisher: "Forty-second International Conference on Machine Learning (ICML), 2025."
+  date: "2025-01-01"
+  link: ""
+
+- id: C-11
+  title: "Differential Coding for Training-Free ANN-to-SNN Conversion"
+  authors:
+  - Zihan Huang
+  - Wei Fang*
+  - Tong Bu
+  - Peng Xue
+  - Zecheng Hao
+  - Wenxuan Liu
+  - Yuanhong Tang*
+  - Zhaofei Yu
+  - Tiejun Huang
+  publisher: "Forty-second International Conference on Machine Learning (ICML), 2025."
+  date: "2025-01-01"
+  link: ""
+
+- id: C-12
+  title: "A Chaotic Dynamics Framework Inspired by Dorsal Stream for Event Signal Processing"
+  authors:
+  - Yu Chen
+  - Jing Lian
+  - Zhaofei Yu
+  - Jizhao Liu*
+  - Jisheng Dang*
+  - Gang Wang*
+  publisher: "Forty-second International Conference on Machine Learning (ICML), 2025."
+  date: "2025-01-01"
+  link: ""
+
+- id: C-13
+  title: "Inference-Scale Complexity in ANN-SNN Conversion for High-Performance and Low-Power Applications"
+  authors:
+  - Tong Bu†
+  - Maohua Li†
+  - Zhaofei Yu*
+  publisher: "Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR), 2025."
+  date: "2025-01-01"
+  link: ""
+
+- id: C-14
+  title: "USP-Gaussian: Unifying Spike-based Image Reconstruction, Pose Correction and Gaussian Splatting"
+  authors:
+  - Kang Chen
+  - Jiyuan Zhang
+  - Zecheng Hao
+  - Yajing Zheng
+  - Tiejun Huang
+  - Zhaofei Yu*
+  publisher: "Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR), 2025. (Highlight)"
+  date: "2025-01-01"
+  link: ""
+
+- id: C-15
+  title: "Self-Supervised Learning for Color Spike Camera Reconstruction"
+  authors:
+  - Yanchen Dong
+  - Ruiqin Xiong*
+  - Xiaopeng Fan
+  - Zhaofei Yu
+  - Yonghong Tian
+  - Tiejun Huang
+  publisher: "Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR), 2025."
+  date: "2025-01-01"
+  link: ""
+
+- id: C-16
+  title: "SpikeDiff: Zero-shot High-Quality Video Reconstruction from Chromatic Spike Camera and Sub-millisecond Spike Streams"
+  authors:
+  - Siqi Yang
+  - Jinxiu Liang
+  - Zhaojun Huang
+  - Yeliduosi Xiaokaiti
+  - Yakun Chang
+  - Zhaofei Yu
+  - Boxin Shi*
+  publisher: "Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR), 2025."
+  date: "2025-01-01"
+  link: ""
+
+- id: C-17
+  title: "Rethinking High-speed Image Reconstruction Framework with Spike Camera"
+  authors:
+  - Kang Chen
+  - Yajing Zheng*
+  - Tiejun Huang
+  - Zhaofei Yu*
+  publisher: "The Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI), 2025."
+  date: "2025-01-01"
+  link: ""
+
+- id: C-18
+  title: "LM-HT SNN: Enhancing the Performance of SNN to ANN Counterpart through Learnable Multi-hierarchical Threshold Model"
+  authors:
+  - Zecheng Hao
+  - Xinyu Shi
+  - Yujia Liu
+  - Zhaofei Yu*
+  - Tiejun Huang
+  publisher: "The Thirty-Eighth Annual Conference on Neural Information Processing Systems (NeurIPS), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-19
+  title: "Continuous Spatiotemporal Events Decoupling through Spike-based Bayesian Computation"
+  authors:
+  - Yajing Zheng*
+  - Jiyuan Zhang
+  - Zhaofei Yu*
+  - Tiejun Huang
+  publisher: "The Thirty-Eighth Annual Conference on Neural Information Processing Systems (NeurIPS), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-20
+  title: "Spiking Transformer with Experts Mixture"
+  authors:
+  - Zhaokun Zhou†
+  - Yijie Lu†
+  - Yanhao Jia
+  - Kaiwei Che
+  - Jun Niu
+  - Liwei Huang
+  - Xinyu Shi
+  - Yuesheng Zhu
+  - Guoqi Li
+  - Zhaofei Yu*
+  - Li Yuan*
+  publisher: "The Thirty-Eighth Annual Conference on Neural Information Processing Systems (NeurIPS), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-21
+  title: "Spikereveal: Unlocking Temporal Sequences from Real Blurry Inputs with Spike Streams"
+  authors:
+  - Kang Chen†
+  - Shiyan Chen†
+  - Jiyuan Zhang
+  - Baoyue Zhang
+  - Yajing Zheng*
+  - Tiejun Huang
+  - Zhaofei Yu*
+  publisher: "The Thirty-Eighth Annual Conference on Neural Information Processing Systems (NeurIPS), 2024. (Spotlight)"
+  date: "2024-01-01"
+  link: ""
+
+- id: C-22
+  title: "SpikeGS: 3D Gaussian Splatting from Spike Streams with High-speed Camera Motion"
+  authors:
+  - Jiyuan Zhang
+  - Kang Chen
+  - Shiyan Chen
+  - Yajing Zheng
+  - Tiejun Huang
+  - Zhaofei Yu*
+  publisher: "Proceedings of the 32nd ACM International Conference on Multimedia (ACM MM), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-23
+  title: "Towards High-performance Spiking Transformers from ANN to SNN Conversion"
+  authors:
+  - Zihan Huang
+  - Xinyu Shi
+  - Zecheng Hao
+  - Tong Bu
+  - Jianhao Ding
+  - Zhaofei Yu*
+  - Tiejun Huang
+  publisher: "Proceedings of the 32nd ACM International Conference on Multimedia (ACM MM), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-24
+  title: "Real-time Parameter Evaluation of High-speed Microfluidic Droplets using Continuous Spike Streams"
+  authors:
+  - Bo Xiong
+  - Changqing Su*
+  - Zihan Lin
+  - Yanqin Chen
+  - You Zhou
+  - Zhen Cheng*
+  - Zhaofei Yu
+  - Tiejun Huang
+  publisher: "Proceedings of the 32nd ACM International Conference on Multimedia (ACM MM), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-25
+  title: "Towards Low-latency Event-based Visual Recognition with Hybrid Step-wise Distillation Spiking Neural Networks"
+  authors:
+  - Xian Zhong
+  - Shengwang Hu
+  - Wenxuan Liu*
+  - Wenxin Huang
+  - Jianhao Ding
+  - Zhaofei Yu
+  - Tiejun Huang
+  publisher: "Proceedings of the 32nd ACM International Conference on Multimedia (ACM MM), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-26
+  title: "Real-Data-Driven 2000 FPS Color Video from Mosaicked Chromatic Spikes"
+  authors:
+  - Siqi Yang
+  - Zhaojun Huang
+  - Yakun Chang
+  - Bin Fan
+  - Zhaofei Yu
+  - Boxin Shi*
+  publisher: "European Conference on Computer Vision (ECCV), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-27
+  title: "Autaptic Synaptic Circuit Enhances Spatio-Temporal Predictive Learning of Spiking Neural Networks"
+  authors:
+  - Lihao Wang
+  - Zhaofei Yu*
+  publisher: "Forty-First International Conference on Machine Learning (ICML), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-28
+  title: "Robust Stable Spiking Neural Networks"
+  authors:
+  - Jianhao Ding
+  - Zhiyu Pan
+  - Yujia Liu
+  - Zhaofei Yu*
+  - Tiejun Huang
+  publisher: "Forty-First International Conference on Machine Learning (ICML), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-29
+  title: "Enhancing Adversarial Robustness in SNNs with Sparse Gradients"
+  authors:
+  - Yujia Liu
+  - Tong Bu
+  - Jianhao Ding
+  - Zecheng Hao
+  - Tiejun Huang
+  - Zhaofei Yu*
+  publisher: "Forty-First International Conference on Machine Learning (ICML), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-30
+  title: "Exploring Efficient Asymmetric Blind-Spots for Self-Supervised Denoising in Real-World Scenarios"
+  authors:
+  - Shiyan Chen
+  - Jiyuan Zhang
+  - Zhaofei Yu*
+  - Tiejun Huang
+  publisher: "Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-31
+  title: "SpikingResformer: Bridging ResNet and Vision Transformer in Spiking Neural Networks"
+  authors:
+  - Xinyu Shi
+  - Zecheng Hao
+  - Zhaofei Yu*
+  publisher: "Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-32
+  title: "Intensity-Robust Autofocus for Spike Camera"
+  authors:
+  - Changqing Su†
+  - Zhiyuan Ye
+  - Yongsheng Xiao†
+  - You Zhou
+  - Zhen Cheng
+  - Bo Xiong*
+  - Zhaofei Yu
+  - Tiejun Huang
+  publisher: "Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-33
+  title: "Spike-guided Motion Deblurring with Unknown Modal Spatiotemporal Alignment"
+  authors:
+  - Jiyuan Zhang
+  - Shiyan Chen
+  - Yajing Zheng*
+  - Zhaofei Yu*
+  - Tiejun Huang
+  publisher: "Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-34
+  title: "Super-resolution Reconstruction from Bayer-pattern Spike Streams"
+  authors:
+  - Yanchen Dong
+  - Ruiqin Xiong*
+  - Jian Zhang
+  - Zhaofei Yu
+  - Xiaopeng Fan
+  - Shuyuan Zhu
+  - Tiejun Huang
+  publisher: "Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-35
+  title: "Boosting Spike Camera Image Reconstruction from a Perspective of Dealing with Spike Fluctuations"
+  authors:
+  - Rui Zhao
+  - Ruiqin Xiong*
+  - Jing Zhao
+  - Jian Zhang
+  - Xiaopeng Fan
+  - Zhaofei Yu
+  - Tiejun Huang
+  publisher: "Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-36
+  title: "One Forward is Enough for Neural Network Training via Likelihood Ratio Method"
+  authors:
+  - Jinyang Jiang†
+  - Zeliang Zhang†
+  - Chenliang Xu*
+  - Zhaofei Yu*
+  - Yijie Peng*
+  publisher: "The Twelfth International Conference on Learning Representations (ICLR), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-37
+  title: "Online Stabilization of Spiking Neural Networks"
+  authors:
+  - Yaoyu Zhu
+  - Jianhao Ding
+  - Tiejun Huang
+  - Xiaodong Xie
+  - Zhaofei Yu*
+  publisher: "The Twelfth International Conference on Learning Representations (ICLR), 2024. (Spotlight)"
+  date: "2024-01-01"
+  link: ""
+
+- id: C-38
+  title: "Towards Energy Efficient Spiking Neural Networks: An Unstructured Pruning Framework"
+  authors:
+  - Xinyu Shi
+  - Jianhao Ding
+  - Zecheng Hao
+  - Zhaofei Yu*
+  publisher: "The Twelfth International Conference on Learning Representations (ICLR), 2024. (Spotlight)"
+  date: "2024-01-01"
+  link: ""
+
+- id: C-39
+  title: "Threaten Spiking Neural Networks through Combining Rate and Temporal Information"
+  authors:
+  - Zecheng Hao
+  - Tong Bu
+  - Xinyu Shi
+  - Zihan Huang
+  - Zhaofei Yu*
+  - Tiejun Huang
+  publisher: "The Twelfth International Conference on Learning Representations (ICLR), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-40
+  title: "A Progressive Training Framework for Spiking Neural Networks with Learnable Multi-hierarchical Model"
+  authors:
+  - Zecheng Hao
+  - Xinyu Shi
+  - Zihan Huang
+  - Tong Bu
+  - Zhaofei Yu*
+  - Tiejun Huang
+  publisher: "The Twelfth International Conference on Learning Representations (ICLR), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-41
+  title: "Enhancing the Robustness of Spiking Neural Networks with Stochastic Gating Mechanisms"
+  authors:
+  - Jianhao Ding
+  - Zhaofei Yu*
+  - Tiejun Huang
+  - Jian K Liu
+  publisher: "The Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-42
+  title: "Transient Glimpses: Unveiling Occluded Backgrounds through the Spike Camera"
+  authors:
+  - Jiyuan Zhang
+  - Shiyan Chen
+  - Yajing Zheng*
+  - Zhaofei Yu*
+  - Tiejun Huang
+  publisher: "The Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-43
+  title: "Recognizing Ultra-High-Speed Moving Objects with Bio-Inspired Spike Camera"
+  authors:
+  - Junwei Zhao
+  - Shiliang Zhang*
+  - Zhaofei Yu*
+  - Tiejun Huang
+  publisher: "The Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-44
+  title: "Optical Flow for Spike Camera with Hierarchical Spatial-temporal Spike Fusion"
+  authors:
+  - Rui Zhao
+  - Ruiqin Xiong*
+  - Jian Zhang
+  - Xinfeng Zhang
+  - Zhaofei Yu
+  - Tiejun Huang
+  publisher: "The Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), 2024."
+  date: "2024-01-01"
+  link: ""
+
+- id: C-45
+  title: "Exploring Loss Functions for Time-based Training Strategy in Spiking Neural Networks"
+  authors:
+  - Yaoyu Zhu
+  - Wei Fang
+  - Tiejun Huang
+  - Xiaodong Xie
+  - Zhaofei Yu*
+  publisher: "The Thirty-Seventh Annual Conference on Neural Information Processing Systems (NeurIPS), 2023. (Spotlight)"
+  date: "2023-01-01"
+  link: ""
+
+- id: C-46
+  title: "Unsupervised Optical Flow Estimation with Dynamic Timing Representation for Spike Camera"
+  authors:
+  - Lujie Xia
+  - Ziluo Ding
+  - Rui Zhao
+  - Jiyuan Zhang
+  - Lei Ma
+  - Zhaofei Yu
+  - Tiejun Huang
+  - Ruiqin Xiong*
+  publisher: "The Thirty-Seventh Annual Conference on Neural Information Processing Systems (NeurIPS), 2023."
+  date: "2023-01-01"
+  link: ""
+
+- id: C-47
+  title: "Parallel Spiking Neurons with High Efficiency and Long-term Dependencies Learning Ability"
+  authors:
+  - Wei Fang
+  - Zhaofei Yu
+  - Zhaokun Zhou
+  - Yanqi Chen
+  - Zhengyu Ma*
+  - Timothée Masquelier
+  - Yonghong Tian*
+  publisher: "The Thirty-Seventh Annual Conference on Neural Information Processing Systems (NeurIPS), 2023."
+  date: "2023-01-01"
+  link: ""
+
+- id: C-48
+  title: "Enhancing Motion Deblurring in High-Speed Scenes with Spike Streams"
+  authors:
+  - Shiyan Chen
+  - Jiyuan Zhang
+  - Yajing Zheng*
+  - Tiejun Huang
+  - Zhaofei Yu*
+  publisher: "The Thirty-Seventh Annual Conference on Neural Information Processing Systems (NeurIPS), 2023."
+  date: "2023-01-01"
+  link: ""
+
+- id: C-49
+  title: "Recognizing High-Speed Moving Objects with Spike Camera"
+  authors:
+  - Junwei Zhao
+  - Jianming Ye
+  - Shiliang Zhang*
+  - Zhaofei Yu*
+  - Tiejun Huang
+  publisher: "Proceedings of the 31nd ACM International Conference on Multimedia (ACM MM), 2023."
+  date: "2023-01-01"
+  link: ""
+
+- id: C-50
+  title: "Rate Gradient Approximation Attack Threats Deep Spiking Neural Networks"
+  authors:
+  - Tong Bu
+  - Jianhao Ding
+  - Zecheng Hao
+  - Zhaofei Yu*
+  publisher: "Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR), 2023."
+  date: "2023-01-01"
+  link: ""
+
+- id: C-51
+  title: "Complementary Intrinsics from Neural Radiance Fields and CNNs for Outdoor Scene Relighting"
+  authors:
+  - Siqi Yang
+  - Xuanning Cui
+  - Yongjie Zhu
+  - Jiajun Tang
+  - Si Li
+  - Zhaofei Yu
+  - Boxin Shi*
+  publisher: "Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR), 2023."
+  date: "2023-01-01"
+  link: ""
+
+- id: C-52
+  title: "Bridging the Gap between ANNs and SNNs by Calibrating Offset Spikes"
+  authors:
+  - Zecheng Hao
+  - Jianhao Ding
+  - Tong Bu
+  - Tiejun Huang
+  - Zhaofei Yu*
+  publisher: "The Eleventh International Conference on Learning Representations (ICLR), 2023."
+  date: "2023-01-01"
+  link: ""
+
+- id: C-53
+  title: "A Unified Framework for Soft Threshold Pruning"
+  authors:
+  - Yanqi Chen
+  - Zhengyu Ma*
+  - Wei Fang
+  - Xiawu Zheng
+  - Zhaofei Yu
+  - Yonghong Tian*
+  publisher: "The Eleventh International Conference on Learning Representations (ICLR), 2023."
+  date: "2023-01-01"
+  link: ""
+
+- id: C-54
+  title: "Self-Supervised Joint Dynamic Scene Reconstruction and Optical Flow Estimation for Spiking Camera"
+  authors:
+  - Shiyan Chen
+  - Zhaofei Yu*
+  - Tiejun Huang
+  publisher: "The Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI), 2023."
+  date: "2023-01-01"
+  link: ""
+
+- id: C-55
+  title: "Learning Temporal-ordered Representation for Spike Streams Based on Discrete Wavelet Transforms"
+  authors:
+  - Jiyuan Zhang†
+  - Shanshan Jia†
+  - Zhaofei Yu*
+  - Tiejun Huang
+  publisher: "The Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI), 2023."
+  date: "2023-01-01"
+  link: ""
+
+- id: C-56
+  title: "Reducing ANN-SNN Conversion Error through Residual Membrane Potential"
+  authors:
+  - Zecheng Hao
+  - Tong Bu
+  - Jianhao Ding
+  - Tiejun Huang
+  - Zhaofei Yu*
+  publisher: "The Thirty-Seventh AAAI Conference on Artificial Intelligence, 2023. (oral)"
+  date: "2023-01-01"
+  link: ""
+
+- id: C-57
+  title: "SNN-RAT: Robustness-enhanced Spiking Neural Network through Regularized Adversarial"
+  authors:
+  - Jianhao
+  - Tong Bu
+  - Zhaofei Yu*
+  - Jian K. Liu
+  - Tiejun Huang
+  publisher: "Thirty-Sixth Conference on Neural Information Processing Systems (NeurIPS), 2022."
+  date: "2022-01-01"
+  link: ""
+
+- id: C-58
+  title: "Training Spiking Neural Networks with Event-driven Backpropagation"
+  authors:
+  - Yaoyu Zhu
+  - Zhaofei Yu*
+  - Wei Fang
+  - Xiaodong Xie
+  - Tiejun Huang
+  - Timothée Masquelier
+  publisher: "Thirty-Sixth Conference on Neural Information Processing Systems (NeurIPS), 2022. (Spotlight)"
+  date: "2022-01-01"
+  link: ""
+
+- id: C-59
+  title: "Temporal Effective Batch Normalization in Spiking Neural Networks"
+  authors:
+  - Chaoteng Duan†
+  - Jianhao Ding†
+  - Shiyan Chen
+  - Zhaofei Yu*
+  - Tiejun Huang
+  publisher: "Thirty-Sixth Conference on Neural Information Processing Systems (NeurIPS), 2022."
+  date: "2022-01-01"
+  link: ""
+
+- id: C-60
+  title: "Learning Optical Flow From Continuous Spike Streams"
+  authors:
+  - Rui Zhao
+  - Ruiqin Xiong*
+  - Jing Zhao
+  - Zhaofei Yu
+  - Xiaopeng Fan
+  - Tiejun Huang
+  publisher: "Thirty-Sixth Conference on Neural Information Processing Systems (NeurIPS), 2022."
+  date: "2022-01-01"
+  link: ""
+
+- id: C-61
+  title: "Spike Transformer: Monocular Depth Estimation for Spiking Camera"
+  authors:
+  - Jiyuan Zhang
+  - Lulu Tang
+  - Zhaofei Yu*
+  - Jiwen Lu
+  - Tiejun Huang
+  publisher: "European Conference on Computer Vision (ECCV), 2022"
+  date: "2022-01-01"
+  link: ""
+
+- id: C-62
+  title: "State Transition of Dendritic Spines Improves Learning of Sparse Spiking Neural Networks"
+  authors:
+  - Yanqi Chen
+  - Zhaofei Yu*
+  - Wei Fang
+  - Zhengyu Ma*
+  - Tiejun Huang
+  - Yonghong Tian*
+  publisher: "Thirty-ninth International Conference on Machine Learning (ICML), 2022"
+  date: "2022-01-01"
+  link: ""
+
+- id: C-63
+  title: "Self-Supervised Mutual Learning for Dynamic Scene Reconstruction of Spiking Camera"
+  authors:
+  - Shiyan Chen
+  - Chaoteng Duan
+  - Zhaofei Yu*
+  - Ruiqin Xiong
+  - Tiejun Huang
+  publisher: "Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence (IJCAI), 2022"
+  date: "2022-01-01"
+  link: ""
+
+- id: C-64
+  title: "Optimal ANN-SNN Conversion for High-accuracy and Ultra-low-latency Spiking Neural Networks"
+  authors:
+  - Tong Bu
+  - Wei Fang
+  - Jianhao Ding
+  - Penglin Dai
+  - Zhaofei Yu*
+  - Tiejun Huang
+  publisher: "Tenth International Conference on Learning Representations (ICLR), 2022."
+  date: "2022-01-01"
+  link: ""
+
+- id: C-65
+  title: "Spikingsim: A Bio-inspired Spiking Simulator"
+  authors:
+  - Junwei Zhao
+  - Shiliang Zhang
+  - Lei Ma*
+  - Zhaofei Yu*
+  - Tiejun Huang
+  publisher: "IEEE International Symposium on Circuits and Systems (ISCAS), 2022"
+  date: "2022-01-01"
+  link: ""
+
+- id: C-66
+  title: "Modeling the Detection Capability of High-Speed Spiking Cameras"
+  authors:
+  - Junwei Zhao
+  - Zhaofei Yu*
+  - Lei Ma*
+  - Ziluo Ding
+  - Shiliang Zhang
+  - Yonghong Tian
+  - Tiejun Huang
+  publisher: "International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2022."
+  date: "2022-01-01"
+  link: ""
+
+- id: C-67
+  title: "Optimized Potential Initialization for Low-latency Spiking Neural Networks"
+  authors:
+  - Tong Bu
+  - Jianhao Ding
+  - Zhaofei Yu*
+  - Tiejun Huang
+  publisher: "The Thirty-sixth AAAI Conference on Artificial Intelligence (AAAI), 2022."
+  date: "2022-01-01"
+  link: ""
+
+- id: C-68
+  title: "Spatio-Temporal Recurrent Networks for Event-Based Optical Flow Estimation"
+  authors:
+  - Ziluo Ding
+  - Rui Zhao
+  - Jiyuan Zhang
+  - Tianxiao Gao
+  - Ruiqin Xiong
+  - Zhaofei Yu*
+  - Tiejun Huang
+  publisher: "The Thirty-sixth AAAI Conference on Artificial Intelligence (AAAI), 2022."
+  date: "2022-01-01"
+  link: ""
+
+- id: C-69
+  title: "Deep Residual Learning in Spiking Neural Networks"
+  authors:
+  - Wei Fang
+  - Zhaofei Yu*
+  - Yanqi Chen
+  - Tiejun Huang
+  - Timothee Masquelier
+  - Yonghong Tian*
+  publisher: "Thirty-Fifth Conference on Neural Information Processing Systems (NeurIPS), 2021."
+  date: "2021-01-01"
+  link: ""
+
+- id: C-70
+  title: "Incorporating Learnable Membrane Time Constant to Enhance Learning of Spiking Neural Networks"
+  authors:
+  - Wei Fang
+  - Zhaofei Yu*
+  - Yanqi Chen
+  - Timothee Masquelier
+  - Tiejun Huang
+  - Yonghong Tian*
+  publisher: "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2021: 2661-2671."
+  date: "2021-01-01"
+  link: ""
+
+- id: C-71
+  title: "High-Speed Image Reconstruction Through Short-Term Plasticity for Spiking Cameras"
+  authors:
+  - Yajing Zheng†
+  - Lingxiao Zheng†
+  - Zhaofei Yu*
+  - Boxin Shi
+  - Yonghong Tian
+  - Tiejun Huang
+  publisher: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021: 6358-6367."
+  date: "2021-01-01"
+  link: ""
+
+- id: C-72
+  title: "Optimal ANN-SNN Conversion for Fast and Accurate Inference in Deep Spiking Neural Networks"
+  authors:
+  - Jianhao Ding
+  - Zhaofei Yu*
+  - Yonghong Tian*
+  - Tiejun Huang
+  publisher: "Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence (IJCAI), 2021: 2328-2336."
+  date: "2021-01-01"
+  link: ""
+
+- id: C-73
+  title: "Pruning of Deep Spiking Neural Networks through Gradient Rewiring"
+  authors:
+  - Yanqi Chen
+  - Zhaofei Yu*
+  - Wei Fang
+  - Tiejun Huang
+  - Yonghong Tian*
+  publisher: "Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence (IJCAI), 2021: 1713-1721."
+  date: "2021-01-01"
+  link: ""
+
+- id: C-74
+  title: "Asynchronous Deep Reinforcement Learning for Data-Driven Task Offloading in MEC-Empowered Vehicular Networks"
+  authors:
+  - Penglin Dai*
+  - Kaiwen Hu
+  - Xiao Wu
+  - Huanlai Xing
+  - Zhaofei Yu
+  publisher: "IEEE International Conference on Computer Communications (INFOCOM), 2021: 1-10."
+  date: "2021-01-01"
+  link: ""
+
+- id: C-75
+  title: "Noise helps optimization escape from saddle points in the neural dynamics"
+  authors:
+  - Ying Fang
+  - Zhaofei Yu
+  - Feng Chen*
+  publisher: "The 27th European Symposium on Artificial Neural Networks (ESANN), Bruges, Belgium, 2019:523-528."
+  date: "2019-01-01"
+  link: ""
+
+- id: C-76
+  title: "Event-based Vision Enhanced: a Joint Detection Framework Based on Neuromorphic camera"
+  authors:
+  - Jianing Li
+  - Siwei Dong
+  - Zhaofei Yu
+  - Yonghong Tian*
+  - Tiejun Huang
+  publisher: "IEEE International Conference on Multimedia and Expo (ICME), Shanghai, China, 2019: 1-6."
+  date: "2019-01-01"
+  link: ""
+
+- id: C-77
+  title: "Implementation of Bayesian Inference in Distributed Neural Networks"
+  authors:
+  - Zhaofei Yu
+  - Jian Liu*
+  - Tiejun Huang
+  publisher: "The 26th Euromicro International Conference on Parallel, Distributed, and Network-Based Processing, London, UK, 2018: 666-673. (Oral)"
+  date: "2018-01-01"
+  link: ""
