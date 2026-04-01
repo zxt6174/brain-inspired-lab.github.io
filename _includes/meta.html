@@ -1,8 +1,13 @@
 {% assign filename = page.path | split: "/" | last %}
 {% if page.name and page.name != filename %}
-{% assign title = page.name %}
+{% assign raw_title = page.name %}
 {% elsif page.title %}
-{% assign title = page.title %}
+{% assign raw_title = page.title %}
+{% else %}
+{% assign raw_title = nil %}
+{% endif %}
+{% if raw_title %}
+{% assign title = raw_title | strip_html | normalize_whitespace %}
 {% else %}
 {% assign title = nil %}
 {% endif %}
@@ -37,7 +42,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title id="page-title" data-i18n-title="{{ page.title_key | default: page.title | downcase }}">{{ page.title }}</title>
+<title id="page-title" data-i18n-title="{{ page.title_key | default: page.title | downcase }}">{{ page.title | default: title }}</title>
 
 <link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg">
 <link rel="alternate icon" href="/images/favicon/favicon.ico">
@@ -57,14 +62,14 @@
 <meta name="keywords" content="{{ page.keywords | default: site.keywords | join: ', ' | escape }}">
 <meta name="author" content="{{ site.author | default: 'Brain-inspired Lab' }}">
 
-<meta property="og:title" content="{{ title }}">
+<meta property="og:title" content="{{ title | escape }}">
 <meta property="og:site_title" content="{{ site.share_title }}">
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ url }}">
 <meta property="og:image" content="{{ share }}">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="{{ title }}">
+<meta property="twitter:title" content="{{ title | escape }}">
 <meta property="twitter:description" content="{{ description }}">
 <meta property="twitter:url" content="{{ url }}">
 <meta property="twitter:card" content="summary_large_image">
