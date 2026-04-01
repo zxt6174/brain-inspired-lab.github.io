@@ -91,7 +91,7 @@ _<span data-i18n="edu_ml_term">Course overview</span>_
 
 {%
   include feature.html
-  image="images/ML.jpeg"
+  image="images/机器学习.jpeg"
   link="team"
   style="bare"
   text=text_ml
