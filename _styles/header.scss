@@ -274,3 +274,9 @@ body.home-page header .subtitle {
 body:not(.home-page) header .subtitle {
   display: inline-block;
 }
+
+/* Let homepage nav scroll with page instead of sticking to viewport */
+body.home-page header {
+  position: relative !important;
+  top: auto !important;
+}
