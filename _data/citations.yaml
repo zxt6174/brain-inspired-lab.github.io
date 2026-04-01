@@ -419,15 +419,15 @@
   date: '2023-01-01'
   link: https://www.science.org/doi/10.1126/sciadv.adi1480
 - id: J-32
-  title: "Research on Neural Encoding Models for Biological Vision: Progress and Challenges"
+  title: 'Research on Neural Encoding Models for Biological Vision: Progress and Challenges'
   authors:
-    - "Shanshan Jia"
-    - "Zhaofei Yu*"
-    - "Jian Liu"
-    - "Tiejun Huang"
-  publisher: "Journal of Electronics & Information Technology, 2023, 45(8): 2689-2698"
-  date: "2023-01-01"
-  link: "https://jeit.ac.cn/en/article/doi/10.11999/JEIT221368"
+    - Shanshan Jia
+    - Zhaofei Yu*
+    - Jian Liu
+    - Tiejun Huang
+  publisher: 'Journal of Electronics & Information Technology, 2023, 45(8): 2689-2698'
+  date: '2023-01-01'
+  link: https://jeit.ac.cn/en/article/doi/10.11999/JEIT221368
 - id: J-33
   title: 1000× Faster Camera and Machine Vision with Ordinary Devices
   authors:
