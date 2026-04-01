@@ -31,7 +31,7 @@ redirect_from:
 
 
 <span data-i18n="home_1">The **Brain-Inspired Laboratory** at **Peking University** focuses on brain-inspired computing,spiking neural networks ,computational neuroscience and ai4science.</span>
-<span data-i18n="home_2">Our group is led by [**Prof Tiejun Huang**](/members/tiejun-huang), and is affiliated with the **College of Artificial Intelligence**.</span>
+<span data-i18n="home_2">Our group is led by [**Zhaofei Yu**](/members/zhaofei-yu), and is affiliated with the **College of Artificial Intelligence**.</span>
 
 {% include section.html %}
 
