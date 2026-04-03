@@ -1,5 +1,6 @@
 {% assign image = page.header | default: site.header | relative_url %}
 {% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
+{% assign current_url = page.url %}
 
 {% assign svg = "images/logo.svg" | file_exists %}
 {% assign png = "images/logo.png" | file_exists %}
@@ -41,24 +42,26 @@
 
   <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
 
-  <nav>
-    {% if page.url != "/" %}
-    <a href="{{ '/' | relative_url }}" data-tooltip="Return to homepage">
-      <span data-i18n="Home">Home</span>
-    </a>
-    {% endif %}
+  <nav aria-label="Primary navigation">
+    <div class="nav-links">
+      {% if current_url != "/" %}
+      <a href="{{ '/' | relative_url }}" data-tooltip="Return to homepage">
+        <span data-i18n="Home">Home</span>
+      </a>
+      {% endif %}
 
-    {% assign pages = site.pages
-    | where_exp: "page", "page.nav"
-    | sort: "nav.order"
-    %}
-    {% for page in pages %}
-    {% if page.nav %}
-    <a href="{{ page.dir | relative_url }}">
-      <span data-i18n="{{ page.title_key | default: page.title | downcase }}">{{ page.title }}</span>
-    </a>
-    {% endif %}
-    {% endfor %}
+      {% assign pages = site.pages
+      | where_exp: "nav_page", "nav_page.nav"
+      | sort: "nav.order"
+      %}
+      {% for nav_page in pages %}
+      {% if nav_page.nav %}
+      <a href="{{ nav_page.dir | relative_url }}" {% if current_url == nav_page.dir %}class="active" aria-current="page"{% endif %}>
+        <span data-i18n="{{ nav_page.title_key | default: nav_page.title | downcase }}">{{ nav_page.title }}</span>
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
 
     <div id="lang-switcher" class="lang-switcher" aria-label="Language switcher">
       <img id="flag-zh" class="lang-flag" src="https://flagcdn.com/w80/cn.png" title="中文" alt="中文">
