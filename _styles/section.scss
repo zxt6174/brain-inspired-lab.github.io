@@ -1,16 +1,25 @@
 ---
 ---
 
-$page: 960px;
-$padding: 16px;
+$page: 1100px;
+$padding: 24px;
 
 section {
-  padding: $padding max($padding, calc((100% - $page) / 2));
+  position: relative;
+  padding: clamp(36px, 5vw, 72px) max($padding, calc((100% - $page) / 2));
   transition: background var(--transition), color var(--transition);
 }
 
+section > :first-child {
+  margin-top: 0 !important;
+}
+
+section > :last-child {
+  margin-bottom: 0 !important;
+}
+
 section[data-size="wide"] {
-  padding: $padding;
+  padding: clamp(36px, 5vw, 72px) $padding;
 }
 
 section[data-size="full"] {
@@ -31,9 +40,10 @@ main > section:last-of-type {
 }
 
 main > section:nth-of-type(odd) {
-  background: var(--background);
+  background: transparent;
 }
 
 main > section:nth-of-type(even) {
-  background: var(--background-alt);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5), var(--background-alt));
+  border-top: 1px solid var(--border);
 }
