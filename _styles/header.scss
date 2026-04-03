@@ -1,26 +1,32 @@
 ---
 ---
 
-$logo-big: 95px;
-$logo: 40px;
-$big-padding: 30px;
-$collapse: 700px;
-$sticky: true;
+$collapse: 900px;
 
 header {
+  position: sticky !important;
+  top: 0;
+  z-index: 40 !important;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
-  padding: 20px;
-  box-shadow: var(--shadow);
+  gap: 18px;
+  padding: 14px clamp(18px, 3vw, 28px);
+  border-bottom: 1px solid var(--border);
+  background: var(--surface-soft);
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.06);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
 
-  @if $sticky {
-    position: sticky !important;
-    top: 0;
-    z-index: 10 !important;
-  }
+header[data-big] {
+  padding: 16px clamp(18px, 3vw, 28px);
+}
+
+header[data-dark="true"] {
+  background: rgba(15, 23, 32, 0.82);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.24);
 }
 
 header a {
@@ -30,66 +36,47 @@ header a {
 
 .home {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 10px;
-  flex-basis: 0;
-  flex-grow: 1;
+  gap: 14px;
+  min-width: 0;
   max-width: 100%;
-}
-
-header[data-big] .home {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.logo {
-  height: 40px;
-  width: 80px; 
 }
 
 .title-text {
   display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 5px;
+  flex-direction: column;
+  gap: 2px;
   min-width: 0;
-  font-family: var(--title);
   text-align: left;
-}
-
-/* Special styling for big header to ensure centered content */
-header[data-big] .title-text {
-  justify-content: center;
-  text-align: center;
-}
-
-@media (max-width: 300px) {
-  .title-text {
-    max-width: 170px;
-  }
+  font-family: var(--title);
 }
 
 .title {
-  font-size: var(--large);
+  font-size: 1.08rem;
+  font-weight: var(--bold);
+  letter-spacing: 0.01em;
 }
 
 .subtitle {
-  opacity: 0.65;
-  font-weight: var(--regular);
+  color: var(--gray);
+  font-size: 0.78rem;
+  font-weight: var(--semi-bold);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
 }
 
 .nav-toggle {
   display: none;
   position: relative;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   margin: 0;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
   color: var(--text);
   appearance: none;
-  transition: background var(--transition);
+  box-shadow: var(--shadow-soft);
 }
 
 .nav-toggle:after {
@@ -110,173 +97,93 @@ header[data-big] .title-text {
 
 nav {
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
+  gap: 14px;
+  margin-left: auto;
   font-family: var(--heading);
 }
 
-nav > a {
-  padding: 5px;
+.nav-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
 }
 
-nav > a:hover {
+.nav-links > a {
+  padding: 9px 12px;
+  border-radius: 999px;
+  color: var(--dark-gray);
+  font-size: 0.94rem;
+  font-weight: var(--semi-bold);
+  transition: background var(--transition), color var(--transition), transform var(--transition);
+}
+
+.nav-links > a:hover {
+  background: rgba(15, 92, 102, 0.08);
   color: var(--primary);
 }
 
-header:not([data-big]) {
-  .title-text {
-    max-width: 350px;
-  }
-  
-  @media (max-width: 450px) {
-    .logo {
-      display: none;
-    }
-  }
-
-  @media (max-width: 450px) {
-    .subtitle {
-      display: none;
-    }
-  }
-  
-  @media (max-width: $collapse) {
-    justify-content: flex-end;
-
-    .nav-toggle {
-      display: flex;
-    }
-
-    .nav-toggle:not(:checked) + nav {
-      display: none;
-    }
-
-    nav {
-      align-items: flex-end;
-      flex-direction: column;
-      width: 100%;
-    }
-  }
+.nav-links > a.active {
+  background: rgba(15, 92, 102, 0.12);
+  color: var(--primary);
+  box-shadow: inset 0 0 0 1px rgba(15, 92, 102, 0.12);
 }
 
-/* Home page header styling - big header with centered content */
-header[data-big] {
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: $big-padding 20px;
-  width: 100%;
-  text-align: center;
-  display: block;
+header[data-dark="true"] .nav-links > a {
+  color: rgba(238, 242, 247, 0.88);
+}
 
-  @if $sticky {
-    top: unset;
-  }
+header[data-dark="true"] .nav-links > a:hover,
+header[data-dark="true"] .nav-links > a.active {
+  color: var(--primary);
+}
 
-  .home {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 0;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    float: none;
-    margin: 0 auto;
-    width: auto;
-  }
-
-  .logo-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .logo {
-    height: $logo-big;
-    width: 120px; 
-    margin-bottom: 0px;
-  }
-
-  .title-text {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
-    left: 0;
-    right: 0;
-  }
-
-  .title {
-    font-size: var(--xl);
-    margin-bottom: 30px;
-    text-align: center;
-    width: 100%;
-  }
-
+@media (max-width: 540px) {
   .subtitle {
-    font-size: var(--large);
-    text-align: center;
-    margin-bottom: 10px;
+    display: none;
+  }
+}
+
+@media (max-width: $collapse) {
+  header {
+    align-items: center;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+
+  .nav-toggle:not(:checked) + nav {
+    display: none;
+  }
+
+  nav {
     width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    margin-left: 0;
+    padding-top: 6px;
   }
-}
 
-/* Responsive Menu Styling for Mobile Screens */
-/* Base styling for nav elements */
-header nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
-  font-family: var(--heading);
-  width: 100%;
-}
-
-/* On smaller screens, limit items per row */
-@media (max-width: 600px) {
-  header nav {
-    justify-content: space-between; /* Space items evenly */
+  .nav-links {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--border);
+    border-radius: var(--rounded);
+    background: var(--surface);
+    box-shadow: var(--shadow-soft);
   }
-  
-  header nav > a {
-    flex-basis: calc(33.333% - 15px); /* Three items per row with gap accounted for */
-    text-align: center;
-    padding: 8px 5px;
-    min-width: 90px; /* Reduced for 3 items */
+
+  header[data-dark="true"] .nav-links {
+    background: rgba(15, 23, 32, 0.96);
   }
-}
 
-/* For very small screens */
-@media (max-width: 350px) {
-  header nav > a {
-    flex-basis: calc(50% - 15px); /* Switch to two items per row */
-    min-width: 100px;
+  .nav-links > a {
+    width: 100%;
+    text-align: left;
   }
-}
-
-/* Ensure the nav items are visible on toggle */
-header:not([data-big]) .nav-toggle:checked + nav {
-  display: flex;
-}
-
-/* Hide the subtitle specifically on the home page */
-body.home-page header .subtitle {
-  display: none;
-}
-
-/* Ensure subtitle is still visible on other pages */
-body:not(.home-page) header .subtitle {
-  display: inline-block;
-}
-
-/* Let homepage nav scroll with page instead of sticking to viewport */
-body.home-page header {
-  position: relative !important;
-  top: auto !important;
 }
