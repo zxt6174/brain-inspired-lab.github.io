@@ -6,18 +6,22 @@ $wrap: 700px;
 .feature {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 10px;
+  align-items: stretch;
+  gap: 32px;
   margin: 10px 0;
+  padding: 28px;
+  border: 1px solid var(--border);
+  border-radius: calc(var(--rounded) + 6px);
+  background: linear-gradient(180deg, var(--surface), var(--background-alt));
+  box-shadow: var(--shadow-soft);
 }
 
 .feature-image {
   flex-shrink: 0;
-  width: 40%;
-  // aspect-ratio: 3 / 2;
-  border-radius: var(--rounded);
+  width: min(44%, 430px);
+  border-radius: calc(var(--rounded) + 2px);
   overflow: hidden;
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow-soft);
 }
 
 .feature-image img {
@@ -28,13 +32,21 @@ $wrap: 700px;
 
 .feature-text {
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .feature-title {
-  font-size: var(--large);
-  text-align: center;
+  margin: 0 0 14px;
+  font-size: 1.45rem;
+  text-align: left;
   font-family: var(--heading);
-  font-weight: var(--semi-bold);
+  font-weight: var(--bold);
+}
+
+.feature-text p {
+  color: var(--dark-gray);
 }
 
 .feature[data-flip] {
@@ -44,10 +56,11 @@ $wrap: 700px;
 @media (max-width: $wrap) {
   .feature {
     flex-direction: column !important;
+    padding: 22px;
   }
 
   .feature-image {
     width: 100%;
-    max-width: calc($wrap / 2);
+    max-width: unset;
   }
 }
