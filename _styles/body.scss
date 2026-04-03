@@ -7,9 +7,13 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background: var(--background);
+  background:
+    radial-gradient(circle at top left, rgba(15, 92, 102, 0.08), transparent 30%),
+    radial-gradient(circle at top right, rgba(59, 130, 148, 0.08), transparent 26%),
+    var(--background);
   color: var(--text);
   font-family: var(--body);
   text-align: center;
   line-height: var(--compact);
+  letter-spacing: 0.01em;
 }
