@@ -14,7 +14,7 @@ redirect_from:
   <div class="team-leader-card">
     <h1>
       <a class="team-leader-title-link" href="/members/zhaofei-yu.html">
-        <span data-i18n="Supervisor">Supervisor</span>
+        <span data-i18n="Supervisor">Principle Investigator</span>
       </a>
     </h1>
     
@@ -27,7 +27,7 @@ redirect_from:
         </a>
         
         <div class="team-leader-name"><span data-i18n="Zhaofei Yu name">Zhaofei Yu</span></div>
-        <div class="team-leader-role"><span data-i18n="Supervisor">Supervisor</span></div>
+        <div class="team-leader-role"><span data-i18n="Supervisor">Assistant Professor</span></div>
       </div>
       
       <div class="leader-info">
