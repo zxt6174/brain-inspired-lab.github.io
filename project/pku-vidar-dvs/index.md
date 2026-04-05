@@ -13,6 +13,42 @@ collaborators:
 collaborator_icons: []
 ---
 
+<div data-lang-target="en" markdown="1">
+Purpose: a multimodal asynchronous object-detection dataset for spike cameras, designed for high-speed object detection, low-light perception, and validation of multimodal fusion algorithms.
+
+Scene categories: diverse scenes involving high-speed motion, low-light conditions, and complex backgrounds across both indoor and outdoor environments.
+
+Data format:
+- Vidar (fovea-like vision): spikes at 400×250 resolution and 20,000 Hz sampling rate
+- DVS (peripheral-like vision): asynchronous events, 12 million events per second, with microsecond-level temporal resolution
+
+Dataset scale: 490 sequences (about 5 seconds each), annotated at 50 Hz, with 215.5k bounding boxes covering 9 object categories.
+
+### Core Characteristics
+Multimodal asynchronous data: combines the static texture information of Vidar with the dynamic response of DVS to provide complementary visual cues.
+
+High spatiotemporal resolution: Vidar provides high-frequency texture information, while DVS provides microsecond-level temporal resolution, making the dataset suitable for high-speed object detection.
+
+Challenging scene coverage: includes fast motion (such as rotating characters at 1500 r/min), low-light environments (tunnels and night scenes), and scenes with strong dynamic-range conflicts.
+
+### Data Format and Directory Structure
+- DVS data: event-stream format containing x/y coordinates, polarity, and timestamps
+- Vidar data: `.dat` format, where each pixel uses 8 bits to represent a time bin
+- Label data: each row corresponds to one annotated frame and includes bounding-box coordinates and category IDs
+
+### Supported Tasks
+- Asynchronous multimodal object detection: jointly exploit Vidar and DVS data
+- High-speed object detection: capture fast-moving targets with high temporal resolution
+- Low-light perception: evaluate algorithm performance under extreme lighting conditions
+- Multimodal fusion: explore effective ways to fuse different sensing modalities
+
+Dataset link: https://git.openi.org.cn/lijianing/PKU-Vidar-DVS/datasets
+
+{% include figure.html image="/images/dataset_image/pku-vidar-dvs-compare.png" caption="Comparison of dataset parameters" width="100%" %}
+{% include figure.html image="/images/dataset_image/pku-vidar-dvs-see-result.png" caption="Visualization samples from the dataset" width="100%" %}
+</div>
+
+<div data-lang-target="zh" hidden markdown="1">
 用途：为脉冲相机提供多模态异步目标检测数据集，用于高速物体检测、低光环境感知和多模态融合算法验证。
 
 场景类别：包含高速运动、低光照条件、复杂背景等多样化场景，覆盖室内和室外环境。
@@ -45,3 +81,4 @@ collaborator_icons: []
 
 {% include figure.html image="/images/dataset_image/pku-vidar-dvs-compare.png" caption="不同数据集参数对比" width="100%" %}
 {% include figure.html image="/images/dataset_image/pku-vidar-dvs-see-result.png" caption="数据集可视化抽样" width="100%" %}
+</div>
