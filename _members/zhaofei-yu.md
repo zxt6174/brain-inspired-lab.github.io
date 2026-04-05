@@ -1,7 +1,7 @@
 ---
 name: Zhaofei Yu
 name_key: Zhaofei Yu name
-position: <span data-i18n="Zhaofei Yu position">Principle Investigator</span>
+position: <span data-i18n="Zhaofei Yu position">Tenure-track Assistant Professor</span>
 image: images/team/zhaofei-yu.jpeg
 role: assistant-professor
 education:
