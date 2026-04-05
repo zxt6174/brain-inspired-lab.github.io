@@ -60,6 +60,16 @@ redirect_from:
 
 {% include list.html data="citations" component="citation" style="publication-list" %}
 
+<div class="publication-image-modal" id="publication-image-modal" hidden aria-hidden="true">
+  <div class="publication-image-modal-backdrop" data-publication-image-close></div>
+  <div class="publication-image-modal-dialog" role="dialog" aria-modal="true" aria-label="Publication image preview">
+    <button type="button" class="publication-image-modal-close" data-publication-image-close aria-label="Close image preview">
+      ×
+    </button>
+    <img id="publication-image-modal-img" src="" alt="">
+  </div>
+</div>
+
 {% capture content %}
 <span data-i18n="papers_3">For a list of our research initiatives, visit our [projects page](/projects/).</span>
 {% endcapture %}

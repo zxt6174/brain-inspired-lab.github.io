@@ -9,6 +9,7 @@
   publisher: 'IEEE Transactions on Pattern Analysis and Machine Intelligence. 2026, 49(1): 624-638.'
   date: '2026-01-01'
   link: https://doi.org/10.1109/TPAMI.2025.3610696
+  
 - id: J-5
   title: Aberrant Neural Activity in the Peritumoral Cortex underlies the Progression of Tumor-associated Seizures
   authors:
@@ -28,6 +29,7 @@
   publisher: 'Nature Communications. 2025, 16(1): 10846.'
   date: '2025-01-01'
   link: https://www.nature.com/articles/s41467-025-66226-5
+  image: /images/papers/J-5.png
 - id: J-6
   title: Neuromorphic Computing Paradigms Enhance Robustness through Spiking Neural Networks
   authors:
@@ -604,6 +606,7 @@
   publisher: The Fourteenth International Conference on Learning Representations (ICLR), 2026.
   date: '2026-01-01'
   link: https://openreview.net/forum?id=LjugJFmItY
+  image: /images/papers/C-3.png
 - id: C-4
   title: Generalized Threshold Optimization with Harmony Multi-Threshold Neurons for Accurate ANN-to-SNN Conversion
   authors:
@@ -615,6 +618,9 @@
   publisher: The Fortieth AAAI Conference on Artificial Intelligence (AAAI), 2026. (Oral)
   date: '2026-01-01'
   link: https://doi.org/10.1609/aaai.v40i3.37206
+  code: https://github.com/faizwh/H-MT
+  topic: 'Spiking Neural Networks'
+  image: /images/papers/C-4.png
 - id: C-6
   title: Activity Pruning for Efficient Spiking Neural Networks
   authors:

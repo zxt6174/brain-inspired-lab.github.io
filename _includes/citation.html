@@ -119,11 +119,12 @@
   >
     <div class="publication-card-media">
       <a
-        {% if citation.link %}
-          href="{{ citation.link | relative_url }}" target="_blank" rel="noopener"
-        {% endif %}
+        href="{{ cover_image | relative_url }}"
+        target="_blank"
+        rel="noopener"
         class="publication-card-image"
-        aria-label="{{ citation.title | default: 'Publication link' }}"
+        aria-label="{{ citation.title | default: 'Publication image' }}"
+        data-publication-image-trigger
       >
         <img
           src="{{ cover_image | relative_url }}"
