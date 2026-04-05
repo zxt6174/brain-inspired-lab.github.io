@@ -11,6 +11,38 @@ collaborators:
 collaborator_icons: []
 ---
 
+<div data-lang-target="en" markdown="1">
+Purpose: a multi-object tracking dataset based on event cameras, primarily focused on tracking digit targets.
+Data characteristics:
+- Sampling rate: up to 20 kHz (20,000 fps)
+- Temporal resolution: 300-600 times higher than conventional cameras
+- Data format: binary spike event streams
+
+### Technical Advantages
+- No exposure-time limitation
+- Avoids motion blur
+- Particularly suitable for high-speed motion scenarios
+- Microsecond-level temporal resolution for capturing instantaneous motion details
+
+### Supported Tasks
+- High-speed object tracking
+- Event-stream reconstruction
+- Cross-modal research
+- Practical applications such as autonomous driving
+- Digit target detection and tracking
+
+### Key Features
+- Ultra-high sampling: 20 kHz sampling rate for fast motion capture
+- Multi-object scenes: includes complex scenes with multiple moving targets
+- Real-world data: real spike sequences collected with a Vidar camera
+- Suitable for real-time applications: low-latency data output supports online tracking algorithms
+
+Dataset link: https://openi.pcl.ac.cn/Cordium/SpikeCV/datasets?page=2
+
+{% include figure.html image="/images/dataset_image/motvidar2020.gif" width="100%" %}
+</div>
+
+<div data-lang-target="zh" hidden markdown="1">
 用途：基于事件相机的多目标跟踪数据集，主要关注数字目标的跟踪。
 数据特性：
 - 采样率：高达20kHz（20000fps）
@@ -39,3 +71,4 @@ collaborator_icons: []
 数据集链接：https://openi.pcl.ac.cn/Cordium/SpikeCV/datasets?page=2
 
 {% include figure.html image="/images/dataset_image/motvidar2020.gif" width="100%" %}
+</div>
