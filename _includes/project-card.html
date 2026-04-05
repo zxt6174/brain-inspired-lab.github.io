@@ -11,7 +11,10 @@
         {% endfor %}
       </div>
       
-      <p class="project-description">{{ include.project.description }}</p>
+      <div class="project-description">
+        <div data-lang-target="en">{{ include.project.description_en | default: include.project.description }}</div>
+        <div data-lang-target="zh" hidden>{{ include.project.description }}</div>
+      </div>
 
       {% if include.project.collaborators %}
       <p class="project-collaborators">
