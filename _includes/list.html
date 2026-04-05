@@ -14,11 +14,66 @@
   | reverse
 %}
 
+{% if include.style == "publication-list" %}
+{% for year in years %}
+{% assign data = year.items | sort: "date" | reverse %}
+<section class="publication-year-group" data-publication-year-group="{{ year.name }}">
+<h3 class="publication-year-heading">{{ year.name }}</h3>
+
+<div class="publication-list">
+{% for d in data %}
+{% assign style = d.style | default: include.style %}
+
+{%
+  include {{ include.component | append: ".html" }}
+  author=d.author
+  authors=d.authors
+  buttons=d.buttons
+  caption=d.caption
+  code=d.code
+  content=d.content
+  date=d.date
+  description=d.description
+  excerpt=d.excerpt
+  height=d.height
+  icon=d.icon
+  id=d.id
+  image=d.image
+  last_modified_at=d.last_modified_at
+  link=d.link
+  lookup=d.lookup
+  name=d.name
+  placeholder_index=forloop.index0
+  publisher=d.publisher
+  repo=d.repo
+  role=d.role
+  external-page-only = d.external-page-only
+  brief-desc = d.brief-desc
+  affiliations = d.affiliations
+  brief-position = d.brief-position
+  position=d.position
+  slug=d.slug
+  style=style
+  subtitle=d.subtitle
+  tags=d.tags
+  text=d.text
+  topic=d.topic
+  title=d.title
+  tooltip=d.tooltip
+  type=d.type
+  url=d.url
+  width=d.width
+%}
+{% endfor %}
+</div>
+</section>
+{% endfor %}
+{% else %}
 {% for year in years %}
   {% assign data = year.items %}
 
   {% if years.size > 1 and hideyear == "false" %}
-    {{--}}<h3>{{ year.name }}</h3>
+    <h3>{{ year.name }}</h3>
     {% assign data = data | sort: "date" | reverse %}
   {% else if years.size > 1 and hideyear == "true" %}
     {% assign data = data | sort: "date" | reverse %}
@@ -33,6 +88,7 @@
       authors=d.authors
       buttons=d.buttons
       caption=d.caption
+      code=d.code
       content=d.content
       date=d.date
       description=d.description
@@ -58,6 +114,7 @@
       subtitle=d.subtitle
       tags=d.tags
       text=d.text
+      topic=d.topic
       title=d.title
       tooltip=d.tooltip
       type=d.type
@@ -66,3 +123,4 @@
     %}
   {% endfor %}
 {% endfor %}
+{% endif %}

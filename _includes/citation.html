@@ -8,6 +8,203 @@
   {% assign citation = include %}
 {% endif %}
 
+{% assign citation_type = site.data.types[citation.type] | default: site.data.types.paper %}
+{% assign citation_year = citation.date | date: "%Y" %}
+{% assign publisher_text = citation.publisher | default: "" %}
+{% assign publisher_downcase = publisher_text | downcase %}
+{% assign title_downcase = citation.title | default: "" | downcase %}
+{% assign inferred_topic = "Others" %}
+
+{% if title_downcase contains "retinal" or title_downcase contains "visual decoding" or title_downcase contains "decoding" or title_downcase contains "encoding" or title_downcase contains "reconstruct" or title_downcase contains "reconstruction" or title_downcase contains "brain hierarchy" or title_downcase contains "neural activity" %}
+  {% assign inferred_topic = "Retinal Encoding/Decoding" %}
+{% elsif title_downcase contains "camera" or title_downcase contains "tracking" or title_downcase contains "flow" or title_downcase contains "stereo" or title_downcase contains "motion estimation" or title_downcase contains "depth" or title_downcase contains "object detection" or title_downcase contains "recognition" or title_downcase contains "spike streams" or title_downcase contains "spike camera" %}
+  {% assign inferred_topic = "Neuromorphic camera" %}
+{% elsif title_downcase contains "spiking" or title_downcase contains "snn" or title_downcase contains "ann-to-snn" or title_downcase contains "neuron" or title_downcase contains "neuromorphic" or publisher_downcase contains "neural networks" or publisher_downcase contains "transactions on neural networks" %}
+  {% assign inferred_topic = "Spiking Neural Networks" %}
+{% endif %}
+{% assign topic = citation.topic | default: inferred_topic %}
+
+{% assign venue_short = publisher_text %}
+{% if publisher_downcase contains "transactions on pattern analysis and machine intelligence" %}
+  {% assign venue_short = "TPAMI" %}
+{% elsif publisher_downcase contains "transactions on neural networks and learning systems" %}
+  {% assign venue_short = "TNNLS" %}
+{% elsif publisher_downcase contains "transactions on cognitive and developmental systems" %}
+  {% assign venue_short = "TCDS" %}
+{% elsif publisher_downcase contains "transactions on circuits and systems for video technology" %}
+  {% assign venue_short = "TCSVT" %}
+{% elsif publisher_downcase contains "transactions on image processing" %}
+  {% assign venue_short = "TIP" %}
+{% elsif publisher_downcase contains "transactions on cybernetics" %}
+  {% assign venue_short = "TCYB" %}
+{% elsif publisher_downcase contains "transactions on mobile computing" %}
+  {% assign venue_short = "TMC" %}
+{% elsif publisher_downcase contains "transactions on instrumentation and measurement" %}
+  {% assign venue_short = "TIM" %}
+{% elsif publisher_downcase contains "ieee access" %}
+  {% assign venue_short = "IEEE Access" %}
+{% elsif publisher_downcase contains "nature communications" %}
+  {% assign venue_short = "Nat. Commun." %}
+{% elsif publisher_downcase contains "nature biomedical engineering" %}
+  {% assign venue_short = "Nat. Biomed. Eng." %}
+{% elsif publisher_downcase contains "science advances" %}
+  {% assign venue_short = "Sci. Adv." %}
+{% elsif publisher_downcase contains "science advance" %}
+  {% assign venue_short = "Sci. Adv." %}
+{% elsif publisher_downcase contains "plos computational biology" %}
+  {% assign venue_short = "PLoS Comput. Biol." %}
+{% elsif publisher_downcase contains "frontiers in neuroscience" %}
+  {% assign venue_short = "Front. Neurosci." %}
+{% elsif publisher_downcase contains "frontiers in computational neuroscience" %}
+  {% assign venue_short = "Front. Comput. Neurosci." %}
+{% elsif publisher_downcase contains "advanced functional materials" %}
+  {% assign venue_short = "Adv. Funct. Mater." %}
+{% elsif publisher_downcase contains "neural networks" %}
+  {% assign venue_short = "Neural Netw." %}
+{% elsif publisher_downcase contains "neural computation" %}
+  {% assign venue_short = "Neural Comput." %}
+{% elsif publisher_downcase contains "neurocomputing" %}
+  {% assign venue_short = "Neurocomputing" %}
+{% elsif publisher_downcase contains "machine intelligence research" %}
+  {% assign venue_short = "Mach. Intell. Res." %}
+{% elsif publisher_downcase contains "patterns (cell press)" %}
+  {% assign venue_short = "Patterns" %}
+{% elsif publisher_downcase contains "patterns." %}
+  {% assign venue_short = "Patterns" %}
+{% elsif publisher_downcase contains "star protocols" %}
+  {% assign venue_short = "STAR Protoc." %}
+{% elsif publisher_downcase contains "engineering." %}
+  {% assign venue_short = "Engineering" %}
+{% elsif publisher_downcase contains "applied mathematics and computation" %}
+  {% assign venue_short = "Appl. Math. Comput." %}
+{% elsif publisher_downcase contains "international journal of approximate reasoning" %}
+  {% assign venue_short = "Int. J. Approx. Reason." %}
+{% elsif publisher_downcase contains "cvpr" %}
+  {% assign venue_short = "CVPR" %}
+{% elsif publisher_downcase contains "iccv" %}
+  {% assign venue_short = "ICCV" %}
+{% elsif publisher_downcase contains "eccv" %}
+  {% assign venue_short = "ECCV" %}
+{% elsif publisher_downcase contains "neurips" %}
+  {% assign venue_short = "NeurIPS" %}
+{% elsif publisher_downcase contains "iclr" %}
+  {% assign venue_short = "ICLR" %}
+{% elsif publisher_downcase contains "icml" %}
+  {% assign venue_short = "ICML" %}
+{% elsif publisher_downcase contains "aaai" %}
+  {% assign venue_short = "AAAI" %}
+{% elsif publisher_downcase contains "ijcai" %}
+  {% assign venue_short = "IJCAI" %}
+{% elsif publisher_downcase contains "acm international conference on multimedia" %}
+  {% assign venue_short = "ACM MM" %}
+{% endif %}
+
+{% assign placeholder_mod = include.placeholder_index | default: 0 | modulo: 3 %}
+{% assign placeholder_image = "/images/projects/%E6%95%B0%E6%8D%AE%E9%9B%86%E5%8D%A0%E4%BD%8D%E5%9B%BE%E7%89%871.png" %}
+{% if placeholder_mod == 1 %}
+  {% assign placeholder_image = "/images/projects/%E6%95%B0%E6%8D%AE%E9%9B%86%E5%8D%A0%E4%BD%8D%E5%9B%BE%E7%89%872.png" %}
+{% elsif placeholder_mod == 2 %}
+  {% assign placeholder_image = "/images/projects/%E6%95%B0%E6%8D%AE%E9%9B%86%E5%8D%A0%E4%BD%8D%E5%9B%BE%E7%89%873.png" %}
+{% endif %}
+{% assign manual_image = citation.image | default: include.image %}
+{% assign cover_image = manual_image | default: placeholder_image %}
+
+{% if include.style == "publication-list" %}
+  <article
+    class="publication-card citation-container"
+    data-publication-card
+    data-year="{{ citation_year }}"
+    data-venue="{{ venue_short | strip }}"
+    data-topic="{{ topic }}"
+  >
+    <div class="publication-card-media">
+      <a
+        {% if citation.link %}
+          href="{{ citation.link | relative_url }}" target="_blank" rel="noopener"
+        {% endif %}
+        class="publication-card-image"
+        aria-label="{{ citation.title | default: 'Publication link' }}"
+      >
+        <img
+          src="{{ cover_image | relative_url }}"
+          alt="{{ citation.title | default: 'Publication image' }}"
+          loading="lazy"
+          {% include fallback.html %}
+        >
+      </a>
+    </div>
+
+    <div class="publication-card-body">
+      <div class="publication-card-header">
+        <span class="publication-card-venue">{{ venue_short }}</span>
+        <span class="publication-card-topic">{{ topic }}</span>
+      </div>
+
+      <a
+        {% if citation.link %}
+          href="{{ citation.link | relative_url }}" target="_blank" rel="noopener"
+        {% endif %}
+        class="publication-card-title"
+      >
+        {{ citation.title | default: "[no title info]" }}
+      </a>
+
+      {% if citation.authors.size > 0 %}
+        <div class="publication-card-authors">
+          {{
+            citation.authors
+            | join: ","
+            | split: ","
+            | join: ", "
+            | markdownify
+            | remove: "<p>" | remove: "</p>"
+          }}
+        </div>
+      {% endif %}
+
+      <div class="publication-card-meta">
+        {% if citation_year and citation_year != "" %}
+          <span>{{ citation_year }}</span>
+        {% endif %}
+        {% if publisher_text and publisher_text != "" %}
+          <span>{{ publisher_text }}</span>
+        {% endif %}
+      </div>
+
+      {% if citation.description %}
+        <div class="publication-card-description">
+          {{
+            citation.description
+            | markdownify
+            | remove: "<p>"
+            | remove: "</p>"
+          }}
+        </div>
+      {% endif %}
+
+      <div class="publication-links">
+        <a
+          {% if citation.link %}
+            href="{{ citation.link | relative_url }}" target="_blank" rel="noopener"
+          {% endif %}
+          class="publication-link"
+        >
+          PDF
+        </a>
+
+        {% if citation.code and citation.code != "" %}
+          <a href="{{ citation.code | relative_url }}" target="_blank" rel="noopener" class="publication-link">
+            Code
+          </a>
+        {% else %}
+          <span class="publication-link publication-link-disabled" aria-disabled="true">
+            Code
+          </span>
+        {% endif %}
+      </div>
+    </div>
+  </article>
+{% else %}
 <div class="citation-container">
   <div class="citation">
     {% if include.style == "rich" %}
@@ -28,8 +225,7 @@
     {% endif %}
 
     <div class="citation-text">
-      {% assign type = site.data.types[citation.type] %}
-      {% include icon.html icon=type.icon %}
+      {% include icon.html icon=citation_type.icon %}
 
       <div class="citation-details">
         <a
@@ -108,3 +304,4 @@
     </div>
   </div>
 </div>
+{% endif %}

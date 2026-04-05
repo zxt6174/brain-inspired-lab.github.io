@@ -31,7 +31,34 @@ redirect_from:
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation"  style="" %}
+<div class="publication-filters" data-publication-filters>
+  <label class="publication-filter">
+    <span>Year</span>
+    <select id="publication-year-filter" aria-label="Filter publications by year">
+      <option value="">Select Year</option>
+    </select>
+  </label>
+
+  <label class="publication-filter">
+    <span>Venue</span>
+    <select id="publication-venue-filter" aria-label="Filter publications by venue">
+      <option value="">Select Venue</option>
+    </select>
+  </label>
+
+  <label class="publication-filter">
+    <span>Topic</span>
+    <select id="publication-topic-filter" aria-label="Filter publications by topic">
+      <option value="">Select Topic</option>
+    </select>
+  </label>
+
+  <button type="button" class="publication-clear-button" id="publication-clear-filters">
+    Clear
+  </button>
+</div>
+
+{% include list.html data="citations" component="citation" style="publication-list" %}
 
 {% capture content %}
 <span data-i18n="papers_3">For a list of our research initiatives, visit our [projects page](/projects/).</span>
