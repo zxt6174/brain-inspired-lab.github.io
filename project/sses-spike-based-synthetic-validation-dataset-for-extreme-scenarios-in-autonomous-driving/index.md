@@ -11,6 +11,44 @@ collaborators:
 collaborator_icons: []
 ---
 
+<div data-lang-target="en" markdown="1">
+Purpose: a synthetic spike-camera dataset focused on extreme autonomous-driving scenarios, supporting the training and evaluation of unsupervised optical-flow estimation models.
+
+Scene categories: 10 extreme scenarios simulating traffic accidents, covering a variety of street environments, weather conditions (rain and fog), and moving targets (vehicles and pedestrians/cyclists).
+
+Data format: spike streams are generated at 40 kHz for microsecond-level optical-flow analysis; the dataset includes multimodal data such as spikes, RGB frames, optical-flow ground truth, instance segmentation, and depth.
+
+Dataset scale: built on the CARLA simulator, with each sequence lasting 0.5-1.5 seconds.
+
+### Why This Dataset Matters
+- Fills an important gap: provides the first synthetic dataset for validating spike-camera algorithms in extreme autonomous-driving scenarios.
+- Promotes unsupervised learning: supports the training and evaluation of unsupervised optical-flow estimation models, reducing reliance on real annotated data.
+- Improves robustness: diverse extreme-scene design helps models adapt to complex dynamic environments and supports safety-critical applications.
+
+### Data Generation Pipeline
+1. Build diverse scenes with the CARLA simulator.
+2. Render RGB frames at 500 fps.
+3. Increase the temporal rate to 40 kHz through optical-flow interpolation.
+4. Simulate the "integrate-and-fire" mechanism of spike cameras.
+5. Provide ground truth for optical flow, instance segmentation, and depth.
+
+### Dataset Advantages
+- High dynamics: fast motion of vehicles and pedestrians simulates real emergency situations.
+- Multimodal data: includes spike streams, RGB frames, optical-flow ground truth, instance segmentation, and depth information.
+- Coverage of extreme scenarios: focuses on high-risk scenes such as traffic accidents, filling a gap left by existing real datasets.
+- High temporal resolution: spike streams generated at 40 kHz support microsecond-level optical-flow analysis.
+
+### Supported Tasks
+- Unsupervised optical-flow estimation: reduce dependence on real annotated data.
+- High-speed object detection and tracking: perceive targets under extreme conditions.
+- Autonomous-driving perception: improve perception in complex and dynamic environments.
+
+Dataset link: not public.
+
+{% include figure.html image="/images/dataset_image/sses_result.png" caption="Results of the proposed method in the associated paper on this dataset" width="100%" %}
+</div>
+
+<div data-lang-target="zh" hidden markdown="1">
 用途：专注于自动驾驶极端场景的脉冲相机合成数据集，支持无监督光流估计模型的训练与评估。
 
 场景类别：10个模拟交通事故的极端场景，涵盖各种街道环境、天气条件（雨天、雾天）和运动目标（车辆、行人/骑行者）。
@@ -45,3 +83,4 @@ collaborator_icons: []
 数据集链接：未公开
 
 {% include figure.html image="/images/dataset_image/sses_result.png" caption="文章所提算法在此数据集上的结果" width="100%" %}
+</div>
