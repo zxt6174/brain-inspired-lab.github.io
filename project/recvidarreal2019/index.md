@@ -10,6 +10,47 @@ collaborators:
 collaborator_icons: []
 ---
 
+<div data-lang-target="en" markdown="1">
+Purpose: a dataset focused on high-speed object detection and tracking, supporting SNN algorithm development and ultra-high-speed vision-system testing.
+Scene categories:
+- Class A: dynamic objects and rotating scenes
+- Class B: large-scale scenes and high-speed motion
+Data characteristics:
+- Image resolution: 400×250
+- Sampling frequency: 20,000 Hz
+- Data format: binary spike event streams
+
+### Dataset Structure
+The dataset is organized in a structured manner for convenient model training and evaluation.
+
+### Supported Tasks
+- High-speed object tracking
+- Large-scene 3D reconstruction
+- Rotating-object pose estimation
+- Traffic monitoring systems
+- SNN algorithm development and evaluation
+
+### Key Features
+- Ultra-high sampling rate: 20,000 Hz for fine high-speed motion capture
+- Diverse scenes: covers dynamic objects, rotating scenes, large-scale scenes, and high-speed motion
+- Real-world data: real spike sequences collected with a Vidar camera
+- SNN-friendly format: binary spike event streams that can be used directly with spiking neural networks
+
+Dataset link: https://openi.pcl.ac.cn/Cordium/SpikeCV/datasets?page=2
+
+{% include figure.html image="/images/dataset_image/recvidar.png" width="100%" %}
+{% include figure.html image="/images/dataset_image/ballon.gif" width="100%" %}
+{% include figure.html image="/images/dataset_image/car-100kmh.gif" width="100%" %}
+{% include figure.html image="/images/dataset_image/forest.gif" width="100%" %}
+{% include figure.html image="/images/dataset_image/railway.gif" width="100%" %}
+{% include figure.html image="/images/dataset_image/rotation1.gif" width="100%" %}
+{% include figure.html image="/images/dataset_image/rotation2.gif" width="100%" %}
+{% include figure.html image="/images/dataset_image/rotation2x.gif" width="100%" %}
+{% include figure.html image="/images/dataset_image/train-350kmh.gif" width="100%" %}
+{% include figure.html image="/images/dataset_image/viaduct-bridge.gif" width="100%" %}
+</div>
+
+<div data-lang-target="zh" hidden markdown="1">
 用途：专注于高速目标检测与跟踪的数据集，支持SNN算法开发与超高速视觉系统测试。
 场景类别：
 - ClassA：动态物体和旋转场景
@@ -47,3 +88,4 @@ collaborator_icons: []
 {% include figure.html image="/images/dataset_image/rotation2x.gif" width="100%" %}
 {% include figure.html image="/images/dataset_image/train-350kmh.gif" width="100%" %}
 {% include figure.html image="/images/dataset_image/viaduct-bridge.gif" width="100%" %}
+</div>
