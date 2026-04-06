@@ -3,8 +3,10 @@
   Usage: {% include project-tags.html %}
 {% endcomment %}
 
+{% assign data_key = include.data | default: "projects" %}
+{% assign items = site.data[data_key] %}
 {% assign all_tags = "" | split: "," %}
-{% for project in site.data.projects %}
+{% for project in items %}
   {% if project.tags %}
     {% assign all_tags = all_tags | concat: project.tags %}
   {% endif %}
@@ -44,8 +46,8 @@
 {% endfor %}
 
 <div class="section">
-  <strong>Filter by tag</strong>
-  {% include tags.html tags=frequency_sorted_tags %}
+  <strong><span data-i18n="filter_by_tag">Filter by tag</span></strong>
+  {% include tags.html tags=frequency_sorted_tags translate=true %}
 </div>
 
 <!-- Include the project filtering script -->
