@@ -235,6 +235,7 @@
   publisher: Science Advance, 2023, 9(40):eadi1480.
   date: '2023-01-01'
   link: https://www.science.org/doi/10.1126/sciadv.adi1480
+  image: /images/papers/J-31 2023-SpikingJelly.png
 - id: J-33
   title: 1000× Faster Camera and Machine Vision with Ordinary Devices
   authors:
@@ -257,6 +258,7 @@
   publisher: Engineering. 2023, 25:110-119.
   date: '2023-01-01'
   link: https://pure.bit.edu.cn/en/publications/1000-faster-camera-and-machine-vision-with-ordinary-devices/
+  image: /images/papers/J-33.jpg
 - id: J-34
   title: Diverse Role of NMDA Receptors For Dendritic Integration of Neural Dynamics
   authors:
@@ -268,6 +270,7 @@
   publisher: 'PLOS Computational Biology. 2023, 20(8): e1012297.'
   date: '2023-01-01'
   link: https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1011019
+  topic: Retinal Encoding/Decoding
 - id: J-35
   title: Meta Reinforcement Learning for Multi-Task Offloading in Vehicular Edge Computing
   authors:
