@@ -63,9 +63,20 @@
       {% endfor %}
     </div>
 
-    <div id="lang-switcher" class="lang-switcher" aria-label="Language switcher">
-      <img id="flag-zh" class="lang-flag" src="https://flagcdn.com/w80/cn.png" title="中文" alt="中文">
-      <img id="flag-en" class="lang-flag" src="https://flagcdn.com/w80/gb.png" title="English" alt="English">
+    <div class="header-tools">
+      <label class="theme-switch" title="Toggle light and dark mode">
+        <input
+          class="dark-toggle"
+          type="checkbox"
+          aria-label="Toggle light and dark mode"
+          onchange="onDarkToggleChange(event)"
+        >
+      </label>
+
+      <div id="lang-switcher" class="lang-switcher" aria-label="Language switcher">
+        <img id="flag-zh" class="lang-flag" src="https://flagcdn.com/w80/cn.png" title="中文" alt="中文">
+        <img id="flag-en" class="lang-flag" src="https://flagcdn.com/w80/gb.png" title="English" alt="English">
+      </div>
     </div>
   </nav>
 </header>
