@@ -6,6 +6,7 @@ section_title_key: recent_work_title
 section_link: /recent-work/
 tags:
   - spiking neural networks
+  - adversarial robustness
   - neuromorphic computing
 ---
 
