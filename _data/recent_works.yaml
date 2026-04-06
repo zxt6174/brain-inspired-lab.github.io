@@ -1,0 +1,10 @@
+- title: Neuromorphic Computing Paradigms Enhance Robustness through Spiking Neural Networks
+  url: /recent-work/neuromorphic-computing-paradigms-enhance-robustness-through-spiking-neural-networks/
+  image: images/recent-work/neuromorphic-robustness/core-method.png
+  description: |
+    在 CIFAR-10 等数据集上的实验结果表明，所提出的基于 SNN 的方法在对抗攻击场景下显著优于传统 ANN，鲁棒性最高可提升至两倍。同时，该模型依然保持较高的能效，适用于真实世界中对安全性要求较高且资源受限的应用场景。
+  description_en: |
+    Experimental results on datasets such as CIFAR-10 show that the proposed SNN-based methods significantly outperform conventional ANNs in adversarial settings, achieving up to twice the robustness. At the same time, the model maintains high energy efficiency, making it suitable for real-world safety-critical and resource-constrained applications.
+  tags:
+    - spiking neural networks
+    - neuromorphic computing
