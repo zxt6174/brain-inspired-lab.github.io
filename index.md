@@ -35,15 +35,15 @@ redirect_from:
 
 {% include section.html %}
 
-#### <span data-i18n="home_3">Our work</span>
-{% include project-carousel.html data="recent_works" %}
-
-{% include section.html %}
-
-#### <span data-i18n="home_5">Our priorities</span>
+#### <span data-i18n="home_5">Research Areas</span>
 
 {% include theme-carousel.html %}
 
+
+{% include section.html %}
+
+#### <span data-i18n="recent_work_title">Recent work</span>
+{% include project-carousel.html data="recent_works" %}
 
 {% include section.html %}
 
