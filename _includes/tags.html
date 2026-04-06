@@ -20,9 +20,16 @@
       <a
         href="{{ link }}?search=&quot;tag: {{ tag }}&quot;"
         class="tag"
+        {% if include.translate %}
+          data-tag-value="{{ tag | downcase }}"
+        {% endif %}
         data-tooltip="Show items with the tag &quot;{{ tag }}&quot;"
       >
-        {{ tag }}
+        {% if include.translate %}
+          {% include tag-label.html tag=tag %}
+        {% else %}
+          {{ tag }}
+        {% endif %}
       </a>
     {% endfor %}
   </div>
