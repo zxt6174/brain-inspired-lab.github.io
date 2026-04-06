@@ -9,6 +9,7 @@
   publisher: 'IEEE Transactions on Pattern Analysis and Machine Intelligence. 2026, 49(1): 624-638.'
   date: '2026-01-01'
   link: https://doi.org/10.1109/TPAMI.2025.3610696
+  image: /images/papers/SNN-TRACKER.png
   
 - id: J-5
   title: Aberrant Neural Activity in the Peritumoral Cortex underlies the Progression of Tumor-associated Seizures
