@@ -106,7 +106,7 @@ nav {
 .header-tools {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 14px;
   margin-left: 2px;
 }
 
@@ -115,6 +115,7 @@ nav {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  margin-right: 2px;
 }
 
 .nav-links {
