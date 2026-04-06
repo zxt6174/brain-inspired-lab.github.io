@@ -1,13 +1,17 @@
 {% capture project_markup %}
 <div id="project-{{ forloop.index }}" class="project-card">
-  {% assign slug = include.project.title | slugify %}
-  <h2 class="project-title"><a href="/project/{{ slug }}/">{{ include.project.title }}</a></h2>
+  {% assign project_url = include.project.url %}
+  {% unless project_url %}
+    {% assign slug = include.project.title | slugify %}
+    {% assign project_url = '/project/' | append: slug | append: '/' %}
+  {% endunless %}
+  <h2 class="project-title"><a href="{{ project_url | relative_url }}">{{ include.project.title }}</a></h2>
   
   <div class="project-content">
     <div class="project-text">
       <div class="project-tags">
         {% for tag in include.project.tags %}
-          <span class="project-tag" style="background-color: {{ tag | tag_color }}">{{ tag }}</span>
+          <span class="project-tag" data-tag-value="{{ tag | downcase }}" style="background-color: {{ tag | tag_color }}">{% include tag-label.html tag=tag %}</span>
         {% endfor %}
       </div>
       
@@ -25,7 +29,7 @@
     </div>
     
     <div class="project-image-container">
-      <a href="/project/{{ slug }}/">
+      <a href="{{ project_url | relative_url }}">
         <img src="{{ include.project.image | relative_url }}" alt="{{ include.project.title }}" class="project-image">
       </a>
     </div>
