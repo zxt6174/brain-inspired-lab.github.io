@@ -972,7 +972,8 @@
   publisher: The Twelfth International Conference on Learning Representations (ICLR), 2024.
   date: '2024-01-01'
   link: https://openreview.net/pdf?id=ALGFFPXWSi
-  image: 
+  image: /images/papers/C-36 one-forward.png
+  topic: Spiking Neural Networks
 - id: C-37
   title: Online Stabilization of Spiking Neural Networks
   authors:
@@ -984,6 +985,8 @@
   publisher: The Twelfth International Conference on Learning Representations (ICLR), 2024. (Spotlight)
   date: '2024-01-01'
   link: https://openreview.net/forum?id=CIj1CVbkpr
+  topic: Spiking Neural Networks
+  image: /images/papers/C-37 Online Stabilization of Spiking Neural Networks.png
 - id: C-38
   title: 'Towards Energy Efficient Spiking Neural Networks: An Unstructured Pruning Framework'
   authors:
@@ -994,6 +997,8 @@
   publisher: The Twelfth International Conference on Learning Representations (ICLR), 2024. (Spotlight)
   date: '2024-01-01'
   link: https://openreview.net/forum?id=eoSeaK4QJo
+  topic: Spiking Neural Networks
+  image: /images/papers/C-38 TOWARDS ENERGY EFFICIENT SPIKING NEURAL NET.png
 - id: C-39
   title: Threaten Spiking Neural Networks through Combining Rate and Temporal Information
   authors:
@@ -1005,7 +1010,10 @@
   - Tiejun Huang
   publisher: The Twelfth International Conference on Learning Representations (ICLR), 2024.
   date: '2024-01-01'
-  link: https://proceedings.iclr.cc/paper_files/paper/2024/hash/f5c530d3f287c43dccfca298698e9254-Abstract-Conference.html
+  link: https://openreview.net/forum?id=xv8iGxENyI
+  topic: Spiking Neural Networks
+  image: /images/papers/C-39 Threaten.png
+  
 - id: C-40
   title: A Progressive Training Framework for Spiking Neural Networks with Learnable Multi-hierarchical Model
   authors:
@@ -1017,7 +1025,11 @@
   - Tiejun Huang
   publisher: The Twelfth International Conference on Learning Representations (ICLR), 2024.
   date: '2024-01-01'
-  link: https://proceedings.iclr.cc/paper_files/paper/2024/hash/148865706acbd18627d3fc15cc3f3b93-Abstract-Conference.html
+  link: https://openreview.net/forum?id=g52tgL8jy6
+  topic: Spiking Neural Networks
+  image: /images/papers/C-40 PROGRESSIVE.png
+  
+  
 - id: C-41
   title: Enhancing the Robustness of Spiking Neural Networks with Stochastic Gating Mechanisms
   authors:
@@ -1028,6 +1040,9 @@
   publisher: The Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), 2024.
   date: '2024-01-01'
   link: https://ojs.aaai.org/index.php/AAAI/article/view/27804
+  image: /images/papers/C-41 enhacning robust of snn AAAI.png
+  topic: Spiking Neural Networks
+  
 - id: C-42
   title: 'Transient Glimpses: Unveiling Occluded Backgrounds through the Spike Camera'
   authors:
@@ -1039,6 +1054,9 @@
   publisher: The Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), 2024.
   date: '2024-01-01'
   link: https://ojs.aaai.org/index.php/AAAI/article/view/27820
+  image: /images/papers/C-42 Transient Glimpses.png
+  topic: Neuromorphic camera
+  
 - id: C-43
   title: Recognizing Ultra-High-Speed Moving Objects with Bio-Inspired Spike Camera
   authors:
@@ -1049,6 +1067,9 @@
   publisher: The Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), 2024.
   date: '2024-01-01'
   link: https://ojs.aaai.org/index.php/AAAI/article/view/28579
+  image: /images/papers/C-43 Recognizing Ultra-High-Speed Moving Objects.png
+  topic: Neuromorphic camera
+  
 - id: C-45
   title: Exploring Loss Functions for Time-based Training Strategy in Spiking Neural Networks
   authors:
