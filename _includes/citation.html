@@ -12,17 +12,11 @@
 {% assign citation_year = citation.date | date: "%Y" %}
 {% assign publisher_text = citation.publisher | default: "" %}
 {% assign publisher_downcase = publisher_text | downcase %}
-{% assign title_downcase = citation.title | default: "" | downcase %}
-{% assign inferred_topic = "Others" %}
-
-{% if title_downcase contains "retinal" or title_downcase contains "visual decoding" or title_downcase contains "decoding" or title_downcase contains "encoding" or title_downcase contains "reconstruct" or title_downcase contains "reconstruction" or title_downcase contains "brain hierarchy" or title_downcase contains "neural activity" %}
-  {% assign inferred_topic = "Retinal Encoding/Decoding" %}
-{% elsif title_downcase contains "camera" or title_downcase contains "tracking" or title_downcase contains "flow" or title_downcase contains "stereo" or title_downcase contains "motion estimation" or title_downcase contains "depth" or title_downcase contains "object detection" or title_downcase contains "recognition" or title_downcase contains "spike streams" or title_downcase contains "spike camera" %}
-  {% assign inferred_topic = "Neuromorphic camera" %}
-{% elsif title_downcase contains "spiking" or title_downcase contains "snn" or title_downcase contains "ann-to-snn" or title_downcase contains "neuron" or title_downcase contains "neuromorphic" or publisher_downcase contains "neural networks" or publisher_downcase contains "transactions on neural networks" %}
-  {% assign inferred_topic = "Spiking Neural Networks" %}
+{% assign manual_topic = citation.topic | default: include.topic | strip %}
+{% assign topic = "Others" %}
+{% if manual_topic == "Retinal Encoding/Decoding" or manual_topic == "Spiking Neural Networks" or manual_topic == "Neuromorphic camera" or manual_topic == "Others" %}
+  {% assign topic = manual_topic %}
 {% endif %}
-{% assign topic = citation.topic | default: inferred_topic %}
 
 {% assign venue_short = publisher_text %}
 {% if publisher_downcase contains "transactions on pattern analysis and machine intelligence" %}
