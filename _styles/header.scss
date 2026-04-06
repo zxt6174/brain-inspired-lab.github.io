@@ -118,6 +118,10 @@ nav {
   margin-right: 2px;
 }
 
+.nav-links .theme-switch {
+  margin-right: 6px;
+}
+
 .nav-links {
   display: flex;
   align-items: center;
@@ -200,6 +204,10 @@ header[data-dark="true"] .nav-links > a.active {
   .nav-links > a {
     width: 100%;
     text-align: left;
+  }
+
+  .nav-links .theme-switch {
+    margin: 0 0 2px 4px;
   }
 
   .header-tools {
