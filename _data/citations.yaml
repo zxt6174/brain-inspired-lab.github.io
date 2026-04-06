@@ -283,6 +283,8 @@
   publisher: 'IEEE Transactions on Mobile Computing. 2023, 23(3): 2123-2138.'
   date: '2023-01-01'
   link: https://doi.org/10.1109/TMC.2023.3247579
+  image: /images/papers/j-35 2023-Meta Reinforcement.png
+  topic: Others
 - id: J-36
   title: 'Capture the Moment: High-Speed Imaging with Spiking Cameras through Short-Term Plasticity'
   authors:
@@ -294,6 +296,8 @@
   publisher: 'IEEE Transactions on Pattern Analysis and Machine Intelligence. 2023, 45(7): 8127-8142.'
   date: '2023-01-01'
   link: https://doi.org/10.1109/TPAMI.2023.3237856
+  image: /images/papers/J-36 2023-Capture the Moment.png
+  topic: Neuromorphic camera
 - id: J-40
   title: Spike-based Motion Estimation for Object Tracking through Bio-Inspired Unsupervised Learning
   authors:
@@ -304,6 +308,8 @@
   publisher: IEEE Transactions on Image Processing. 2022, 32:335-349.
   date: '2022-01-01'
   link: https://dblp.org/rec/journals/tip/ZhengYWH23
+  topic: Neuromorphic camera
+  image: /images/papers/J-40 2022-Spike-Based Motion Estimation.png
 - id: J-41
   title: Neural Decoding of Visual Information across Different Neural Recording Modalities and Approaches
   authors:
@@ -314,6 +320,8 @@
   publisher: 'Machine Intelligence Research. 2022, 19(5): 350-365.'
   date: '2022-01-01'
   link: https://link.springer.com/article/10.1007/s11633-022-1335-2
+  topic: Retinal Encoding/Decoding
+  image: /images/papers/J-41 2022-Neural Decoding of Visual Information.png
 - id: J-43
   title: Zooming in on the Brain via Data Science
   authors:
@@ -322,6 +330,8 @@
   publisher: 'Patterns. 2022, 3(3): 100463.'
   date: '2022-01-01'
   link: https://www.sciencedirect.com/science/article/pii/S2666389922000435
+  topic: Retinal Encoding/Decoding
+  image: /images/papers/j-43.jpg
 - id: J-44
   title: Representing the Dynamics of High-Dimensional Data with Non-Redundant Wavelets
   authors:
@@ -333,6 +343,8 @@
   publisher: Patterns (Cell Press). 2022.
   date: '2022-01-01'
   link: https://www.sciencedirect.com/science/article/pii/S266638992100307X
+  topic: Retinal Encoding/Decoding
+  image: /images/papers/J-44 2022-Representing the dynamics.png
 - id: J-45
   title: Decoding Pixel-Level Image Features from Two-Photon Calcium Signals of Macaque Visual Cortex
   authors:
@@ -346,6 +358,8 @@
   publisher: Neural Computation. 2022.
   date: '2022-01-01'
   link: https://direct.mit.edu/neco/article/34/6/1369/110649/Decoding-Pixel-Level-Image-Features-From-Two
+  topic: Retinal Encoding/Decoding
+  image: /images/papers/j-45.jpg
 - id: J-47
   title: Neural System Identification with Spike-Triggered Non-Negative Matrix Factorization
   authors:
@@ -358,6 +372,8 @@
   publisher: 'IEEE Transactions on Cybernetics. 2022, 52(6): 4772-4783.'
   date: '2022-01-01'
   link: https://doi.org/10.1109/TCYB.2020.3042513
+  topic: Retinal Encoding/Decoding
+  image: /images/papers/2022-Neural System Identification.png
 - id: J-48
   title: Revealing Fine Structures of the Retinal Receptive Field by Deep Learning Networks
   authors:
@@ -372,6 +388,8 @@
   publisher: 'IEEE Transactions on Cybernetics. 2022, 52(1): 39-50.'
   date: '2022-01-01'
   link: https://doi.org/10.1109/TCYB.2020.2972983
+  image: /images/papers/J-48 2022-Revealing Fine Structures.png
+  topic: Retinal Encoding/Decoding
 - id: J-52
   title: Dissecting Cascade Computational Components in Spiking Neural Networks
   authors:
@@ -382,6 +400,8 @@
   publisher: 'PLoS Computational Biology. 2021, 17(11): e1009640.'
   date: '2021-01-01'
   link: https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1009640
+  topic: Retinal Encoding/Decoding
+  image: /images/papers/J-52 Dissecting cascade computational.PNG
 - id: J-53
   title: Unraveling Neural Coding of Dynamic Natural Visual Scenes via Convolutional Recurrent Neural Networks
   authors:
@@ -393,6 +413,8 @@
   publisher: 'Patterns (Cell Press). 2021, 2(10): 100350.'
   date: '2021-01-01'
   link: https://www.sciencedirect.com/science/article/pii/S2666389921002051
+  image: /images/papers/j-53 2021-Unraveling neural coding.png
+  topic: Retinal Encoding/Decoding
 - id: J-54
   title: Probabilistic Inference of Binary Markov Random Fields in Spiking Neural Networks through Mean-field Approximation
   authors:
@@ -599,6 +621,8 @@
   publisher: The Fourteenth International Conference on Learning Representations (ICLR), 2026.
   date: '2026-01-01'
   link: https://openreview.net/forum?id=U8preGvn5G
+  image: /images/papers/C-1 training deep.png
+  topic: Spiking Neural Networks
 - id: C-2
   title: 'CaRe-BN: Precise Moving Statistics for Stabilizing Spiking Neural Networks in Reinforcement Learning'
   authors:
@@ -610,6 +634,8 @@
   publisher: The Fourteenth International Conference on Learning Representations (ICLR), 2026.
   date: '2026-01-01'
   link: https://openreview.net/forum?id=AaZVrbElhC
+  image: /images/papers/C-2 carebn.png
+  topic: Spiking Neural Networks
 - id: C-3
   title: 'PredNext: Explicit Cross-View Temporal Prediction for Unsupervised Learning in Spiking Neural Networks'
   authors:
@@ -646,6 +672,8 @@
   publisher: The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS), 2025.
   date: '2025-01-01'
   link: https://openreview.net/forum?id=zjOXZEXQKZ
+  image: /images/papers/C-6 activity prune.png
+  topic: Spiking Neural Networks
 - id: C-7
   title: 'Proxy Target: Bridging the Gap between Discrete Spiking Neural Networks and Continuous Control'
   authors:
@@ -657,6 +685,8 @@
   publisher: The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS), 2025.
   date: '2025-01-01'
   link: https://openreview.net/forum?id=RRBve5GwjS
+  topic: Spiking Neural Networks
+  image: /images/papers/C-7 proxy target.png
 - id: C-8
   title: 'SpiLiFormer: Enhancing Spiking Transformers with Lateral Inhibition'
   authors:
@@ -670,6 +700,8 @@
   publisher: Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2025
   date: '2025-01-01'
   link: https://openaccess.thecvf.com/content/ICCV2025/html/Zheng_SpiLiFormer_Enhancing_Spiking_Transformers_with_Lateral_Inhibition_ICCV_2025_paper.html
+  image: /images/papers/C-8 SpiLiFormer.png
+  topic: Spiking Neural Networks
 - id: C-9
   title: 'TTFSFormer: A TTFS-based Lossless Conversion of Spiking Transformer'
   authors:
@@ -680,6 +712,8 @@
   publisher: Forty-second International Conference on Machine Learning (ICML), 2025.
   date: '2025-01-01'
   link: https://proceedings.mlr.press/v267/zhao25n.html
+  image: /images/papers/C-9 TTFSFormer.png
+  topic: Spiking Neural Networks
 - id: C-10
   title: 'Faster and Stronger: When ANN-SNN Conversion Meets Parallel Spiking Calculation'
   authors:
@@ -692,6 +726,8 @@
   publisher: Forty-second International Conference on Machine Learning (ICML), 2025.
   date: '2025-01-01'
   link: https://proceedings.mlr.press/v267/hao25c.html
+  image: /images/papers/C-10 faster and stronger.png
+  topic: Spiking Neural Networks
 - id: C-11
   title: Differential Coding for Training-Free ANN-to-SNN Conversion
   authors:
@@ -707,6 +743,8 @@
   publisher: Forty-second International Conference on Machine Learning (ICML), 2025.
   date: '2025-01-01'
   link: https://proceedings.mlr.press/v267/huang25i.html
+  topic: Spiking Neural Networks
+  image: /images/papers/C-11 differential coding.png
 - id: C-13
   title: Inference-Scale Complexity in ANN-SNN Conversion for High-Performance and Low-Power Applications
   authors:
@@ -716,6 +754,8 @@
   publisher: Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR), 2025.
   date: '2025-01-01'
   link: https://openaccess.thecvf.com/content/CVPR2025/papers/Bu_Inference-Scale_Complexity_in_ANN-SNN_Conversion_for_High-Performance_and_Low-Power_Applications_CVPR_2025_paper.pdf
+  image: /images/papers/C-13 inference-scale complexity.png
+  topic: Spiking Neural Networks
 - id: C-14
   title: 'USP-Gaussian: Unifying Spike-based Image Reconstruction, Pose Correction and Gaussian Splatting'
   authors:
@@ -728,6 +768,8 @@
   publisher: Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR), 2025. (Highlight)
   date: '2025-01-01'
   link: https://openaccess.thecvf.com/content/CVPR2025/html/Chen_USP-Gaussian_Unifying_Spike-based_Image_Reconstruction_Pose_Correction_and_Gaussian_Splatting_CVPR_2025_paper.html
+  image: /images/papers/C-14 uspgaussian.png
+  topic: Spiking Neural Networks
 - id: C-16
   title: 'SpikeDiff: Zero-shot High-Quality Video Reconstruction from Chromatic Spike Camera and Sub-millisecond Spike Streams'
   authors:
@@ -741,6 +783,8 @@
   publisher: Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR), 2025.
   date: '2025-01-01'
   link: https://openaccess.thecvf.com/content/ICCV2025/html/Yang_SpikeDiff_Zero-shot_High-Quality_Video_Reconstruction_from_Chromatic_Spike_Camera_and_ICCV_2025_paper.html
+  image: /images/papers/C-16 spikediffusion.png
+  topic: Neuromorphic camera
 - id: C-17
   title: Rethinking High-speed Image Reconstruction Framework with Spike Camera
   authors:
@@ -751,6 +795,9 @@
   publisher: The Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI), 2025.
   date: '2025-01-01'
   link: https://ojs.aaai.org/index.php/AAAI/article/view/32207
+  topic: Neuromorphic camera
+  image: /images/papers/C-17 rethinking.png
+  
 - id: C-18
   title: 'LM-HT SNN: Enhancing the Performance of SNN to ANN Counterpart through Learnable Multi-hierarchical Threshold Model'
   authors:
@@ -762,6 +809,9 @@
   publisher: The Thirty-Eighth Annual Conference on Neural Information Processing Systems (NeurIPS), 2024.
   date: '2024-01-01'
   link: https://proceedings.neurips.cc/paper_files/paper/2024/hash/b8bf2c0dd0b48511889b7d3b2c5fc8f5-Abstract-Conference.html
+  image: /images/papers/C-18 LM-HT SNN.png
+  topic: Spiking Neural Networks
+  
 - id: C-19
   title: Continuous Spatiotemporal Events Decoupling through Spike-based Bayesian Computation
   authors:
@@ -772,6 +822,9 @@
   publisher: The Thirty-Eighth Annual Conference on Neural Information Processing Systems (NeurIPS), 2024.
   date: '2024-01-01'
   link: https://proceedings.neurips.cc/paper_files/paper/2024/hash/4fe1859112230a032c7143a9adc3be78-Abstract-Conference.html
+  image: /images/papers/C-19 Continuous Spatiotemporal Events Decoupling.png
+  topic: Neuromorphic camera
+  
 - id: C-20
   title: Spiking Transformer with Experts Mixture
   authors:
@@ -789,6 +842,8 @@
   publisher: The Thirty-Eighth Annual Conference on Neural Information Processing Systems (NeurIPS), 2024.
   date: '2024-01-01'
   link: https://proceedings.neurips.cc/paper_files/paper/2024/hash/137101016144540ed3191dc2b02f09a5-Abstract-Conference.html
+  topic: Spiking Neural Networks
+  image: /images/papers/C-20 Spiking Transformer with Experts Mixture.png
 - id: C-21
   title: 'Spikereveal: Unlocking Temporal Sequences from Real Blurry Inputs with Spike Streams'
   authors:
@@ -802,6 +857,8 @@
   publisher: The Thirty-Eighth Annual Conference on Neural Information Processing Systems (NeurIPS), 2024. (Spotlight)
   date: '2024-01-01'
   link: https://proceedings.neurips.cc/paper_files/paper/2024/hash/7280f65ed571b7b28321f2c7cf4c60c8-Abstract-Conference.html
+  image: /images/papers/C-21 Spikereveal.png
+  topic: Neuromorphic camera
 - id: C-22
   title: 'SpikeGS: 3D Gaussian Splatting from Spike Streams with High-speed Camera Motion'
   authors:
@@ -814,6 +871,8 @@
   publisher: Proceedings of the 32nd ACM International Conference on Multimedia (ACM MM), 2024.
   date: '2024-01-01'
   link: https://dl.acm.org/doi/10.1145/3664647.3680996
+  topic: Neuromorphic camera
+  image: /images/papers/C-22 SpikeGS.png
 - id: C-23
   title: Towards High-performance Spiking Transformers from ANN to SNN Conversion
   authors:
@@ -827,6 +886,8 @@
   publisher: Proceedings of the 32nd ACM International Conference on Multimedia (ACM MM), 2024.
   date: '2024-01-01'
   link: https://dl.acm.org/doi/10.1145/3664647.3680620
+  topic: Spiking Neural Networks
+  image: /images/papers/C-23 Towards High-performance Spiking Transformers from ANN to SNN.png
 - id: C-27
   title: Autaptic Synaptic Circuit Enhances Spatio-Temporal Predictive Learning of Spiking Neural Networks
   authors:
@@ -835,6 +896,8 @@
   publisher: Forty-First International Conference on Machine Learning (ICML), 2024.
   date: '2024-01-01'
   link: https://proceedings.mlr.press/v235/wang24ci.html
+  topic: Spiking Neural Networks
+  image: /images/papers/C-27 Autaptic Synaptic Circuit Enhances Spatio-temporal Predictive Learning.png
 - id: C-28
   title: Robust Stable Spiking Neural Networks
   authors:
@@ -846,6 +909,8 @@
   publisher: Forty-First International Conference on Machine Learning (ICML), 2024.
   date: '2024-01-01'
   link: https://proceedings.mlr.press/v235/ding24e.html
+  image: /images/papers/C-28 Robust Stable Spiking Neural Networks.png
+  topic: Spiking Neural Networks
 - id: C-29
   title: Enhancing Adversarial Robustness in SNNs with Sparse Gradients
   authors:
@@ -858,6 +923,8 @@
   publisher: Forty-First International Conference on Machine Learning (ICML), 2024.
   date: '2024-01-01'
   link: https://raw.githubusercontent.com/mlresearch/v235/main/assets/liu24f/liu24f.pdf
+  image: /images/papers/C-29 Enhancing Adversarial Robustness in SNNs with Sparse Gradients.png
+  topic: Spiking Neural Networks
 - id: C-30
   title: Exploring Efficient Asymmetric Blind-Spots for Self-Supervised Denoising in Real-World Scenarios
   authors:
@@ -868,6 +935,8 @@
   publisher: Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR), 2024.
   date: '2024-01-01'
   link: https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_Exploring_Efficient_Asymmetric_Blind-Spots_for_Self-Supervised_Denoising_in_Real-World_Scenarios_CVPR_2024_paper.pdf
+  topic: Neuromorphic camera
+  image: /images/papers/C-30 Exploring Efficient Asymmetric Blind-Spots for Self-Supervised Denoising.png
 - id: C-31
   title: 'SpikingResformer: Bridging ResNet and Vision Transformer in Spiking Neural Networks'
   authors:
@@ -877,6 +946,8 @@
   publisher: Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR), 2024.
   date: '2024-01-01'
   link: https://openaccess.thecvf.com/content/CVPR2024/papers/Shi_SpikingResformer_Bridging_ResNet_and_Vision_Transformer_in_Spiking_Neural_Networks_CVPR_2024_paper.pdf
+  image: /images/papers/C-31 spikingresformer.png
+  topic: Spiking Neural Networks
 - id: C-33
   title: Spike-guided Motion Deblurring with Unknown Modal Spatiotemporal Alignment
   authors:
@@ -888,6 +959,8 @@
   publisher: Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR), 2024.
   date: '2024-01-01'
   link: https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Spike-guided_Motion_Deblurring_with_Unknown_Modal_Spatiotemporal_Alignment_CVPR_2024_paper.pdf
+  topic: Neuromorphic camera
+  image: /images/papers/C-33 Spike-guided Motion Deblurring
 - id: C-36
   title: One Forward is Enough for Neural Network Training via Likelihood Ratio Method
   authors:
@@ -898,7 +971,8 @@
   - Yijie Peng*
   publisher: The Twelfth International Conference on Learning Representations (ICLR), 2024.
   date: '2024-01-01'
-  link: https://proceedings.iclr.cc/paper_files/paper/2024/hash/e574db41163e700545ff4114f96b3d7a-Abstract-Conference.html
+  link: https://openreview.net/pdf?id=ALGFFPXWSi
+  image: 
 - id: C-37
   title: Online Stabilization of Spiking Neural Networks
   authors:
