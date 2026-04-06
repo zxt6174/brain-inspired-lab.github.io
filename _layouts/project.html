@@ -4,7 +4,14 @@ layout: default
 
 <nav aria-label="breadcrumb" class="breadcrumb">
   <ol class="breadcrumb px-0">
-    <li class="breadcrumb-item"><a href="/projects">Projects</a></li>
+    {% assign section_link = page.section_link | default: '/projects/' %}
+    {% assign section_title = page.section_title | default: 'Projects' %}
+    {% assign section_title_key = page.section_title_key | default: 'projects_title' %}
+    <li class="breadcrumb-item">
+      <a href="{{ section_link | relative_url }}">
+        <span data-i18n="{{ section_title_key }}">{{ section_title }}</span>
+      </a>
+    </li>
     <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
   </ol>
   </nav>
@@ -34,7 +41,7 @@ layout: default
   {% if tags %}
   <p class="project-tags" style="text-align: center;">
     {% for tag in tags %}
-      <span class="project-tag" style="background-color: {{ tag | tag_color }}">{{ tag }}</span>
+      <span class="project-tag" data-tag-value="{{ tag | downcase }}" style="background-color: {{ tag | tag_color }}">{% include tag-label.html tag=tag %}</span>
     {% endfor %}
   </p>
   {% endif %}
@@ -66,5 +73,3 @@ layout: default
   {% endif %}
 
 </div>
-
-
