@@ -71,7 +71,7 @@ redirect_from:
 </div>
 
 {% capture content %}
-<span data-i18n="papers_3">For a list of our research initiatives, visit our [projects page](/projects/).</span>
+<span data-i18n="papers_3">For selected recent work from the lab, visit our <a href="/recent-work/">recent work page</a>.</span>
 {% endcapture %}
 
 {% include more-info.html 
