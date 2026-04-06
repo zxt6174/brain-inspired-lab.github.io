@@ -1,0 +1,17 @@
+{% assign tag = include.tag %}
+{% assign tag_key = nil %}
+{% case tag %}
+  {% when "spiking neural networks" %}
+    {% assign tag_key = "tag_spiking_neural_networks" %}
+  {% when "neuromorphic computing" %}
+    {% assign tag_key = "tag_neuromorphic_computing" %}
+  {% when "adversarial robustness" %}
+    {% assign tag_key = "tag_adversarial_robustness" %}
+  {% when "Nature Communications" %}
+    {% assign tag_key = "tag_nature_communications" %}
+{% endcase %}
+{% if tag_key %}
+  <span data-i18n="{{ tag_key }}">{{ tag }}</span>
+{% else %}
+  {{ tag }}
+{% endif %}
