@@ -19,7 +19,7 @@ redirect_from:
 
 # {% include icon.html icon="fa-solid fa-file-lines" %}<span data-i18n="papers_title">Publications</span>
 
-<span data-i18n="papers_1">We primarily publish our research in the relevant IEEE Transactions titles.</span>
+<span data-i18n="papers_1">In the past 5 years, our team has studied neuromorphic vision and spike-based intelligence from three aspects: 1) retinal encoding/decoding models and neuromorphic spike cameras, 2) large-scale spiking neural network models and learning methods, and 3) neuromorphic visual analysis and processing algorithms and systems. Our works systematically address key scientific and technical challenges in the full pipeline of neuromorphic vision, from understanding biological visual coding principles, to developing spike-based sensing devices and computing models, and further to building practical high-speed vision algorithms and systems.Based on these efforts, over 70 papers have been published in top-tier conferences and prestigious journals. Those papers have been cited 5400+ times according to Google Scholar, and several of them are among the most cited works in related research topics such as spiking neural networks and neuromorphic vision.</span>
 
 <span data-i18n="papers_2">Most of our recent work should be accessible on an Open Access basis. However, if you cannot locate a specific manuscript online, please feel free to contact us.</span>
 
