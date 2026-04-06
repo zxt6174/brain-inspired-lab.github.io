@@ -8,7 +8,10 @@
               <img src="{{ theme.image | relative_url }}" alt="{{ theme.title }}" class="carousel-image">
             </div>
             <div class="carousel-caption">
-              <h3>{{ theme.title }}</h3>
+              <h3>
+                <span data-lang-target="en">{{ theme.title }}</span>
+                <span data-lang-target="zh" hidden>{{ theme.title_zh | default: theme.title }}</span>
+              </h3>
             </div>
           </div>
         {% endif %}
@@ -32,4 +35,3 @@
     </button>
   </div>
 </div>
-
