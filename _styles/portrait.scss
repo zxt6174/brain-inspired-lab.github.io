@@ -55,7 +55,7 @@
   display: flex;
   flex-direction: column;
   text-align: left;
-  color: rgb(60,60,60)
+  color: var(--text);
 }
 
 .portrait-desc {
@@ -63,7 +63,7 @@
   flex-direction: column;
   text-align: left;
   font-size: 0.9em;
-  color: rgb(60,60,60);
+  color: var(--dark-gray);
 }
 
 
@@ -72,7 +72,11 @@
   font-weight: var(--bold);
   font-size: 1.1em;
   margin-bottom: 5px;
-  color: rgb(60,60,60)
+  color: var(--text);
+}
+
+.portrait-role {
+  color: var(--gray);
 }
 
 .portrait-role .icon {
