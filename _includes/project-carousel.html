@@ -1,11 +1,18 @@
+{% assign data_key = include.data | default: "projects" %}
+{% assign items = site.data[data_key] %}
+
 <div class="carousel-container">
   <div class="carousel-wrapper">
     <div class="carousel">
-      {% for project in site.data.projects %}
+      {% for project in items %}
         {% if project.image %}
-          <div class="carousel-item">
+          {% assign project_url = project.url %}
+          {% unless project_url %}
             {% assign slug = project.title | slugify %}
-            <a href="/project/{{ slug }}/" class="carousel-link">
+            {% assign project_url = '/project/' | append: slug | append: '/' %}
+          {% endunless %}
+          <div class="carousel-item">
+            <a href="{{ project_url | relative_url }}" class="carousel-link">
               <div class="carousel-image-container">
                 <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="carousel-image">
               </div>
@@ -24,7 +31,7 @@
       <i class="icon fa-solid fa-angle-left"></i>
     </button>
     <div class="carousel-indicators">
-      {% for project in site.data.projects %}
+      {% for project in items %}
         {% if project.image %}
           <span class="carousel-indicator" data-index="{{ forloop.index0 }}"></span>
         {% endif %}
