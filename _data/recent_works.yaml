@@ -8,3 +8,14 @@
   tags:
     - spiking neural networks
     - neuromorphic computing
+- title: "CaRe-BN: Precise Moving Statistics for Stabilizing Spiking Neural Networks in Reinforcement Learning"
+  url: /recent-work/care-bn-precise-moving-statistics-for-stabilizing-spiking-neural-networks-in-reinforcement-learning/
+  image: images/recent-work/care-bn-stabilizing-snn-rl/core-method.png
+  description: |
+    在离散动作空间（Atari 基准）和连续控制任务（MuJoCo 套件）上的广泛实验表明，CaRe-BN 能够显著缓解移动统计量不精确的问题。配备 CaRe-BN 的 SNN 智能体在探索回报、收敛速度和方差表现上均优于标准 SNN。尤其是在与 TD3 算法结合时，CaRe-BN 使简单 SNN 的平均性能超过传统基于 ANN 的强化学习智能体 5.9%，建立了一种连接神经形态高能效与高性能强化学习的新型归一化策略。
+  description_en: |
+    Extensive evaluations across discrete action spaces (Atari benchmarks) and continuous control tasks (MuJoCo suite) demonstrate that CaRe-BN significantly resolves the issue of imprecise moving statistics. SNN-based agents equipped with CaRe-BN consistently achieved higher exploration returns, converged faster, and exhibited significantly lower variance compared to standard SNNs. Notably, when paired with the TD3 algorithm, CaRe-BN allowed simple SNNs to surpass the performance of traditional ANN-based RL agents by an average of 5.9%, establishing a new state-of-the-art normalization strategy that bridges the gap between neuromorphic efficiency and high-performance RL.
+  tags:
+    - spiking neural networks
+    - reinforcement learning
+    - batch normalization
