@@ -1,19 +1,14 @@
-- title: Computational Neuroscience
-  image: images/Brain-Inspired Computing.jpeg
-  description: Encoding and Decoding of neural signals have enabled the transmission of information in the brain.
-  group: theme
-
-- title: Spiking Neural Networks
-  image: images/SNN.jpeg
-  description: Spiking neural network mimics pulse-driven brain besides ANN.
-  group: theme
-
-- title: CV Downstream Tasks Based on Spike Camera
+- title: Retinal Encoding/Decoding Models and Neuromorphic Spike Camera
+  title_zh: 视网膜编码/解码模型与神经形态脉冲相机
   image: images/Spike Camera.png
-  description: 3d gaussian motion reconstruction and object detection.
   group: theme
 
-- title: Embodied AI
+- title: Large-scale Spiking Neural Network Models and Learning Methods
+  title_zh: 大规模脉冲神经网络模型与学习方法
+  image: images/SNN.jpeg
+  group: theme
+
+- title: Neuromorphic Visual Analysis and Processing Algorithms and Devices
+  title_zh: 神经形态视觉分析与处理算法及器件
   image: images/具身智能.png
-  description: Using Spike Camera,Robots and drones to solve embodied AI tasks.
   group: theme
