@@ -36,7 +36,7 @@ redirect_from:
 {% include section.html %}
 
 #### <span data-i18n="home_3">Our work</span>
-{% include project-carousel.html %}
+{% include project-carousel.html data="recent_works" %}
 
 {% include section.html %}
 
